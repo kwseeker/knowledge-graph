@@ -760,7 +760,7 @@
 <node TEXT="&#x5b58;&#x50a8;&#x8fc7;&#x7a0b;" ID="ID_580061666" CREATED="1570870051597" MODIFIED="1571634351867" ICON_SIZE="12.0 pt"/>
 <node TEXT="&#x89e6;&#x53d1;&#x5668;&#xff08;&#x4e00;&#x822c;&#x4e0d;&#x518d;&#x4f7f;&#x7528;&#xff09;" ID="ID_1055472762" CREATED="1570870057608" MODIFIED="1571634351867" ICON_SIZE="12.0 pt"/>
 </node>
-<node TEXT="MySQL" ID="ID_37917392" CREATED="1569668015966" MODIFIED="1571634351867" ICON_SIZE="12.0 pt" STYLE="bubble">
+<node TEXT="MySQL" FOLDED="true" ID="ID_37917392" CREATED="1569668015966" MODIFIED="1571634351867" ICON_SIZE="12.0 pt" STYLE="bubble">
 <edge STYLE="sharp_bezier"/>
 <richcontent TYPE="NOTE">
 
@@ -3342,7 +3342,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3897,11 +3896,91 @@
 </node>
 <node TEXT="1.6 &#x7279;&#x6b8a;&#x7684;&#x6570;&#x636e;&#x5e93;" ID="ID_1725614821" CREATED="1569668193925" MODIFIED="1571634351872" ICON_SIZE="12.0 pt" STYLE="bubble">
 <edge STYLE="sharp_bezier"/>
-<node TEXT="ElasticSearch" FOLDED="true" ID="ID_403043537" CREATED="1569668116670" MODIFIED="1571634351872" ICON_SIZE="12.0 pt" STYLE="bubble">
-<edge STYLE="sharp_bezier"/>
-<node TEXT="ElasticSearch &#x57fa;&#x7840;&#xff0c;&#x548c;MySQL&#x7684;&#x533a;&#x522b;" ID="ID_236195734" CREATED="1561355553241" MODIFIED="1569834258124" ICON_SIZE="8.0 pt">
-<edge STYLE="sharp_bezier"/>
+<node TEXT="&#x5168;&#x6587;&#x68c0;&#x7d22;" ID="ID_1561197024" CREATED="1578489754426" MODIFIED="1578489826118" STYLE="bubble">
+<node TEXT="&#x6982;&#x5ff5;" ID="ID_1883634420" CREATED="1578489827539" MODIFIED="1578489840655">
+<node TEXT="&#x7d22;&#x5f15;" ID="ID_1520889360" CREATED="1578490585838" MODIFIED="1578490590104"/>
+<node TEXT="&#x6587;&#x6863;" ID="ID_1072651937" CREATED="1578490590430" MODIFIED="1578490594801"/>
 </node>
+<node TEXT="&#x573a;&#x666f;" ID="ID_1761098874" CREATED="1578489840939" MODIFIED="1578489848565"/>
+<node TEXT="&#x76f8;&#x5173;&#x6280;&#x672f;" ID="ID_1105882398" CREATED="1578489860587" MODIFIED="1578489867121">
+<node TEXT="Lucene(&#x4ec5;&#x4ec5;&#x662f;&#x5b9a;&#x4e49;&#x4e86;&#x4e00;&#x5957;API)" ID="ID_930940702" CREATED="1578489965491" MODIFIED="1578490005250"/>
+<node TEXT="ElasticSearch" ID="ID_222284364" CREATED="1578489906931" MODIFIED="1578489958798"/>
+<node TEXT="Solr" ID="ID_724753575" CREATED="1578489959451" MODIFIED="1578489963010"/>
+</node>
+<node TEXT="ES&#x548c;Solr&#x6bd4;&#x8f83;" ID="ID_274810808" CREATED="1578489881275" MODIFIED="1578489899277">
+<node TEXT="&#x5c11;&#x91cf;(TB&#x7ea7;&#x522b;&#x4ee5;&#x4e0b;)&#x9759;&#x6001;&#x6570;&#x636e;&#x68c0;&#x7d22;&#xff0c;solr&#x66f4;&#x5feb;, &#x5f53;&#x6570;&#x636e;&#x91cf;&#x8f83;&#x5927;&#x4e14;&#x9010;&#x6e10;&#x589e;&#x52a0;&#x65f6;Elastic&#x68c0;&#x7d22;&#x901f;&#x5ea6;&#x6ca1;&#x6709;&#x660e;&#x663e;&#x53d8;&#x5316;&#xff0c;&#x4f46;&#x662f;solr&#x4f1a;&#x53d8;&#x6162;" ID="ID_1228155951" CREATED="1578490021588" MODIFIED="1578490462245"/>
+<node TEXT="&#x9700;&#x8981;&#x52a8;&#x6001;&#x5b9e;&#x65f6;&#x5efa;&#x7acb;&#x7d22;&#x5f15;&#x65f6;, ES&#x66f4;&#x5feb;&#xff0c;&#x56e0;&#x4e3a;&#x6709;&#x5b9e;&#x65f6;&#x6570;&#x636e;&#x5199;&#x5165;&#x65f6;solr&#x4f1a;io&#x963b;&#x585e;&#x5bfc;&#x81f4;&#x6027;&#x80fd;&#x8f83;&#x5dee;" ID="ID_1485577986" CREATED="1578490160844" MODIFIED="1578490308916">
+<node TEXT="&#x5982;&#x65e5;&#x5fd7;&#x5b9e;&#x65f6;&#x5206;&#x6790;" ID="ID_494299384" CREATED="1578490321813" MODIFIED="1578490340000"/>
+</node>
+<node TEXT="ES&#x81ea;&#x5e26;&#x5206;&#x5e03;&#x5f0f;&#x534f;&#x8c03;&#x5de5;&#x5177;, solr&#x4f9d;&#x9760;ZK" ID="ID_667022800" CREATED="1578490473189" MODIFIED="1578490521173"/>
+<node TEXT="ES&#x652f;&#x6301;&#x4e30;&#x5bcc;&#x7684;&#x6570;&#x636e;&#x683c;&#x5f0f;&#xff0c;solr&#x4ec5;&#x652f;&#x6301;json" ID="ID_349180584" CREATED="1578490497269" MODIFIED="1578490549839"/>
+</node>
+<node TEXT="&#x5168;&#x6587;&#x68c0;&#x7d22;&#x6d41;&#x7a0b;" ID="ID_637349118" CREATED="1578490607014" MODIFIED="1578492574233" STYLE="bubble">
+<node TEXT="&#x6570;&#x636e;&#x51c6;&#x5907;&#x9636;&#x6bb5;" ID="ID_1517378141" CREATED="1578491404399" MODIFIED="1578491418835">
+<node TEXT="1) &#x6570;&#x636e;&#x91c7;&#x96c6;(gather data)" ID="ID_1059478076" CREATED="1578490779862" MODIFIED="1578490908222">
+<node TEXT="&#x6570;&#x636e;&#x6e90;" ID="ID_1674273698" CREATED="1578490807470" MODIFIED="1578490813801">
+<node TEXT="&#x4e92;&#x8054;&#x7f51;(&#x975e;&#x7ed3;&#x6784;&#x5316;&#x6570;&#x636e;)" ID="ID_1340235293" CREATED="1578490814254" MODIFIED="1578490844493"/>
+<node TEXT="Database(&#x7ed3;&#x6784;&#x5316;&#x6570;&#x636e;)" ID="ID_413838812" CREATED="1578490822478" MODIFIED="1578490853209"/>
+<node TEXT="&#x6587;&#x4ef6;(&#x975e;&#x7ed3;&#x6784;&#x5316;&#x6570;&#x636e;)" ID="ID_351300787" CREATED="1578490857567" MODIFIED="1578490880257"/>
+<node TEXT="&#x7528;&#x6237;&#x8f93;&#x5165;&#x6570;&#x636e;" ID="ID_420878115" CREATED="1578490880918" MODIFIED="1578490891802"/>
+</node>
+</node>
+<node TEXT="2) &#x975e;&#x7ed3;&#x6784;&#x5316;&#x6570;&#x636e;&#x8f6c;&#x6362;&#x4e3a;&#x7ed3;&#x6784;&#x5316;&#x6570;&#x636e;" FOLDED="true" ID="ID_1383125579" CREATED="1578490909439" MODIFIED="1578491224581"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#27604;&#22914;&#65306;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ID name author content
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x6570;&#x636e;&#x5e93;&#x5efa;&#x6a21;&#x8fc7;&#x7a0b;" ID="ID_1496348451" CREATED="1578490939055" MODIFIED="1578491033748"/>
+</node>
+<node TEXT="3) &#x8f6c;&#x5316;&#x4e3a;Document&#x6587;&#x6863;&#x5bf9;&#x8c61;" ID="ID_87438965" CREATED="1578490950822" MODIFIED="1578491236535"/>
+<node TEXT="4) &#x6587;&#x6863;&#x5bf9;&#x8c61;&#x5904;&#x7406;" ID="ID_766031450" CREATED="1578490953903" MODIFIED="1578491252122">
+<node TEXT="&#x53bb;&#x9664;&#x6807;&#x70b9;&#x7b26;&#x53f7;" ID="ID_1790445595" CREATED="1578491276624" MODIFIED="1578491293618"/>
+<node TEXT="&#x53bb;&#x6389;&#x505c;&#x7528;&#x8bcd;&#x6c47;" ID="ID_15395724" CREATED="1578491318944" MODIFIED="1578491329341"/>
+<node TEXT="&#x5206;&#x8bcd;" ID="ID_847568252" CREATED="1578491293879" MODIFIED="1578491299003"/>
+<node TEXT="&#x751f;&#x6210;&#x7d22;&#x5f15;&#x8bcd;&#x5178;" ID="ID_278013439" CREATED="1578491462728" MODIFIED="1578491474026"/>
+</node>
+<node TEXT="5) &#x521b;&#x5efa;&#x7d22;&#x5f15;&#x5e93;&#xff08;&#x5b58;&#x50a8;&#x7d22;&#x5f15;&#x5355;&#x8bcd;&#x4e0e;&#x5305;&#x542b;&#x5b83;&#x7684;&#x6587;&#x6863;ID&#x5217;&#x8868;, &#x4ee5;&#x53ca;&#x6587;&#x6863;&#xff09;" ID="ID_1339899887" CREATED="1578492205803" MODIFIED="1578492374022"/>
+</node>
+<node TEXT="&#x68c0;&#x7d22;&#x9636;&#x6bb5;" ID="ID_184927369" CREATED="1578491479176" MODIFIED="1578491488595">
+<node TEXT="1) &#x5bf9;&#x641c;&#x7d22;&#x5173;&#x952e;&#x8bcd;&#x8fdb;&#x884c;&#x5206;&#x8bcd;" ID="ID_1225312182" CREATED="1578491976816" MODIFIED="1578492015557"/>
+<node TEXT="2) &#x4f7f;&#x7528;&#x641c;&#x7d22;&#x5173;&#x952e;&#x8bcd;&#x7684;&#x5206;&#x8bcd;&#x548c;&#x7d22;&#x5f15;&#x5355;&#x8bcd;&#x8fdb;&#x884c;&#x5339;&#x914d;" ID="ID_482046610" CREATED="1578491491184" MODIFIED="1578492146250"/>
+<node TEXT="3) &#x901a;&#x8fc7;&#x5339;&#x914d;&#x7684;&#x7d22;&#x5f15;&#x5355;&#x8bcd;&#x53bb;&#x7d22;&#x5f15;&#x5e93;&#x67e5;&#x8be2;&#x5bf9;&#x5e94;&#x7684;&#x6587;&#x6863;ID&#xff0c;&#x7ee7;&#x800c;&#x83b7;&#x53d6;&#x5bf9;&#x5e94;&#x7684;&#x6587;&#x6863;&#x5bf9;&#x8c61;" ID="ID_592935110" CREATED="1578492147020" MODIFIED="1578492435568"/>
+</node>
+</node>
+</node>
+<node TEXT="ElasticSearch" ID="ID_403043537" CREATED="1569668116670" MODIFIED="1571634351872" ICON_SIZE="12.0 pt" STYLE="bubble">
+<edge STYLE="sharp_bezier"/>
+<node TEXT="&#x5b89;&#x88c5;" ID="ID_1244457849" CREATED="1578854624234" MODIFIED="1578854630562">
+<node TEXT="&#x5355;&#x673a;&#x7248;" ID="ID_1939937015" CREATED="1578854631858" MODIFIED="1578854636750"/>
+<node TEXT="&#x96c6;&#x7fa4;&#x7248;" ID="ID_636130202" CREATED="1578854636914" MODIFIED="1578854646313"/>
+</node>
+<node TEXT="&#x7b80;&#x4ecb;" ID="ID_62418160" CREATED="1578492609149" MODIFIED="1578492631487">
+<node TEXT="&#x9ad8;&#x62d3;&#x5c55;&#x7684;&#x5206;&#x5e03;&#x5f0f;&#x5168;&#x6587;&#x68c0;&#x7d22;&#x5f15;&#x64ce;" ID="ID_1486282294" CREATED="1578492813731" MODIFIED="1578492831693"/>
+<node TEXT="&#x4f7f;&#x7528;java&#x5f00;&#x53d1;&#x5e76;&#x4f7f;&#x7528;Lucene&#x4f5c;&#x4e3a;&#x6838;&#x5fc3;&#x5b9e;&#x73b0;&#x7d22;&#x5f15;&#x548c;&#x641c;&#x7d22;&#x529f;&#x80fd;" ID="ID_1297998331" CREATED="1578492851826" MODIFIED="1578492912205"/>
+<node TEXT="&#x4f7f;&#x7528;&#x6848;&#x4f8b;" ID="ID_647007806" CREATED="1578492990417" MODIFIED="1578492996127">
+<node TEXT="GitHub" ID="ID_616682738" CREATED="1578492996969" MODIFIED="1578493004783"/>
+<node TEXT="&#x7ef4;&#x57fa;&#x767e;&#x79d1;" ID="ID_546285870" CREATED="1578493004977" MODIFIED="1578493014764"/>
+<node TEXT="&#x767e;&#x5ea6;&#x6587;&#x5e93;" ID="ID_167135706" CREATED="1578493014945" MODIFIED="1578493023087"/>
+</node>
+<node TEXT="&#x5927;&#x6d41;&#x91cf;&#x4e0b;&#x641c;&#x7d22;&#x6f14;&#x8fdb;" ID="ID_749624023" CREATED="1578493063680" MODIFIED="1578493082907"/>
+<node TEXT="&#x4f7f;&#x7528;&#x573a;&#x666f;" ID="ID_383354592" CREATED="1578493239951" MODIFIED="1578493245302"/>
+</node>
+<node TEXT="&#x67b6;&#x6784;" ID="ID_341114403" CREATED="1578492631716" MODIFIED="1578492653055"/>
+<node TEXT="&#x96c6;&#x7fa4;" ID="ID_98850365" CREATED="1578492655948" MODIFIED="1578492659946"/>
 </node>
 <node TEXT="Solr" ID="ID_1967751714" CREATED="1569668222467" MODIFIED="1571634351872" ICON_SIZE="12.0 pt" STYLE="bubble">
 <edge STYLE="sharp_bezier"/>
@@ -4010,7 +4089,7 @@
 </node>
 </node>
 </node>
-<node TEXT="3 &#x901a;&#x4fe1;" POSITION="right" ID="ID_741303380" CREATED="1569168659563" MODIFIED="1571634351872" ICON_SIZE="12.0 pt" STYLE="bubble">
+<node TEXT="3 &#x901a;&#x4fe1;&#x57fa;&#x7840;" POSITION="right" ID="ID_741303380" CREATED="1569168659563" MODIFIED="1577607675570" ICON_SIZE="12.0 pt" STYLE="bubble">
 <edge STYLE="sharp_bezier" COLOR="#ff0000"/>
 <node TEXT="3.1 IO&#x4e0e;&#x6d41;" ID="ID_811095986" CREATED="1569208731621" MODIFIED="1575703880934" ICON_SIZE="12.0 pt" STYLE="bubble">
 <edge STYLE="sharp_bezier"/>
@@ -4029,7 +4108,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x7f13;&#x5b58;IO&#xff08;&#x9ed8;&#x8ba4;&#xff0c;&#x7a7a;&#x95f4;&#x6362;&#x65f6;&#x95f4;&#xff09;" ID="ID_961075389" CREATED="1575859185168" MODIFIED="1575859463926"><richcontent TYPE="NOTE">
 
@@ -4046,7 +4124,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x76f4;&#x63a5;IO" ID="ID_390695451" CREATED="1575859193172" MODIFIED="1575859343179"><richcontent TYPE="NOTE">
@@ -4061,7 +4138,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -4085,7 +4161,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x7f51;&#x7edc;IO" ID="ID_1077266605" CREATED="1575859581178" MODIFIED="1575860191386"><richcontent TYPE="NOTE">
@@ -4106,7 +4181,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -4132,7 +4206,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x5f02;&#x6b65;IO" ID="ID_809896451" CREATED="1575862174404" MODIFIED="1575862235449"><richcontent TYPE="NOTE">
@@ -4147,7 +4220,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -4173,7 +4245,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -4190,7 +4261,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x6848;&#x4f8b;" ID="ID_647911823" CREATED="1575875319180" MODIFIED="1575875350441">
 <node TEXT="Java NIO Selector" ID="ID_1221002308" CREATED="1575875325435" MODIFIED="1575875331983"/>
@@ -4221,7 +4291,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x540c;&#x6b65;&#xff08;&#x591a;&#x8def;&#xff09;&#x4e8b;&#x4ef6;&#x5206;&#x79bb;&#x5668;&#xff08;Synchronous Event Demultiplexer&#xff09;" ID="ID_231215004" CREATED="1575870631585" MODIFIED="1575871106066"><richcontent TYPE="NOTE">
@@ -4236,7 +4305,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x7cfb;&#x7edf;&#x5904;&#x7406;&#x7a0b;&#x5e8f;(handles)" ID="ID_1629105297" CREATED="1575870716669" MODIFIED="1575871180883"><richcontent TYPE="NOTE">
@@ -4263,7 +4331,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x4e8b;&#x4ef6;&#x5904;&#x7406;&#x5668;(Event Handler)" ID="ID_219741936" CREATED="1575870730733" MODIFIED="1575871190111"><richcontent TYPE="NOTE">
@@ -4278,7 +4345,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -4295,7 +4361,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x4e24;&#x8005;&#x5bf9;&#x6bd4;" ID="ID_1209622137" CREATED="1575875183204" MODIFIED="1575875233650"><richcontent TYPE="NOTE">
@@ -4361,7 +4426,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -4434,7 +4498,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="" ID="ID_41216827" CREATED="1575712481223" MODIFIED="1575712481223">
 <hook NAME="FirstGroupNode"/>
@@ -4451,7 +4514,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="NIO&#xff08;&#x548c;Java NIO&#x4e0d;&#x540c;&#xff09;" ID="ID_146846870" CREATED="1575712410155" MODIFIED="1575875929604"><richcontent TYPE="NOTE">
@@ -4482,7 +4544,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -4679,7 +4740,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <font BOLD="false"/>
 <node TEXT="SLIP/SCLIP/PPP/ARP/RARP/MTU" ID="ID_55672373" CREATED="1575706705271" MODIFIED="1575706729108"/>
@@ -4963,7 +5023,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x5ba2;&#x6237;&#x7aef;" ID="ID_581588798" CREATED="1575860292886" MODIFIED="1575860628382"><richcontent TYPE="NOTE">
@@ -5020,7 +5079,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -5045,10 +5103,103 @@
 </node>
 </node>
 </node>
-<node TEXT="4 &#x5206;&#x5e03;&#x5f0f;" POSITION="right" ID="ID_991557424" CREATED="1573476916323" MODIFIED="1573477190297" STYLE="bubble">
+<node TEXT="4 &#x5206;&#x5e03;&#x5f0f;&#x7cfb;&#x7edf;" POSITION="right" ID="ID_991557424" CREATED="1573476916323" MODIFIED="1577607082879" STYLE="bubble">
 <edge COLOR="#00007c"/>
-<node TEXT="4.1 &#x5206;&#x5e03;&#x5f0f;&#x534f;&#x8c03;" ID="ID_590449400" CREATED="1573476930402" MODIFIED="1573477195995" STYLE="bubble">
-<node TEXT="Zookeeper" ID="ID_1776315577" CREATED="1573476957506" MODIFIED="1573476965898" STYLE="bubble">
+<node TEXT="4.0 &#x5206;&#x5e03;&#x5f0f;&#x7cfb;&#x7edf;&#x67b6;&#x6784;" ID="ID_728975576" CREATED="1577606223173" MODIFIED="1577608251602" STYLE="bubble">
+<node TEXT="&#x5206;&#x5e03;&#x5f0f;&#x7cfb;&#x7edf;&#x8bbf;&#x95ee;&#x6d41;&#x56fe;" ID="ID_1869837415" CREATED="1577608252739" MODIFIED="1577608286110" STYLE="bubble"/>
+<node TEXT="&#x67b6;&#x6784;&#x5e08;&#x7684;&#x57fa;&#x672c;&#x7d20;&#x517b;" ID="ID_1485119557" CREATED="1577608265059" MODIFIED="1577608287875" STYLE="bubble">
+<node TEXT="1) &#x7cfb;&#x7edf;&#x5bb9;&#x91cf;&#x9884;&#x4f30;" ID="ID_49261227" CREATED="1577608297731" MODIFIED="1577608367933"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#35780;&#20272;&#31995;&#32479;&#33021;&#25215;&#21463;&#30340;&#26368;&#22823;&#35775;&#38382;&#37327;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x5e26;&#x5bbd;&#x8ba1;&#x7b97;" ID="ID_895033770" CREATED="1577608646672" MODIFIED="1577608656270">
+<node TEXT="&#x5e73;&#x5747;&#x5e26;&#x5bbd;" ID="ID_415092063" CREATED="1577608672025" MODIFIED="1577608680600"/>
+<node TEXT="&#x5cf0;&#x503c;&#x5e26;&#x5bbd;" ID="ID_854698915" CREATED="1577608680768" MODIFIED="1577608687630"/>
+</node>
+<node TEXT="&#x5e76;&#x53d1;&#x91cf;&#x8ba1;&#x7b97;" ID="ID_1671622078" CREATED="1577608823584" MODIFIED="1577608934346"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24179;&#22343;&#24182;&#21457;&#36830;&#25509;&#25968; = &#65288;&#31449;&#28857;PV &#215; &#39029;&#38754;&#24179;&#22343;&#34893;&#29983;&#36830;&#25509;&#25968;&#65289; / &#65288;&#32479;&#35745;&#26102;&#38388; &#215; web&#26381;&#21153;&#22120;&#25968;&#37327;&#65289;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x670d;&#x52a1;&#x5668;&#x9700;&#x6c42;&#x91cf;&#x9884;&#x4f30;" ID="ID_1335156599" CREATED="1577608992488" MODIFIED="1577609012037"/>
+</node>
+<node TEXT="2) QPS" ID="ID_1745478843" CREATED="1577608314514" MODIFIED="1577608531708"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#27599;&#31186;&#26597;&#35810;&#37327;&#12290;
+    </p>
+    <p>
+      &#20998;&#24067;&#24335;QPS&#65306;&#21333;&#20010;&#36827;&#31243;&#27599;&#31186;&#35831;&#27714;&#26381;&#21153;&#22120;&#30340;&#25104;&#21151;&#27425;&#25968;&#12290;
+    </p>
+    <p>
+      QPS = &#24635;&#35831;&#27714;&#37327;/&#36827;&#31243;&#24635;&#25968;/&#35831;&#27714;&#26102;&#38388;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x538b;&#x6d4b;&#x5de5;&#x5177;" ID="ID_1045184298" CREATED="1577608453802" MODIFIED="1577608465512"/>
+</node>
+<node TEXT="3) UV" ID="ID_769721161" CREATED="1577608321123" MODIFIED="1577608580491"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#29420;&#31435;&#35775;&#23458;&#25968;&#37327;&#65292;&#19968;&#23450;&#26102;&#38388;&#20869;&#31449;&#28857;&#35775;&#38382;&#25152;&#26469;&#33258;&#30340;IP&#25968;&#37327;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="4) PV" ID="ID_624809981" CREATED="1577608325826" MODIFIED="1577608634283"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Page View&#65292;&#39029;&#38754;&#35775;&#38382;&#37327;&#65292;&#25351;&#19968;&#23450;&#26102;&#38388;&#20869;&#25171;&#24320;&#25110;&#21047;&#26032;&#39029;&#38754;&#30340;&#27425;&#25968;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="4.1 &#x8bf7;&#x6c42;&#x8def;&#x7531;" ID="ID_1825497288" CREATED="1577606344229" MODIFIED="1577606354029" STYLE="bubble">
+<node TEXT="Nginx" ID="ID_1512216642" CREATED="1577606356893" MODIFIED="1577606360090" STYLE="bubble"/>
+<node TEXT="Spring Cloud Gateway" ID="ID_199220087" CREATED="1577606360317" MODIFIED="1577606384125" STYLE="bubble"/>
+<node TEXT="Zuul" ID="ID_1622295013" CREATED="1577606378437" MODIFIED="1577606383525" STYLE="bubble"/>
+</node>
+<node TEXT="4.2.1 &#x670d;&#x52a1;&#x6ce8;&#x518c;&#x4e2d;&#x5fc3;" ID="ID_1601843926" CREATED="1577606426165" MODIFIED="1577607285795" STYLE="bubble">
+<node TEXT="Dubbo Zookeeper" ID="ID_382735585" CREATED="1577606945557" MODIFIED="1577606961573" STYLE="bubble">
+<node TEXT="Zookeeper(CP)" ID="ID_1776315577" CREATED="1573476957506" MODIFIED="1577607095387" STYLE="bubble">
 <node TEXT="&#x529f;&#x80fd;" ID="ID_1941820653" CREATED="1573477397219" MODIFIED="1573477405291"/>
 <node TEXT="&#x4e00;&#x81f4;&#x6027;" ID="ID_558855835" CREATED="1573477405499" MODIFIED="1573477425447">
 <node TEXT="&#x987a;&#x5e8f;&#x4e00;&#x81f4;&#x6027;" ID="ID_39831757" CREATED="1573477448403" MODIFIED="1573477621919"><richcontent TYPE="NOTE">
@@ -5144,8 +5295,58 @@
 </node>
 </node>
 </node>
-<node TEXT="4.2 &#x6d88;&#x606f;&#x961f;&#x5217;" ID="ID_1435169293" CREATED="1575287587866" MODIFIED="1575287610618" STYLE="bubble">
-<node TEXT="Kafka" ID="ID_1608689232" CREATED="1575287612818" MODIFIED="1575287618274" STYLE="bubble">
+<node TEXT="Spring Cloud Eureka(AP)" ID="ID_1812558575" CREATED="1577606964157" MODIFIED="1577607105128" STYLE="bubble"/>
+</node>
+<node TEXT="4.2.2 &#x670d;&#x52a1;&#x914d;&#x7f6e;&#x4e2d;&#x5fc3;" ID="ID_439801313" CREATED="1577607286436" MODIFIED="1577608053185" STYLE="bubble">
+<node TEXT="Dubbo Zookeeper" ID="ID_1562846168" CREATED="1577607309756" MODIFIED="1577607327437" STYLE="bubble"/>
+<node TEXT="Spring Cloud Config" ID="ID_882598517" CREATED="1577607327764" MODIFIED="1577608930823" STYLE="bubble"/>
+</node>
+<node TEXT="4.2.3 &#x670d;&#x52a1;&#x6cbb;&#x7406;&#x4e2d;&#x5fc3;" ID="ID_1836455731" CREATED="1577608053691" MODIFIED="1577608105485" STYLE="bubble"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20462;&#25913;&#26381;&#21153;&#26435;&#37325;&#12289;&#26381;&#21153;&#19978;&#32447;/&#19979;&#32447;&#31561;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="4.2.4 &#x670d;&#x52a1;&#x76d1;&#x63a7;&#x4e2d;&#x5fc3;" ID="ID_305681764" CREATED="1577608116011" MODIFIED="1577608133435" STYLE="bubble"/>
+<node TEXT="4.3.1 &#x4e1a;&#x52a1;&#x5fae;&#x670d;&#x52a1;" ID="ID_1185655563" CREATED="1577606478877" MODIFIED="1577607370230" STYLE="bubble">
+<node TEXT="&#x89e3;&#x51b3;&#x65b9;&#x6848;" ID="ID_731646109" CREATED="1577606711198" MODIFIED="1577606729257" STYLE="bubble">
+<node TEXT="Dubbo(&#x4e0b;&#x9762;&#x8be6;&#x89e3;)" ID="ID_1699051925" CREATED="1577606635054" MODIFIED="1577606734129" STYLE="bubble"/>
+<node TEXT="Spring Cloud(&#x4e0b;&#x9762;&#x8be6;&#x89e3;)" ID="ID_12304768" CREATED="1577606641997" MODIFIED="1577606735142" STYLE="bubble"/>
+</node>
+<node TEXT="&#x670d;&#x52a1;&#x964d;&#x7ea7;" ID="ID_1159752453" CREATED="1577606740454" MODIFIED="1577606832237" STYLE="bubble">
+<node TEXT="Dubbo Mock" ID="ID_467226108" CREATED="1577606835381" MODIFIED="1577606846133" STYLE="bubble"/>
+<node TEXT="Spring Cloud Hystrix + Feign" ID="ID_581147205" CREATED="1577606846309" MODIFIED="1577606862565" STYLE="bubble"/>
+</node>
+<node TEXT="&#x7f13;&#x5b58;" ID="ID_1447137581" CREATED="1577606757597" MODIFIED="1577606764269" STYLE="bubble">
+<node TEXT="Dubbo &#x58f0;&#x660e;&#x5f0f;&#x7f13;&#x5b58;" ID="ID_941527084" CREATED="1577606881901" MODIFIED="1577606920001" STYLE="bubble"/>
+</node>
+<node TEXT="&#x5fae;&#x670d;&#x52a1;&#x8c03;&#x7528;" ID="ID_1959227071" CREATED="1577607184820" MODIFIED="1577607215574" STYLE="bubble"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36127;&#36733;&#22343;&#34913;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Dubbo LoadBalance" ID="ID_1962273679" CREATED="1577607196005" MODIFIED="1577607232525" STYLE="bubble"/>
+<node TEXT="Spring Cloud OpenFeign/Rabbion" ID="ID_895018987" CREATED="1577607232957" MODIFIED="1577607246989" STYLE="bubble"/>
+</node>
+</node>
+<node TEXT="4.3.2 &#x6d88;&#x606f;&#x4e2d;&#x95f4;&#x4ef6;" ID="ID_1258456999" CREATED="1577606562525" MODIFIED="1577607376986" STYLE="bubble">
+<node TEXT="Kafka" FOLDED="true" ID="ID_1608689232" CREATED="1575287612818" MODIFIED="1575287618274" STYLE="bubble">
 <node TEXT="&#x6982;&#x8ff0;" ID="ID_635931735" CREATED="1575287773913" MODIFIED="1575287783062">
 <node TEXT="&#x4f18;&#x52bf;" ID="ID_245434039" CREATED="1575352187710" MODIFIED="1575352272847"><richcontent TYPE="NOTE">
 
@@ -5466,31 +5667,46 @@ networks:
 </node>
 </node>
 </node>
+<node TEXT="4.3.3 &#x57fa;&#x7840;&#x5fae;&#x670d;&#x52a1;" ID="ID_1205928191" CREATED="1577606496885" MODIFIED="1577607392820" STYLE="bubble"/>
+<node TEXT="4.4 &#x5e95;&#x5c42;&#x7ec4;&#x4ef6;" ID="ID_763893923" CREATED="1577606509709" MODIFIED="1577607397690" STYLE="bubble">
+<node TEXT="&#x6570;&#x636e;&#x7f13;&#x5b58;&#x5c42;" ID="ID_15495433" CREATED="1577607399700" MODIFIED="1577607415972" STYLE="bubble">
+<node TEXT="Redis&#x96c6;&#x7fa4;" ID="ID_1062520386" CREATED="1577607417436" MODIFIED="1577607436940" STYLE="bubble"/>
+</node>
+<node TEXT="DBMS" ID="ID_833792455" CREATED="1577607468973" MODIFIED="1577607476156" STYLE="bubble">
+<node TEXT="MySQL&#x96c6;&#x7fa4;" ID="ID_1005196956" CREATED="1577607477164" MODIFIED="1577607491723" STYLE="bubble"/>
+</node>
+</node>
 </node>
 <node TEXT="5 &#x5b89;&#x5168;" POSITION="right" ID="ID_333823121" CREATED="1569225855859" MODIFIED="1573477204897" ICON_SIZE="12.0 pt" STYLE="bubble">
 <edge STYLE="sharp_bezier" COLOR="#0000ff"/>
-<node TEXT="5.1 &#x6570;&#x636e;&#x5b89;&#x5168;" ID="ID_1243562919" CREATED="1569226186251" MODIFIED="1573477213211" ICON_SIZE="12.0 pt">
+<node TEXT="5.1 &#x6570;&#x636e;&#x5b89;&#x5168;" ID="ID_1243562919" CREATED="1569226186251" MODIFIED="1577607538959" ICON_SIZE="12.0 pt" STYLE="bubble">
 <edge STYLE="sharp_bezier"/>
 </node>
-<node TEXT="5.2 &#x670d;&#x52a1;&#x5b89;&#x5168;(&#x9ad8;&#x53ef;&#x7528;)" ID="ID_902059731" CREATED="1569226196156" MODIFIED="1573477218959" ICON_SIZE="12.0 pt">
+<node TEXT="5.2 &#x670d;&#x52a1;&#x5b89;&#x5168;(&#x9ad8;&#x53ef;&#x7528;)" ID="ID_902059731" CREATED="1569226196156" MODIFIED="1577607539524" ICON_SIZE="12.0 pt" STYLE="bubble">
 <edge STYLE="sharp_bezier"/>
-<node TEXT="4.1 &#x5206;&#x5e03;&#x5f0f;" ID="ID_1205277331" CREATED="1561353654629" MODIFIED="1571634351873" ICON_SIZE="12.0 pt">
-<edge STYLE="sharp_bezier"/>
-<node TEXT="4.1 Eureka" ID="ID_1690036838" CREATED="1561353673485" MODIFIED="1571634351873" ICON_SIZE="12.0 pt">
-<edge STYLE="sharp_bezier"/>
-<node TEXT="Eureka&#x7684;&#x6267;&#x884c;&#x6d41;&#x7a0b;" ID="ID_1907955033" CREATED="1561353704104" MODIFIED="1571634351873" ICON_SIZE="12.0 pt">
-<edge STYLE="sharp_bezier"/>
+<node TEXT="5.2.1 &#x5355;&#x70b9;&#x95ee;&#x9898;" ID="ID_209162175" CREATED="1577607714419" MODIFIED="1577607821193" STYLE="bubble">
+<node TEXT="&#x670d;&#x52a1;&#x505a;&#x526f;&#x672c;&#x96c6;&#x7fa4;" ID="ID_801754575" CREATED="1577607806852" MODIFIED="1577607963146"/>
+</node>
+<node TEXT="5.2.1 &#x7cfb;&#x7edf;&#x8d1f;&#x8f7d;&#x95ee;&#x9898;" ID="ID_1996835421" CREATED="1577607874091" MODIFIED="1577607891444" STYLE="bubble">
+<node TEXT="&#x6c34;&#x5e73;/&#x5782;&#x76f4;&#x62c6;&#x5206;" ID="ID_1081124143" CREATED="1577607915803" MODIFIED="1577607929129"/>
+<node TEXT="&#x5fae;&#x670d;&#x52a1;&#x67b6;&#x6784;" ID="ID_238010098" CREATED="1577607892971" MODIFIED="1577608013877"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#28040;&#36153;&#32773;&#26381;&#21153;&#38598;&#32676;&#21644;&#25552;&#20379;&#32773;&#26381;&#21153;&#38598;&#32676;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x6d41;&#x5f0f;&#x5fae;&#x670d;&#x52a1;&#x67b6;&#x6784;" ID="ID_786334023" CREATED="1577609042679" MODIFIED="1577609055382"/>
 </node>
 </node>
-<node TEXT="4.10 &#x5206;&#x5e03;&#x5f0f;&#x9501;" ID="ID_1667519963" CREATED="1561354095684" MODIFIED="1571634351873" ICON_SIZE="12.0 pt">
-<edge STYLE="sharp_bezier"/>
-<node TEXT="&#x5206;&#x5e03;&#x5f0f;&#x9501;&#x89e3;&#x51b3;&#x7f13;&#x5b58;&#x91cd;&#x5efa;&#x4e0e;&#x5e76;&#x53d1;&#x95ee;&#x9898;&#xff0c;&#x6267;&#x884c;&#x6d41;&#x7a0b;" ID="ID_467539627" CREATED="1561354111441" MODIFIED="1573477617444" ICON_SIZE="12.0 pt">
-<edge STYLE="sharp_bezier"/>
-</node>
-</node>
-</node>
-</node>
-<node TEXT="5.3 &#x7f51;&#x7edc;&#x5b89;&#x5168;" ID="ID_1150147941" CREATED="1569226209669" MODIFIED="1573477229387" ICON_SIZE="12.0 pt">
+<node TEXT="5.3 &#x7f51;&#x7edc;&#x5b89;&#x5168;" ID="ID_1150147941" CREATED="1569226209669" MODIFIED="1577607540477" ICON_SIZE="12.0 pt" STYLE="bubble">
 <edge STYLE="sharp_bezier"/>
 </node>
 </node>
@@ -5609,6 +5825,733 @@ networks:
 </node>
 </node>
 </node>
+<node TEXT="6.1.4 Dubbo" ID="ID_437987262" CREATED="1577606139126" MODIFIED="1577606149894" STYLE="bubble">
+<node TEXT="&#x7b80;&#x4ecb;" ID="ID_1151202877" CREATED="1577609141807" MODIFIED="1577609281728"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26159;&#19968;&#27454;&#39640;&#24615;&#33021;&#12289;&#36731;&#37327;&#32423;&#30340;Java RPC&#26694;&#26550;&#65292; &#20294;&#26159;&#38500;&#20102;<b>&#38754;&#21521;&#25509;&#21475;&#30340;&#36828;&#31243;&#26041;&#27861;&#35843;&#29992;</b>&#36825;&#19968;RPC&#21151;&#33021;&#65292;&#36824;&#25552;&#20379;&#20102;<b>&#26234;&#33021;&#23481;&#38169;&#21644;&#36127;&#36733;&#22343;&#34913;</b>&#65292;&#20197;&#21450;<b>&#26381;&#21153;&#33258;&#21160;&#27880;&#20876;&#21644;&#21457;&#29616;</b>&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x56db;&#x5927;&#x7ec4;&#x4ef6;" ID="ID_776999930" CREATED="1577609403158" MODIFIED="1577609531619" LINK="https://dubbo.apache.org/img/architecture.png">
+<node TEXT="Consumer" ID="ID_1703004129" CREATED="1577609410790" MODIFIED="1577609541561"/>
+<node TEXT="Registey" ID="ID_920162535" CREATED="1577609543636" MODIFIED="1577609550331"/>
+<node TEXT="Provider/Container" ID="ID_1480262626" CREATED="1577609552085" MODIFIED="1577609565037"/>
+<node TEXT="Monitor" ID="ID_1254021744" CREATED="1577609565413" MODIFIED="1577609568629"/>
+</node>
+<node TEXT="Dubbo&#x5e38;&#x7528;&#x914d;&#x7f6e;" ID="ID_982992191" CREATED="1577868033147" MODIFIED="1577868043685">
+<node TEXT="&#x57fa;&#x7840;&#x914d;&#x7f6e;" ID="ID_1712811746" CREATED="1577665210664" MODIFIED="1577665217567">
+<node TEXT="dubbo:application" ID="ID_143910170" CREATED="1577662223281" MODIFIED="1577662348464"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25351;&#23450;&#24403;&#21069;&#24037;&#31243;&#22312;&#31649;&#25511;&#24179;&#21488;&#20013;&#30340;&#21517;&#31216;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="dubbo:registry" ID="ID_806243026" CREATED="1577662231048" MODIFIED="1577662292850"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25351;&#23450;&#27880;&#20876;&#20013;&#24515;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="dubbo:reference" ID="ID_1932639207" CREATED="1577662241112" MODIFIED="1577662280469"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#30452;&#36830;&#24335;&#36830;&#25509;&#25552;&#20379;&#32773;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="dubbo:service" ID="ID_1441647301" CREATED="1577662394800" MODIFIED="1577662428591"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26381;&#21153;&#26292;&#38706;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="dubbo:provider" ID="ID_1892975364" CREATED="1577662476464" MODIFIED="1577662610046"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26381;&#21153;&#25552;&#20379;&#32773;&#23454;&#20363;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x9ad8;&#x7ea7;&#x914d;&#x7f6e;" ID="ID_286582601" CREATED="1577665260113" MODIFIED="1577665653283">
+<node TEXT="&#x5173;&#x95ed;&#x670d;&#x52a1;&#x68c0;&#x67e5;" ID="ID_876625755" CREATED="1577665224889" MODIFIED="1577665665923"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;dubbo:reference id=&quot;someservice&quot; <b>check=&quot;false&quot;</b>&#160; interface=&quot;com.abc.service.SomeService&quot;&gt;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x591a;&#x7248;&#x672c;&#x63a7;&#x5236;" ID="ID_280111624" CREATED="1577665453800" MODIFIED="1577666042858"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#29992;&#20110;&#23454;&#29616;&#28784;&#24230;&#21457;&#24067;&#65288;&#20808;&#26367;&#25442;&#25481;&#19968;&#37096;&#20998;&#26381;&#21153;&#25552;&#20379;&#32773;&#65292;&#24453;&#27979;&#35797;&#23436;&#27605;&#65292;&#22914;&#26524;&#27809;&#26377;&#38382;&#39064;&#20877;&#20840;&#37096;&#26367;&#25442;&#65289;&#65292;&#21448;&#31216;&#20026;&#37329;&#19997;&#38592;&#21457;&#24067;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#26381;&#21153;&#25552;&#20379;&#26041;&#65306;
+    </p>
+    <p>
+      &lt;dubbo:service <b>interface</b>=&quot;com.abc.service.SomeService&quot; ref=&quot;newService&quot; <b>version</b>=&quot;0.0.2&quot;/&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#26381;&#21153;&#28040;&#36153;&#26041;
+    </p>
+    <p>
+      &lt;dubbo:reference id=&quot;someService&quot; <b>interface</b>=&quot;com.abc.service.SomeService&quot; <b>version</b>=&quot;0.0.2&quot;/&gt;&#160;&#160;&#160;&#160;&lt;!-- &#36890;&#36807;interface&#21644;version&#21487;&#20197;&#23450;&#20301;&#21040; newService &#23454;&#20363; --&gt;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x670d;&#x52a1;&#x5206;&#x7ec4;" ID="ID_271466280" CREATED="1577666119991" MODIFIED="1577666264580"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25552;&#20379;&#30456;&#21516;&#30340;&#21151;&#33021;&#19981;&#21516;&#30340;&#23454;&#29616;&#12290;&#22914;&#20184;&#27454;&#26381;&#21153;&#65292;&#26377;&#25903;&#20184;&#23453;&#21644;&#24494;&#20449;&#25903;&#20184;&#20004;&#31181;&#23454;&#29616;&#12290;&#20004;&#31181;&#26381;&#21153;&#23454;&#20363;&#26159;&#24182;&#23384;&#30340;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <span style="color: #808080"><font color="#808080">&lt;!--</font></span><span style="color: #808080; font-family: &#x6587;&#x6cc9;&#x9a7f;&#x7b49;&#x5bbd;&#x5fae;&#x7c73;&#x9ed1;"><font color="#808080" face="&#x6587;&#x6cc9;&#x9a7f;&#x7b49;&#x5bbd;&#x5fae;&#x7c73;&#x9ed1;">&#25351;&#23450;&#35843;&#29992;&#24494;&#20449;&#26381;&#21153;</font></span><span style="color: #808080"><font color="#808080">--&gt;<br/></font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;</font></span><span style="color: #9876aa"><font color="#9876aa">dubbo</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">:reference </font></span><span style="color: #bababa"><font color="#bababa">id</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;weixin&quot;&#160; </font></span><span style="color: #bababa"><font color="#bababa">group</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;pay.weixin&quot;<br/></font></span><font color="#6a8759"><span style="color: #6a8759">&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </span></font><span style="color: #bababa"><font color="#bababa">interface</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;com.abc.service.SomeService&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">/&gt;<br/></font></span><span style="color: #808080"><font color="#808080">&lt;!--</font></span><span style="color: #808080; font-family: &#x6587;&#x6cc9;&#x9a7f;&#x7b49;&#x5bbd;&#x5fae;&#x7c73;&#x9ed1;"><font color="#808080" face="&#x6587;&#x6cc9;&#x9a7f;&#x7b49;&#x5bbd;&#x5fae;&#x7c73;&#x9ed1;">&#25351;&#23450;&#35843;&#29992;&#25903;&#20184;&#23453;&#26381;&#21153;</font></span><span style="color: #808080"><font color="#808080">--&gt;<br/></font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;</font></span><span style="color: #9876aa"><font color="#9876aa">dubbo</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">:reference </font></span><span style="color: #bababa"><font color="#bababa">id</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;zhifubao&quot;&#160; </font></span><span style="color: #bababa"><font color="#bababa">group</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;pay.zhifubao&quot;<br/></font></span><font color="#6a8759"><span style="color: #6a8759">&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </span></font><span style="color: #bababa"><font color="#bababa">interface</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;com.abc.service.SomeService&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">/&gt;</font></span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x591a;&#x534f;&#x8bae;&#x652f;&#x6301;" ID="ID_1294937221" CREATED="1577666287214" MODIFIED="1577681630333"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;dubbo:protocol name=&quot;dubbo&quot; port=&quot;20880&quot;/&gt;
+    </p>
+    <p>
+      &lt;dubbo:protocol name=&quot;rmi&quot; port=&quot;1099&quot;/&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;dubbo:service interface=&quot;com.abc.service.SomeService&quot; ref=&quot;newService&quot; version=&quot;0.0.2&quot; <b>protocol</b>=&quot;dubbo,rmi&quot;/&gt;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x670d;&#x52a1;&#x901a;&#x4fe1;&#x534f;&#x8bae;" ID="ID_468762833" CREATED="1577666380734" MODIFIED="1577681630333">
+<node TEXT="Dubbo(Default)" ID="ID_758721477" CREATED="1577666389694" MODIFIED="1577666460117"/>
+<node TEXT="RMI" ID="ID_38309451" CREATED="1577666395502" MODIFIED="1577666397764"/>
+<node TEXT="Hessian" ID="ID_500760138" CREATED="1577666397998" MODIFIED="1577666401563"/>
+<node TEXT="HTTP" ID="ID_355102812" CREATED="1577666401702" MODIFIED="1577666404492"/>
+<node TEXT="WebService" ID="ID_1018644305" CREATED="1577666404710" MODIFIED="1577666409132"/>
+<node TEXT="Thrift" ID="ID_1550103857" CREATED="1577666409398" MODIFIED="1577666414852"/>
+<node TEXT="Memcached" ID="ID_1457516163" CREATED="1577666415158" MODIFIED="1577666421900"/>
+<node TEXT="Redis&#x534f;&#x8bae;" ID="ID_411150989" CREATED="1577666422150" MODIFIED="1577666436342"/>
+<node TEXT="Rest&#x534f;&#x8bae;" ID="ID_1148100552" CREATED="1577666426628" MODIFIED="1577666444103"/>
+</node>
+</node>
+<node TEXT="&#x8d1f;&#x8f7d;&#x5747;&#x8861;" ID="ID_453508327" CREATED="1577681614534" MODIFIED="1577718175807"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36127;&#36733;&#22343;&#34913;&#31639;&#27861;&#19981;&#20165;&#21487;&#20197;&#22312;&#26381;&#21153;&#25552;&#20379;&#31471;&#35774;&#32622;&#36824;&#21487;&#20197;&#22312;&#26381;&#21153;&#28040;&#36153;&#31471;&#35774;&#32622;&#65292;&#36824;&#21487;&#20197;&#22312;&#20004;&#31471;&#21516;&#26102;&#35774;&#32622;&#36825;&#26102;&#20250;&#25353;Consumer&#31471;&#35774;&#32622;&#31574;&#30053;&#20026;&#20934;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x8d1f;&#x8f7d;&#x5747;&#x8861;&#x7b97;&#x6cd5;" ID="ID_836952162" CREATED="1577717044533" MODIFIED="1577717058298">
+<node TEXT="random" ID="ID_1613962680" CREATED="1577717059420" MODIFIED="1577717062460"/>
+<node TEXT="roundrobin" ID="ID_1889889571" CREATED="1577717062692" MODIFIED="1577717219327"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="color: #e8bf6a"><font color="#e8bf6a">&#25353;&#26435;&#37325;&#36718;&#23547; </font></span>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <span style="color: #e8bf6a"><font color="#e8bf6a">&lt;</font></span><span style="color: #9876aa"><font color="#9876aa">dubbo</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">:service </font></span><span style="color: #bababa"><font color="#bababa">interface</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;com.abc.service.SomeService&quot; </font></span><span style="color: #bababa"><font color="#bababa">ref</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;someService&quot; weight=&quot;1&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">/&gt;</font></span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="leastactive" ID="ID_1318191064" CREATED="1577717068932" MODIFIED="1577717243187"/>
+<node TEXT="consistenthash" ID="ID_78387431" CREATED="1577717243637" MODIFIED="1577717546714"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#30456;&#21516;&#21442;&#25968;&#30340;&#35831;&#27714;&#20250;&#34987;&#36335;&#30001;&#21040;&#30456;&#21516;&#30340;&#25552;&#20379;&#32773;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;!-- &#23545;&#31532;&#20108;&#20010;&#21442;&#25968;&#36827;&#34892;hash&#65292;&#40664;&#35748;&#23545;&#31532;&#19968;&#20010;&#21442;&#25968;&#36827;&#34892;hash --&gt;
+    </p>
+    <p>
+      <span style="color: #e8bf6a"><font color="#e8bf6a">&lt;</font></span><span style="color: #9876aa"><font color="#9876aa">dubbo</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">:service </font></span><span style="color: #bababa"><font color="#bababa">interface</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;com.abc.service.SomeService&quot; </font></span><span style="color: #bababa"><font color="#bababa">ref</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;someService&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;<br/></font></span><font color="#e8bf6a"><span style="color: #e8bf6a">&#160;&#160;&#160; &lt;</span></font><span style="color: #9876aa"><font color="#9876aa">dubbo</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">:parameter </font></span><span style="color: #bababa"><font color="#bababa">key</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;hash.arguments&quot; </font></span><span style="color: #bababa"><font color="#bababa">value</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;0,1,0&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">/&gt;<br/></font></span><font color="#e8bf6a"><span style="color: #e8bf6a">&lt;/</span></font><span style="color: #9876aa"><font color="#9876aa">dubbo</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">:service&gt;</font></span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x4e0d;&#x4ec5;&#x53ef;&#x4ee5;&#x4e3a;&#x5b9e;&#x4f8b;&#x6307;&#x5b9a;&#x8d1f;&#x8f7d;&#x5747;&#x8861;&#x7b56;&#x7565;&#xa;&#x8fd8;&#x53ef;&#x4ee5;&#x4e3a;&#x5176;&#x65b9;&#x6cd5;&#x5355;&#x72ec;&#x6307;&#x5b9a;&#x8d1f;&#x8f7d;&#x5747;&#x8861;&#x7b56;&#x7565;" ID="ID_145837969" CREATED="1577717820052" MODIFIED="1577718013483"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="color: #e8bf6a"><font color="#e8bf6a">&lt;</font></span><span style="color: #9876aa"><font color="#9876aa">dubbo</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">:service </font></span><span style="color: #bababa"><font color="#bababa">interface</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;com.abc.service.SomeService&quot; </font></span><span style="color: #bababa"><font color="#bababa">ref</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;someService&quot; </font></span><span style="color: #bababa"><font color="#bababa">loadbalance</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;roundrobin&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;<br/></font></span><font color="#e8bf6a"><span style="color: #e8bf6a">&#160; &#160;&#160;&#160;&lt;</span></font><span style="color: #9876aa"><font color="#9876aa">dubbo</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">:method </font></span><span style="color: #bababa"><font color="#bababa">name</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;hello&quot; </font></span><span style="color: #bababa"><font color="#bababa">loadbalance</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;leastactive&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">/&gt;<br/></font></span><font color="#e8bf6a"><span style="color: #e8bf6a">&#160; &#160;&#160;&#160;&lt;</span></font><span style="color: #9876aa"><font color="#9876aa">dubbo</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">:method </font></span><span style="color: #bababa"><font color="#bababa">name</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;greet&quot; </font></span><span style="color: #bababa"><font color="#bababa">loadbalance</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;consistenthash&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">/&gt;<br/></font></span><font color="#e8bf6a"><span style="color: #e8bf6a">&lt;/</span></font><span style="color: #9876aa"><font color="#9876aa">dubbo</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">:service&gt;<br/></font></span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x96c6;&#x7fa4;&#x5bb9;&#x9519;" ID="ID_1565947111" CREATED="1577718312477" MODIFIED="1577719281392"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="color: #e8bf6a"><font color="#e8bf6a">&lt;</font></span><span style="color: #9876aa"><font color="#9876aa">dubbo</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">:service </font></span><span style="color: #bababa"><font color="#bababa">interface</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;com.abc.service.SomeService&quot; </font></span><span style="color: #bababa"><font color="#bababa">ref</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;someService&quot; </font></span><span style="color: #bababa"><font color="#bababa">loadbalance</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;roundrobin&quot;<b>&#160;</b></font></span><b><span style="color: #bababa"><font color="#bababa">retries</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;3&quot; </font></span><span style="color: #bababa"><font color="#bababa">cluster</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;failfast&quot;</font></span></b><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;<br/></font></span><font color="#e8bf6a"><span style="color: #e8bf6a">&#160; &#160;&#160;&#160;&lt;</span></font><span style="color: #9876aa"><font color="#9876aa">dubbo</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">:method </font></span><span style="color: #bababa"><font color="#bababa">name</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;hello&quot; </font></span><span style="color: #bababa"><font color="#bababa">loadbalance</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;leastactive&quot; </font></span><span style="color: #bababa"><font color="#bababa">retries</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;2&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">/&gt;<br/></font></span><font color="#e8bf6a"><span style="color: #e8bf6a">&#160; &#160;&#160;&#160;&lt;</span></font><span style="color: #9876aa"><font color="#9876aa">dubbo</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">:method </font></span><span style="color: #bababa"><font color="#bababa">name</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;greet&quot; </font></span><span style="color: #bababa"><font color="#bababa">loadbalance</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;consistenthash&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">/&gt;<br/></font></span><font color="#e8bf6a"><span style="color: #e8bf6a">&lt;/</span></font><span style="color: #9876aa"><font color="#9876aa">dubbo</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">:service&gt;</font></span>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Failover&#xff08;&#x9ed8;&#x8ba4;&#xff09;" ID="ID_794128627" CREATED="1577718321013" MODIFIED="1577719067274"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#35775;&#38382;&#26576;&#20010;&#26381;&#21153;&#25552;&#20379;&#32773;&#65292;&#22914;&#26524;&#20854;&#26080;&#27861;&#27491;&#24120;&#25552;&#20379;&#26381;&#21153;&#65292;&#21017;&#33258;&#21160;&#23581;&#35797;&#35843;&#29992;&#20854;&#20182;&#26381;&#21153;&#25552;&#20379;&#32773;&#12290;
+    </p>
+    <p>
+      &#35813;&#31574;&#30053;&#36890;&#24120;&#29992;&#20110;&#35835;&#25805;&#20316;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Failfast" ID="ID_724317209" CREATED="1577718344605" MODIFIED="1577718546165"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21482;&#35831;&#27714;&#35843;&#29992;&#19968;&#27425;&#65292;&#22833;&#36133;&#30340;&#35805;&#31435;&#21363;&#36820;&#22238;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#29992;&#20110;&#38750;&#24130;&#31561;&#24615;&#30340;&#20889;&#25805;&#20316;&#65292;&#27604;&#22914;&#26032;&#22686;&#35760;&#24405;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Failsafe" ID="ID_1993938312" CREATED="1577718724012" MODIFIED="1577718827710"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24403;&#28040;&#36153;&#32773;&#35843;&#29992;&#25552;&#20379;&#32773;&#20986;&#29616;&#24322;&#24120;&#26102;&#65292;&#30452;&#25509;&#24573;&#30053;&#26412;&#27425;&#28040;&#36153;&#25805;&#20316;&#12290;
+    </p>
+    <p>
+      &#35813;&#31574;&#30053;&#36890;&#24120;&#29992;&#20110;&#25191;&#34892;&#30456;&#23545;&#19981;&#22826;&#37325;&#35201;&#30340;&#26381;&#21153;&#65292;&#20363;&#22914;&#65292;&#20889;&#20837;&#23457;&#35745;&#26085;&#24535;&#31561;&#25805;&#20316;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Failback" ID="ID_1732784193" CREATED="1577718833596" MODIFIED="1577718918730"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22833;&#36133;&#65292;&#35760;&#24405;&#65292;&#23450;&#26102;&#37325;&#35797;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Forking" ID="ID_94196693" CREATED="1577718843564" MODIFIED="1577718930798"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24182;&#34892;&#35843;&#29992;&#22810;&#20010;&#25552;&#20379;&#32773;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Broadcast" ID="ID_1547667771" CREATED="1577718861108" MODIFIED="1577719041782"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24191;&#25773;&#35843;&#29992;&#25152;&#26377;&#28040;&#36153;&#32773;&#65292;&#36880;&#20010;&#35843;&#29992;&#65292;&#20219;&#24847;&#19968;&#21488;&#25253;&#38169;&#21017;&#25253;&#38169;&#12290;
+    </p>
+    <p>
+      &#36890;&#24120;&#29992;&#20110;&#36890;&#30693;&#25152;&#26377;&#25552;&#20379;&#32773;&#26356;&#26032;&#32531;&#23384;&#25110;&#26085;&#24535;&#31561;&#26412;&#22320;&#36164;&#28304;&#20449;&#24687;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x670d;&#x52a1;&#x964d;&#x7ea7;" ID="ID_129799973" CREATED="1577719296251" MODIFIED="1577719306497">
+<node TEXT="&#x964d;&#x7ea7;&#x65b9;&#x5f0f;" ID="ID_1919505822" CREATED="1577719841387" MODIFIED="1577719848138">
+<node TEXT="&#x90e8;&#x5206;&#x670d;&#x52a1;&#x6682;&#x505c;" ID="ID_231729860" CREATED="1577719609891" MODIFIED="1577719620043"/>
+<node TEXT="&#x5168;&#x90e8;&#x670d;&#x52a1;&#x6682;&#x505c;" ID="ID_1864484520" CREATED="1577719620211" MODIFIED="1577719629849"/>
+<node TEXT="&#x968f;&#x673a;&#x62d2;&#x7edd;&#x670d;&#x52a1;" ID="ID_1779282798" CREATED="1577719630075" MODIFIED="1577719643795"/>
+<node TEXT="&#x90e8;&#x5206;&#x670d;&#x52a1;&#x5ef6;&#x8fdf;" ID="ID_941718776" CREATED="1577719643995" MODIFIED="1577719655353"/>
+</node>
+<node TEXT="Mock&#x673a;&#x5236;" ID="ID_283166727" CREATED="1577719854435" MODIFIED="1577719861552">
+<node TEXT="Mock null &#x964d;&#x7ea7;&#x5904;&#x7406;" ID="ID_720925161" CREATED="1577719862938" MODIFIED="1577720493493"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="color: #e8bf6a"><font color="#e8bf6a">&lt;</font></span><span style="color: #9876aa"><font color="#9876aa">dubbo</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">:reference </font></span><span style="color: #bababa"><font color="#bababa">id</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;userService&quot; </font></span><span style="color: #bababa"><font color="#bababa">mock</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;return null&quot; </font></span><span style="color: #bababa"><font color="#bababa">check</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;false&quot;<br/></font></span><font color="#6a8759"><span style="color: #6a8759">&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </span></font><span style="color: #bababa"><font color="#bababa">interface</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;com.abc.service.UserService&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">/&gt;</font></span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Mock Class &#x964d;&#x7ea7;&#x5904;&#x7406;" ID="ID_650638232" CREATED="1577719873002" MODIFIED="1577720677361"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="color: #e8bf6a"><font color="#e8bf6a">&#25552;&#20379;&#19968;&#20010;Mock&#23454;&#29616;&#31867;&#65292;&#24403;&#26381;&#21153;&#24322;&#24120;&#25110;&#34987;&#38477;&#32423;&#26102;&#20351;&#29992;&#27492;&#31867;&#36820;&#22238;&#32467;&#26524;&#12290; </font></span>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <span style="color: #e8bf6a"><font color="#e8bf6a">&lt;</font></span><span style="color: #9876aa"><font color="#9876aa">dubbo</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">:reference </font></span><span style="color: #bababa"><font color="#bababa">id</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;userService&quot; </font></span><span style="color: #bababa"><font color="#bababa">mock</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;true&quot; </font></span><span style="color: #bababa"><font color="#bababa">check</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;false&quot;<br/></font></span><font color="#6a8759"><span style="color: #6a8759">&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </span></font><span style="color: #bababa"><font color="#bababa">interface</font></span><span style="color: #6a8759"><font color="#6a8759">=&quot;com.abc.service.UserService&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">/&gt;</font></span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="&#x670d;&#x52a1;&#x8d85;&#x65f6;&#x7194;&#x65ad;" ID="ID_133397682" CREATED="1577719657643" MODIFIED="1577721185408"/>
+<node TEXT="&#x670d;&#x52a1;&#x9650;&#x6d41;" ID="ID_1211088906" CREATED="1577866398193" MODIFIED="1577866420997">
+<node TEXT="&#x76f4;&#x63a5;&#x9650;&#x6d41;" ID="ID_1125721964" CREATED="1577866684746" MODIFIED="1577866695535">
+<node TEXT="executes&#x9650;&#x6d41;" ID="ID_853886731" CREATED="1577866696545" MODIFIED="1577867288030"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#35813;&#23646;&#24615;&#20165;&#33021;&#35774;&#32622;&#22312;<b>&#25552;&#20379;&#32773;&#31471;</b>&#12290;&#21487;&#20197;&#35774;&#32622;&#20026;&#25509;&#21475;&#32423;&#21035;,&#20063;&#21487;&#20197;&#35774;&#32622;&#20026;&#26041;&#27861;&#32423;&#21035;&#12290;&#38480;&#21046;&#30340;&#26159;&#26381;&#21153;(&#26041;&#27861;)&#24182;&#21457;&#25191;&#34892;&#25968;&#37327;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;!-- &#38480;&#21046;&#24403;&#21069;&#25509;&#21475;&#20013;&#27599;&#20010;&#26041;&#27861;&#30340;&#24182;&#21457;&#25191;&#34892;&#25968;&#37327;&#19981;&#33021;&#36229;&#36807;10&#20010; --&gt;
+    </p>
+    <p>
+      &lt;dubbo:service interface=&quot;com.abc.service.SomeService&quot; ref=&quot;someService&quot; executes=&quot;10&quot;/&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;!-- &#38480;&#21046;&#24403;&#21069;&#25509;&#21475;&#20013;hello()&#26041;&#27861;&#30340;&#24182;&#21457;&#25191;&#34892;&#25968;&#37327;&#19981;&#33021;&#36229;&#36807;10&#20010; --&gt;
+    </p>
+    <p>
+      &lt;dubbo:service interface=&quot;com.abc.service.SomeService&quot; ref=&quot;someService&quot;&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;dubbo:method name=&quot;hello&quot; executes=&quot;10&quot;/&gt;
+    </p>
+    <p>
+      &lt;/dubbo&gt;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="accepts&#x9650;&#x6d41;" ID="ID_1178816290" CREATED="1577866729265" MODIFIED="1577867416447"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#35813;&#23646;&#24615;&#20165;&#21487;&#35774;&#32622;&#22312;<b>&#25552;&#20379;&#32773;&#31471;</b>&#30340;&lt;dubbo:provider/&gt;&#19982;&lt;dubbo:protocol/&gt;&#12290;&#29992;&#20110;&#23545;&#25351;&#23450;&#21327;&#35758;&#30340;&#36830;&#25509;&#25968;&#37327;&#36827;&#34892;&#38480;&#21046;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;!-- &#38480;&#21046;&#24403;&#21069;&#25552;&#20379;&#32773;&#22312;&#20351;&#29992;dubbo&#21327;&#35758;&#26102;&#26368;&#22810;&#25509;&#25910;10&#20010;&#28040;&#36153;&#32773;&#36830;&#25509;--&gt;
+    </p>
+    <p>
+      &lt;dubbo:provider protocol=&quot;dubbo&quot; accepts=&quot;10&quot;/&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;!-- &#38480;&#21046;&#24403;&#21069;&#25552;&#20379;&#32773;&#22312;&#20351;&#29992;dubbo&#21327;&#35758;&#26102;&#26368;&#22810;&#25509;&#25910;10&#20010;&#28040;&#36153;&#32773;&#36830;&#25509;--&gt;
+    </p>
+    <p>
+      &lt;dubbo:protocol&#160;&#160;name=&quot;dubbo&quot; port=&quot;20880&quot; accepts=&quot;10&quot;/&gt;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="actives&#x9650;&#x6d41;" ID="ID_1566707623" CREATED="1577866742705" MODIFIED="1577867515799"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#35813;&#38480;&#27969;&#26041;&#24335;&#19982;&#21069;&#20004;&#31181;&#19981;&#21516;&#30340;&#26159;,&#20854;&#21487;&#20197;&#35774;&#32622;&#22312;&#25552;&#20379;&#32773;&#31471;,&#20063;&#21487;&#20197;&#35774;&#32622;&#22312;&#28040;&#36153;&#32773;&#31471;&#12290;&#21487;&#20197;&#35774;&#32622;&#20026;&#25509;&#21475;&#32423;&#21035;,&#20063;&#21487;&#20197;&#35774;&#32622;&#20026;&#26041;&#27861;&#32423;&#21035;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      A&#12289; &#25552;&#20379;&#32773;&#31471;&#38480;&#27969;
+    </p>
+    <p>
+      &#26681;&#25454;&#28040;&#36153;&#32773;&#19982;&#25552;&#20379;&#32773;&#38388;&#24314;&#31435;&#30340;&#36830;&#25509;&#31867;&#22411;&#30340;&#19981;&#21516;,&#20854;&#24847;&#20041;&#20063;&#19981;&#21516;:
+    </p>
+    <p>
+      &#38271;&#36830;&#25509;:&#34920;&#31034;&#24403;&#21069;&#38271;&#36830;&#25509;&#26368;&#22810;&#21487;&#20197;&#22788;&#29702;&#30340;&#35831;&#27714;&#20010;&#25968;&#12290;&#19982;&#38271;&#36830;&#25509;&#30340;&#25968;&#37327;&#27809;&#26377;&#20851;&#31995;&#12290;
+    </p>
+    <p>
+      &#30701;&#36830;&#25509;:&#34920;&#31034;&#24403;&#21069;&#26381;&#21153;&#21487;&#20197;&#21516;&#26102;&#22788;&#29702;&#30340;&#30701;&#36830;&#25509;&#25968;&#37327;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      B&#12289; &#28040;&#36153;&#32773;&#31471;&#38480;&#27969;
+    </p>
+    <p>
+      &#26681;&#25454;&#28040;&#36153;&#32773;&#19982;&#25552;&#20379;&#32773;&#38388;&#24314;&#31435;&#30340;&#36830;&#25509;&#31867;&#22411;&#30340;&#19981;&#21516;,&#20854;&#24847;&#20041;&#20063;&#19981;&#21516;:
+    </p>
+    <p>
+      &#38271;&#36830;&#25509;:&#34920;&#31034;&#24403;&#21069;&#28040;&#36153;&#32773;&#25152;&#21457;&#20986;&#30340;&#38271;&#36830;&#25509;&#20013;&#26368;&#22810;&#21487;&#20197;&#25552;&#20132;&#30340;&#35831;&#27714;&#20010;&#25968;&#12290;&#19982;&#38271;&#36830;&#25509;&#30340;&#25968;&#37327;&#27809;&#26377;&#20851;&#31995;&#12290;
+    </p>
+    <p>
+      &#30701;&#36830;&#25509;:&#34920;&#31034;&#24403;&#21069;&#28040;&#36153;&#32773;&#21487;&#20197;&#25552;&#20132;&#30340;&#30701;&#36830;&#25509;&#25968;&#37327;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="connections&#x9650;&#x6d41;" ID="ID_1441986175" CREATED="1577866791057" MODIFIED="1577867556751"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21487;&#20197;&#35774;&#32622;&#22312;&#25552;&#20379;&#32773;&#31471;,&#20063;&#21487;&#20197;&#35774;&#32622;&#22312;&#28040;&#36153;&#32773;&#31471;&#12290;&#38480;&#23450;&#36830;&#25509;&#30340;&#20010;&#25968;&#12290;&#23545;&#20110;&#30701;&#36830;&#25509;,&#35813;&#23646;&#24615;
+    </p>
+    <p>
+      &#25928;&#26524;&#19982; actives &#30456;&#21516;&#12290;&#20294;&#23545;&#20110;&#38271;&#36830;&#25509;,&#20854;&#38480;&#21046;&#30340;&#26159;&#38271;&#36830;&#25509;&#30340;&#20010;&#25968;&#12290;
+    </p>
+    <p>
+      &#19968;&#33324;&#24773;&#20917;&#19979;,&#25105;&#20204;&#20250;&#20351; connectons &#19982; actives &#32852;&#29992;,&#35753; connections &#38480;&#21046;&#38271;&#36830;&#25509;&#20010;&#25968;,&#35753;
+    </p>
+    <p>
+      actives &#38480;&#21046;&#19968;&#20010;&#38271;&#36830;&#25509;&#20013;&#21487;&#20197;&#22788;&#29702;&#30340;&#35831;&#27714;&#20010;&#25968;&#12290;&#32852;&#29992;&#21069;&#25552;:&#20351;&#29992;&#40664;&#35748;&#30340; Dubbo &#26381;&#21153;&#26292;&#38706;&#21327;
+    </p>
+    <p>
+      &#35758;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x95f4;&#x63a5;&#x9650;&#x6d41;" ID="ID_695758129" CREATED="1577866758193" MODIFIED="1577866779143">
+<node TEXT="&#x5ef6;&#x8fdf;&#x8fde;&#x63a5;" ID="ID_1973294112" CREATED="1577867569331" MODIFIED="1577867607417"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20165;&#21487;&#35774;&#32622;&#22312;&#28040;&#36153;&#32773;&#31471;,&#19988;&#19981;&#33021;&#35774;&#32622;&#20026;&#26041;&#27861;&#32423;&#21035;&#12290;&#20165;&#20316;&#29992;&#20110; Dubbo &#26381;&#21153;&#26292;&#38706;&#21327;&#35758;&#12290;
+    </p>
+    <p>
+      &#23558;&#38271;&#36830;&#25509;&#30340;&#24314;&#31435;&#25512;&#36831;&#21040;&#28040;&#36153;&#32773;&#30495;&#27491;&#35843;&#29992;&#25552;&#20379;&#32773;&#26102;&#12290;
+    </p>
+    <p>
+      &#21487;&#20197;&#20943;&#23569;&#38271;&#36830;&#25509;&#30340;&#25968;&#37327;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x7c98;&#x8fde;&#x8fde;&#x63a5;" ID="ID_577508087" CREATED="1577867576251" MODIFIED="1577867644193"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20165;&#33021;&#35774;&#32622;&#22312;&#28040;&#36153;&#32773;&#31471;,&#20854;&#21487;&#20197;&#35774;&#32622;&#20026;&#25509;&#21475;&#32423;&#21035;,&#20063;&#21487;&#20197;&#35774;&#32622;&#20026;&#26041;&#27861;&#32423;&#21035;&#12290;&#20165;&#20316;&#29992;&#20110;
+    </p>
+    <p>
+      Dubbo &#26381;&#21153;&#26292;&#38706;&#21327;&#35758;&#12290;
+    </p>
+    <p>
+      &#20854;&#20250;&#20351;&#23458;&#25143;&#31471;&#23613;&#37327;&#21521;&#21516;&#19968;&#20010;&#25552;&#20379;&#32773;&#21457;&#36215;&#35843;&#29992;,&#38500;&#38750;&#35813;&#25552;&#20379;&#32773;&#25346;&#20102;,&#20854;&#20250;&#36830;&#25509;&#21478;&#19968;&#21488;&#12290;&#21482;
+    </p>
+    <p>
+      &#35201;&#21551;&#29992;&#20102;&#31896;&#36830;&#36830;&#25509;,&#20854;&#23601;&#20250;&#33258;&#21160;&#21551;&#29992;&#24310;&#36831;&#36830;&#25509;&#12290;
+    </p>
+    <p>
+      &#20854;&#38480;&#21046;&#30340;&#26159;&#27969;&#21521;,&#32780;&#38750;&#27969;&#37327;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x8d1f;&#x8f7d;&#x5747;&#x8861;" ID="ID_1485370010" CREATED="1577867653962" MODIFIED="1577867676971"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21487;&#20197;&#35774;&#32622;&#22312;&#28040;&#36153;&#32773;&#31471;,&#20134;&#21487;&#35774;&#32622;&#22312;&#25552;&#20379;&#32773;&#31471;;&#21487;&#20197;&#35774;&#32622;&#22312;&#25509;&#21475;&#32423;&#21035;,&#20134;&#21487;&#35774;&#32622;&#22312;&#26041;&#27861;&#32423;
+    </p>
+    <p>
+      &#21035;&#12290;&#20854;&#38480;&#21046;&#30340;&#26159;&#27969;&#21521;,&#32780;&#38750;&#27969;&#37327;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="&#x58f0;&#x660e;&#x5f0f;&#x7f13;&#x5b58;" ID="ID_136962903" CREATED="1577866421401" MODIFIED="1577867707646"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20026;&#20102;&#36827;&#19968;&#27493;&#25552;&#39640;&#28040;&#36153;&#32773;&#23545;&#29992;&#25143;&#30340;&#21709;&#24212;&#36895;&#24230;,&#20943;&#36731;&#25552;&#20379;&#32773;&#30340;&#21387;&#21147;,Dubbo &#25552;&#20379;&#20102;&#22522;&#20110;&#32467;&#26524;
+    </p>
+    <p>
+      &#30340;&#22768;&#26126;&#24335;&#32531;&#23384;&#12290;&#35813;&#32531;&#23384;&#26159;&#22522;&#20110;&#28040;&#36153;&#32773;&#31471;&#30340;,&#25152;&#20197;&#20351;&#29992;&#24456;&#31616;&#21333;,&#21482;&#38656;&#20462;&#25913;&#28040;&#36153;&#32773;&#37197;&#32622;&#25991;&#20214;,&#19982;
+    </p>
+    <p>
+      &#25552;&#20379;&#32773;&#26080;&#20851;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x591a;&#x6ce8;&#x518c;&#x4e2d;&#x5fc3;" ID="ID_224051177" CREATED="1577866459473" MODIFIED="1577867836055"/>
+<node TEXT="&#x5355;&#x529f;&#x80fd;&#x6ce8;&#x518c;&#x4e2d;&#x5fc3;" ID="ID_471879620" CREATED="1577867836267" MODIFIED="1577867847521"/>
+<node TEXT="&#x670d;&#x52a1;&#x66b4;&#x9732;&#x5ef6;&#x8fdf;" ID="ID_1560307095" CREATED="1577867847731" MODIFIED="1577867862996"/>
+<node TEXT="&#x6d88;&#x8d39;&#x8005;&#x7684;&#x5f02;&#x6b65;&#x8c03;&#x7528;" ID="ID_848734762" CREATED="1577867863227" MODIFIED="1577867876211"/>
+<node TEXT="&#x63d0;&#x4f9b;&#x8005;&#x7684;&#x5f02;&#x6b65;&#x6267;&#x884c;" ID="ID_1782423386" CREATED="1577867876483" MODIFIED="1577867893933"/>
+</node>
+<node TEXT="&#x5c5e;&#x6027;&#x914d;&#x7f6e;&#x4f18;&#x5148;&#x7ea7;" ID="ID_819708942" CREATED="1577867911291" MODIFIED="1577867922101"/>
+</node>
+<node TEXT="Dubbo&#x4e0e;Spring&#x96c6;&#x6210;&#x4f7f;&#x7528;" ID="ID_1395691806" CREATED="1577661682729" MODIFIED="1577662184847">
+<node TEXT="1) &#x5b9a;&#x4e49;&#x670d;&#x52a1;&#x63a5;&#x53e3;&#x5e76;&#x5b9e;&#x73b0;" ID="ID_1679986084" CREATED="1577661700552" MODIFIED="1577661732974"/>
+<node TEXT="2) &#x4f7f;&#x7528;Dubbo Main&#x542f;&#x52a8;&#x5bb9;&#x5668;, &#x5e76;&#x7528;SPI&#x52a0;&#x8f7d;xml&#x4e2d;&#x7684;&#x914d;&#x7f6e;" ID="ID_1471801267" CREATED="1577661900401" MODIFIED="1577662683650"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      META-INF.spring.spring-provider.xml
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="3) &#x542f;&#x52a8;Zookeeper&#x96c6;&#x7fa4;&#x4f5c;&#x4e3a;&#x670d;&#x52a1;&#x6ce8;&#x518c;&#x4e2d;&#x5fc3;&#xa; &#x5e76;&#x901a;&#x8fc7; dubbo:registry &#x6307;&#x5b9a;" ID="ID_1642946682" CREATED="1577662776927" MODIFIED="1577663163925"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;!--&#22768;&#26126;&#27880;&#20876;&#20013;&#24515;&#65306;&#21333;&#26426;&#29256;zk--&gt;
+    </p>
+    <p>
+      &lt;dubbo:registry address=&quot;zookeeper://zkOS:2181&quot;/&gt; &lt;!--&lt;dubbo:registry protocol=&quot;zookeeper&quot; address=&quot;zkOS:2181&quot;/&gt;--&gt;&#160;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;!--&#22768;&#26126;&#27880;&#20876;&#20013;&#24515;&#65306;zk&#32676;&#38598;--&gt;
+    </p>
+    <p>
+      &lt;!--&lt;dubbo:registry address=&quot;zookeeper://zkOS1:2181?backup=zkOS2:2181,zkOS3:2181,zkOS4:2181&quot;/&gt;--&gt;
+    </p>
+    <p>
+      &lt;!--&lt;dubbo:registry protocol=&quot;zookeeper&quot; address=&quot;zkOS1:2181,zkOS2:2181,zkOS3:2181,zkOS4:2181&quot;/&gt;--&gt;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="4) &#x542f;&#x52a8;Dubbo&#x7ba1;&#x63a7;&#x4e2d;&#x5fc3; dubbo-admin, &#x540c;&#x6837;&#x6ce8;&#x518c;&#x5230;Zk&#x4e2d;" ID="ID_640727176" CREATED="1577664759458" MODIFIED="1577681602270"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#31867;&#20284;Eureka&#30340;WebUI
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Dubbo&#x5728;SpringBoot&#x4e2d;&#x4f7f;&#x7528;" ID="ID_1703731838" CREATED="1577868110580" MODIFIED="1577868130777"/>
+</node>
 </node>
 <node TEXT="6.2 &#x6570;&#x636e;&#x5e93;ORM&#x65b9;&#x6848;" ID="ID_684926081" CREATED="1569834161556" MODIFIED="1573477246078" ICON_SIZE="12.0 pt" STYLE="bubble">
 <node TEXT="5.2.1 Mybatis" ID="ID_1113243797" CREATED="1569834184630" MODIFIED="1571634351873" ICON_SIZE="12.0 pt" STYLE="bubble"/>
@@ -5616,8 +6559,9 @@ networks:
 </node>
 <node TEXT="7 &#x8f6f;&#x4ef6;&#x89c4;&#x8303;" POSITION="right" ID="ID_265033982" CREATED="1569226477745" MODIFIED="1573477104465" ICON_SIZE="12.0 pt" STYLE="bubble">
 <edge STYLE="sharp_bezier" COLOR="#ff00ff"/>
-<node TEXT="6.1 &#x8bbe;&#x8ba1;&#x6a21;&#x5f0f;" ID="ID_861083838" CREATED="1569226486833" MODIFIED="1571634351873" ICON_SIZE="12.0 pt" STYLE="bubble">
+<node TEXT="&#x8f6f;&#x4ef6;&#x67b6;&#x6784;&#x8bbe;&#x8ba1;" ID="ID_861083838" CREATED="1569226486833" MODIFIED="1577609335373" ICON_SIZE="12.0 pt" STYLE="bubble">
 <edge STYLE="sharp_bezier"/>
+<node TEXT="&#x8bbe;&#x8ba1;&#x6a21;&#x5f0f;" ID="ID_1868239557" CREATED="1577609336566" MODIFIED="1577609343462" STYLE="bubble"/>
 </node>
 </node>
 <node TEXT="8 &#x4ece;&#x6e90;&#x7801;&#x4e2d;&#x5b66;&#x5230;&#x4e86;&#x4ec0;&#x4e48;" FOLDED="true" POSITION="right" ID="ID_954484592" CREATED="1561429311873" MODIFIED="1573477110862" ICON_SIZE="12.0 pt">
