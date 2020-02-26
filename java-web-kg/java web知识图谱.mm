@@ -4284,7 +4284,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -4359,6 +4358,21 @@
 </node>
 </node>
 <node TEXT="Docker&#x96c6;&#x7fa4;" ID="ID_478798363" CREATED="1579338520904" MODIFIED="1579338532978"/>
+</node>
+<node TEXT="&#x72b6;&#x6001;&#x67e5;&#x770b;" ID="ID_745276039" CREATED="1579785754053" MODIFIED="1579785773293">
+<node TEXT="GET /_cat/health?v" ID="ID_1897523940" CREATED="1579785776422" MODIFIED="1579785834419"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre http-equiv="content-type" content="text/html; charset=utf-8" style="color: rgb(0, 0, 0); font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap">epoch      timestamp cluster        status node.total node.data shards pri relo init unassign pending_tasks max_task_wait_time active_shards_percent
+1579778126 11:15:26  docker-cluster green           1         1      3   3    0    0        0             0                  -                100.0%</pre>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node TEXT="Kibana&#x5b89;&#x88c5;" ID="ID_150026310" CREATED="1578980995382" MODIFIED="1578981036675" STYLE="bubble">
 <node TEXT="&#x672c;&#x5730;&#x5b89;&#x88c5;" ID="ID_545425673" CREATED="1579338557991" MODIFIED="1579338565786">
@@ -4443,7 +4457,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -4615,6 +4628,9 @@
 </node>
 <node TEXT="&#x4e3e;&#x4e00;&#x53cd;&#x4e09;" ID="ID_734585701" CREATED="1578923113527" MODIFIED="1578923143093">
 <node TEXT="ES&#x7684;&#x5206;&#x7247;&#x548c;Hadoop HDFS&#x5206;&#x7247;" ID="ID_1890931672" CREATED="1578923144189" MODIFIED="1578923179601"/>
+</node>
+<node TEXT="&#x7591;&#x95ee;" ID="ID_1164817712" CREATED="1579777362791" MODIFIED="1579777373250">
+<node TEXT="&#x6570;&#x636e;&#x4ece;&#x4e3b;&#x5206;&#x7247;&#x5230;&#x526f;&#x672c;&#x5206;&#x7247;&#x540c;&#x6b65;&#x7684;&#x65f6;&#x5019;&#x6765;&#x8bf7;&#x6c42;&#x67e5;&#x8be2;&#x6570;&#x636e;&#x600e;&#x4e48;&#x5904;&#x7406;&#xff1f;" ID="ID_1032758147" CREATED="1579777401560" MODIFIED="1579777486393"/>
 </node>
 </node>
 <node TEXT="Solr" ID="ID_1967751714" CREATED="1569668222467" MODIFIED="1571634351872" ICON_SIZE="12.0 pt" STYLE="bubble">
@@ -5828,7 +5844,31 @@
 </node>
 </node>
 <node TEXT="4.1 &#x8bf7;&#x6c42;&#x8def;&#x7531;" ID="ID_1825497288" CREATED="1577606344229" MODIFIED="1577606354029" STYLE="bubble">
-<node TEXT="Nginx" ID="ID_1512216642" CREATED="1577606356893" MODIFIED="1577606360090" STYLE="bubble"/>
+<node TEXT="Nginx" ID="ID_1512216642" CREATED="1577606356893" MODIFIED="1582593823240" STYLE="bubble"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Nginx&#21482;&#38656;&#35201;&#23398;&#20250;&#23545;&#37197;&#32622;&#25991;&#20214;&#36827;&#34892;&#37197;&#32622;&#21363;&#21487;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Nginx (engine x) &#26159;&#19968;&#20010;&#36731;&#37327;&#32423;&#30340;&#12289;&#39640;&#24615;&#33021;&#30340;&#12289;&#22522;&#20110;Http&#30340;&#12289;&#21453;&#21521;&#20195;&#29702;&#26381;&#21153;&#22120;&#65292;&#38745;&#24577;web&#26381;&#21153;&#22120;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x4ee3;&#x7406;&#x670d;&#x52a1;" ID="ID_1438981027" CREATED="1582594315622" MODIFIED="1582594320317">
+<node TEXT="&#x6b63;&#x5411;&#x4ee3;&#x7406;" ID="ID_503027298" CREATED="1582555418805" MODIFIED="1582594335977"/>
+<node TEXT="&#x53cd;&#x5411;&#x4ee3;&#x7406;" ID="ID_465229892" CREATED="1582594337060" MODIFIED="1582594339038"/>
+</node>
+</node>
 <node TEXT="Spring Cloud Gateway" ID="ID_199220087" CREATED="1577606360317" MODIFIED="1577606384125" STYLE="bubble"/>
 <node TEXT="Zuul" ID="ID_1622295013" CREATED="1577606378437" MODIFIED="1577606383525" STYLE="bubble"/>
 </node>
@@ -5968,7 +6008,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Scribe" ID="ID_823158865" CREATED="1579415428073" MODIFIED="1579415683286" STYLE="bubble"/>
 <node TEXT="Fluent" ID="ID_1795227420" CREATED="1579415437233" MODIFIED="1579415684932" STYLE="bubble"/>
@@ -5990,7 +6029,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="3) Logstash" ID="ID_1654502112" CREATED="1579415272890" MODIFIED="1579415666289" STYLE="bubble"><richcontent TYPE="NOTE">
@@ -6005,7 +6043,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="4) Elasticsearch" ID="ID_1945999281" CREATED="1579415287634" MODIFIED="1579415667754" STYLE="bubble"/>
@@ -6027,7 +6064,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -6072,7 +6108,7 @@
 </node>
 </node>
 <node TEXT="4.3.2 &#x6d88;&#x606f;&#x4e2d;&#x95f4;&#x4ef6;" ID="ID_1258456999" CREATED="1577606562525" MODIFIED="1577607376986" STYLE="bubble">
-<node TEXT="Kafka" FOLDED="true" ID="ID_1608689232" CREATED="1575287612818" MODIFIED="1575287618274" STYLE="bubble">
+<node TEXT="Kafka" ID="ID_1608689232" CREATED="1575287612818" MODIFIED="1575287618274" STYLE="bubble">
 <node TEXT="&#x6982;&#x8ff0;" ID="ID_635931735" CREATED="1575287773913" MODIFIED="1575287783062">
 <node TEXT="&#x4f18;&#x52bf;" ID="ID_245434039" CREATED="1575352187710" MODIFIED="1575352272847"><richcontent TYPE="NOTE">
 
@@ -6393,7 +6429,7 @@ networks:
 </node>
 </node>
 <node TEXT="RabbitMQ" ID="ID_1317040965" CREATED="1578925908094" MODIFIED="1578925913996" STYLE="bubble"/>
-<node TEXT="RocketMQ" ID="ID_737317404" CREATED="1578923598037" MODIFIED="1578923608421" STYLE="bubble">
+<node TEXT="RocketMQ" FOLDED="true" ID="ID_737317404" CREATED="1578923598037" MODIFIED="1578923608421" STYLE="bubble">
 <node TEXT="&#x5b89;&#x88c5;" ID="ID_845393863" CREATED="1579091017435" MODIFIED="1579091024649">
 <node TEXT="&#x5355;&#x673a;" ID="ID_810020948" CREATED="1579091027290" MODIFIED="1579104554566"><richcontent TYPE="NOTE">
 
@@ -6868,6 +6904,30 @@ networks:
 </node>
 <node TEXT="&#x6d88;&#x606f;&#x5b58;&#x50a8;&#x7ed3;&#x6784;" ID="ID_1372035293" CREATED="1579099129669" MODIFIED="1579099136496"/>
 </node>
+<node TEXT="&#x7f51;&#x7edc;&#x67b6;&#x6784;" ID="ID_1533394499" CREATED="1579097084763" MODIFIED="1579097187610">
+<node TEXT="&#x7f51;&#x7edc;&#x67b6;&#x6784;&#x56fe;" ID="ID_403857246" CREATED="1579097152571" MODIFIED="1579097162899"/>
+<node TEXT="Broker(&#x4e3b;&#x4ece;&#xff0c;&#x591a;&#x5bf9;)" ID="ID_1329018771" CREATED="1579097478315" MODIFIED="1579097495929">
+<node TEXT="&#x628a;topic&#x4e0b;&#x961f;&#x5217;&#x4fe1;&#x606f;(topic-queue-IP)&#x5b58;&#x50a8;&#x5230;NameServer" ID="ID_1875000072" CREATED="1579097534227" MODIFIED="1579097621569"/>
+</node>
+<node TEXT="NameServer(&#x591a;&#x4e2a;)" ID="ID_602680017" CREATED="1579097254827" MODIFIED="1579097391613"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      NameServer &#20043;&#38388;&#27809;&#26377;&#20219;&#20309;&#32852;&#31995;; &#27599;&#19968;&#20010;Broker&#37117;&#38656;&#35201;&#20381;&#27425;&#21521;&#27599;&#20010;NameServer&#27880;&#20876;;
+    </p>
+    <p>
+      &#32780; Kafka &#20351;&#29992; Zookeeper &#20316;&#20026;&#26381;&#21153;&#21457;&#29616;&#20013;&#24515;&#65292;Broker&#21482;&#38656;&#35201;&#21521;ZK master&#33410;&#28857;&#27880;&#20876;&#19968;&#27425;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Consumer" ID="ID_1660017776" CREATED="1579098014546" MODIFIED="1579098020550"/>
+</node>
 <node TEXT="&#x4e00;&#x4e2a;&#x6d88;&#x8d39;&#x8005;&#x7ec4;&#x7684;&#x591a;&#x4e2a;&#x6d88;&#x8d39;&#x8005;&#x600e;&#x4e48;&#xa;&#x6d88;&#x8d39;&#x4e00;&#x4e2a;Topic&#x7684;&#x591a;&#x4e2a;&#x961f;&#x5217;&#x4e2d;&#x7684;&#x6d88;&#x606f;" ID="ID_877930709" CREATED="1579095264952" MODIFIED="1579095328791">
 <node TEXT="&#x76f8;&#x5173;&#x7c7b;" ID="ID_1299925213" CREATED="1579095331992" MODIFIED="1579095361623">
 <node TEXT="AllocateMessageQueueStrategy" ID="ID_1811736043" CREATED="1579095365273" MODIFIED="1579095384336"/>
@@ -6912,35 +6972,11 @@ networks:
 </richcontent>
 </node>
 </node>
-</node>
-<node TEXT="&#x7f51;&#x7edc;&#x67b6;&#x6784;" ID="ID_1533394499" CREATED="1579097084763" MODIFIED="1579097187610">
-<node TEXT="&#x7f51;&#x7edc;&#x67b6;&#x6784;&#x56fe;" ID="ID_403857246" CREATED="1579097152571" MODIFIED="1579097162899"/>
-<node TEXT="Broker(&#x4e3b;&#x4ece;&#xff0c;&#x591a;&#x5bf9;)" ID="ID_1329018771" CREATED="1579097478315" MODIFIED="1579097495929">
-<node TEXT="&#x628a;topic&#x4e0b;&#x961f;&#x5217;&#x4fe1;&#x606f;(topic-queue-IP)&#x5b58;&#x50a8;&#x5230;NameServer" ID="ID_1875000072" CREATED="1579097534227" MODIFIED="1579097621569"/>
-</node>
-<node TEXT="NameServer(&#x591a;&#x4e2a;)" ID="ID_602680017" CREATED="1579097254827" MODIFIED="1579097391613"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      NameServer &#20043;&#38388;&#27809;&#26377;&#20219;&#20309;&#32852;&#31995;; &#27599;&#19968;&#20010;Broker&#37117;&#38656;&#35201;&#20381;&#27425;&#21521;&#27599;&#20010;NameServer&#27880;&#20876;;
-    </p>
-    <p>
-      &#32780; Kafka &#20351;&#29992; Zookeeper &#20316;&#20026;&#26381;&#21153;&#21457;&#29616;&#20013;&#24515;&#65292;Broker&#21482;&#38656;&#35201;&#21521;ZK master&#33410;&#28857;&#27880;&#20876;&#19968;&#27425;&#12290;
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
 <node TEXT="Producer" ID="ID_1034552778" CREATED="1579097664275" MODIFIED="1579097667611">
 <node TEXT="&#x6bcf;&#x9694;30s&#x4ece;NameServer&#x67e5;&#x8be2;topic&#x961f;&#x5217;&#x4fe1;&#x606f;" ID="ID_91356341" CREATED="1579097586875" MODIFIED="1579097879779"/>
 <node TEXT="&#x4ece;NameServer&#x67e5;&#x8be2;queue&#x961f;&#x5217;&#x4fe1;&#x606f;" ID="ID_274758563" CREATED="1579097669099" MODIFIED="1579097702740"/>
 <node TEXT="&#x6839;&#x636e;topic&#x548c;&#x8d1f;&#x8f7d;&#x5747;&#x8861;&#x7b97;&#x6cd5;&#x9009;&#x62e9;&#x4e00;&#x4e2a;&#x961f;&#x5217;" ID="ID_495175251" CREATED="1579097881186" MODIFIED="1579098011730"/>
 </node>
-<node TEXT="Consumer" ID="ID_1660017776" CREATED="1579098014546" MODIFIED="1579098020550"/>
 </node>
 </node>
 <node TEXT="&#x7591;&#x96be;&#x95ee;&#x9898;" ID="ID_813796260" CREATED="1579098049177" MODIFIED="1579098057502">
