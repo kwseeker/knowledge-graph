@@ -2378,7 +2378,7 @@
 
 </richcontent>
 </node>
-<node TEXT="jwt&#x8ba4;&#x8bc1;&#x6d41;&#x7a0b;" ID="ID_962447821" CREATED="1582620826046" MODIFIED="1582691230585" LINK="http://www.fengchang.cc/imageprocessing/fit?width=700&amp;height=600&amp;type=jpeg&amp;file=KbNyJOdMyK473vCV.png"><richcontent TYPE="NOTE">
+<node TEXT="jwt&#x8ba4;&#x8bc1;&#x6d41;&#x7a0b;" ID="ID_962447821" CREATED="1582620826046" MODIFIED="1582723117619" LINK="http://www.fengchang.cc/imageprocessing/fit?width=700&amp;height=600&amp;type=jpeg&amp;file=KbNyJOdMyK473vCV.png"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2407,10 +2407,10 @@
       3&#65289;&#27983;&#35272;&#22120;&#33719;&#21462;jwt&#65292;&#23558;jwt&#23384;&#20648;&#21040;&#19968;&#27573;&#20869;&#23384;&#20013;&#65292;&#27880;&#24847;&#19981;&#26159;cookie&#25110;LocalStorage&#20013;&#65292;&#22240;&#20026;&#21518;&#20004;&#32773;&#20998;&#21035;&#23481;&#26131;&#34987;CSRF&#21644;XSS&#25915;&#20987;&#12290;
     </p>
     <p>
-      4&#65289;&#27983;&#35272;&#22120;&#35831;&#27714;&#19994;&#21153;&#25509;&#21475;&#65292;&#20174;&#20869;&#23384;&#20013;&#21462;&#20986;jwt&#65292;&#25918;&#21040;&#35831;&#27714;&#30340;header &quot;<font color="rgb(229, 51, 51)" face="Microsoft YaHei, SF Pro Display, Roboto, Noto, Arial, PingFang SC, sans-serif" size="16px">Authorization</font>&quot; &#20013;&#12290;
+      4&#65289;&#27983;&#35272;&#22120;&#35831;&#27714;&#19994;&#21153;&#25509;&#21475;&#65292;&#20174;&#20869;&#23384;&#20013;&#21462;&#20986;jwt&#65292;&#25918;&#21040;&#35831;&#27714;&#30340;header &quot;<font color="rgb(229, 51, 51)" face="Microsoft YaHei, SF Pro Display, Roboto, Noto, Arial, PingFang SC, sans-serif">Authorization</font>&quot; &#20013;&#12290;
     </p>
     <p>
-      5&#65289;&#26381;&#21153;&#22120;&#33719;&#21462;&#35831;&#27714;&#20174;header&#35835;&#21462;&quot;<font color="rgb(229, 51, 51)" face="Microsoft YaHei, SF Pro Display, Roboto, Noto, Arial, PingFang SC, sans-serif" size="16px">Authorization</font>&quot;&#30340;&#20540;&#12290;&#28982;&#21518;&#35843;&#29992;AS&#35748;&#35777;&#25509;&#21475;&#36827;&#34892;&#35748;&#35777;&#65288;&#20351;&#29992;&#23494;&#38053;&#35299;&#23494;&#65292;&#28982;&#21518;&#33719;&#21462;jwt&#20869;&#37096;&#29992;&#25143;&#22522;&#26412;&#20449;&#24687;&#65289;&#12290;
+      5&#65289;&#26381;&#21153;&#22120;&#33719;&#21462;&#35831;&#27714;&#20174;header&#35835;&#21462;&quot;<font color="rgb(229, 51, 51)" face="Microsoft YaHei, SF Pro Display, Roboto, Noto, Arial, PingFang SC, sans-serif">Authorization</font>&quot;&#30340;&#20540;&#12290;&#28982;&#21518;&#35843;&#29992;AS&#35748;&#35777;&#25509;&#21475;&#36827;&#34892;&#35748;&#35777;&#65288;&#20351;&#29992;&#23494;&#38053;&#35299;&#23494;&#65292;&#28982;&#21518;&#33719;&#21462;jwt&#20869;&#37096;&#29992;&#25143;&#22522;&#26412;&#20449;&#24687;&#65289;&#12290;
     </p>
   </body>
 </html>
@@ -2527,6 +2527,77 @@
 </node>
 <node TEXT="&#x5168;&#x6587;&#x641c;&#x7d22;&#x5f15;&#x64ce;" ID="ID_1442156524" CREATED="1582445598631" MODIFIED="1582445618761" STYLE="bubble">
 <node TEXT="bleve" ID="ID_968316224" CREATED="1582445617559" MODIFIED="1582445653547" STYLE="bubble"/>
+</node>
+<node TEXT="&#x5185;&#x5b58;&#x6587;&#x4ef6;&#x7cfb;&#x7edf;" ID="ID_346045307" CREATED="1582719745750" MODIFIED="1582720296920" STYLE="bubble">
+<node TEXT="go-assets" ID="ID_1496588379" CREATED="1582719924938" MODIFIED="1582721012033" LINK="https://godoc.org/github.com/jessevdk/go-assets" STYLE="bubble"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span charset="utf-8" style="color: rgb(51, 51, 51); font-family: Helvetica Neue, Helvetica, Arial, Hiragino Sans GB, Hiragino Sans GB W3, Microsoft YaHei UI, Microsoft YaHei, sans-serif; font-size: 13px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; display: inline !important; float: none"><font color="rgb(51, 51, 51)" face="Helvetica Neue, Helvetica, Arial, Hiragino Sans GB, Hiragino Sans GB W3, Microsoft YaHei UI, Microsoft YaHei, sans-serif" size="13px">&#36825;&#31181;&#25991;&#20214;&#31995;&#32479;&#21487;&#20197;&#23558;&#25991;&#20214;&#36164;&#28304;&#38598;&#25104;&#21040;Web&#26381;&#21153;&#22120;&#25110;&#20854;&#20182;&#22312;&#36816;&#34892;&#26102;&#20351;&#29992;&#23569;&#37327;&#36164;&#28304;&#30340;&#26381;&#21153;&#20013;&#12290; </font></span>
+    </p>
+    <p>
+      <span charset="utf-8" style="color: rgb(51, 51, 51); font-family: Helvetica Neue, Helvetica, Arial, Hiragino Sans GB, Hiragino Sans GB W3, Microsoft YaHei UI, Microsoft YaHei, sans-serif; font-size: 13px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; display: inline !important; float: none"><font color="rgb(51, 51, 51)" face="Helvetica Neue, Helvetica, Arial, Hiragino Sans GB, Hiragino Sans GB W3, Microsoft YaHei UI, Microsoft YaHei, sans-serif" size="13px">&#21487;&#20197;&#26041;&#20415;&#20351;&#29992;&#21333;&#20010;&#20108;&#36827;&#21046;&#25991;&#20214;&#36827;&#34892;&#26381;&#21153;&#37096;&#32626;(&#22914;&#26524;&#27809;&#26377;&#36825;&#20010;&#19996;&#35199;&#37096;&#32626;&#30340;&#26102;&#20505;&#23601;&#38656;&#35201;&#25226;&#25991;&#20214;&#36164;&#28304;&#25335;&#36125;&#21040;&#20108;&#36827;&#21046;&#25991;&#20214;&#21516;&#30446;&#24405;&#19979;)&#12290; </font></span>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#27169;&#29256;&#25991;&#20214;&#24456;&#36866;&#21512;&#20351;&#29992;&#20869;&#23384;&#25991;&#20214;&#31995;&#32479;&#65292;&#23558;&#27169;&#29256;&#25991;&#20214;&#25972;&#21512;&#21040;&#26381;&#21153;&#30340;&#20108;&#36827;&#21046;&#25991;&#20214;&#20013;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x4f7f;&#x7528;&#x65b9;&#x6cd5;" ID="ID_724110334" CREATED="1582721503174" MODIFIED="1582722930809"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20351;&#29992;go-assets-builder&#23558;&#25991;&#20214;&#36164;&#28304;&#65288;&#27604;&#22914;&#65306;&#27169;&#29256;&#25991;&#20214;&#22841;html&#65289;&#36716;&#21270;&#25104;.go&#25991;&#20214;
+    </p>
+    <p>
+      go-assets-builder html -o assets.go
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#31243;&#24207;&#20013;&#38656;&#35201;&#23454;&#29616;&#20174;assets.go&#35299;&#26512;&#27169;&#29256;&#25991;&#20214;&#36335;&#24452;&#20197;&#21450;&#27169;&#29256;&#25991;&#20214;&#20869;&#23481;&#65307;
+    </p>
+    <p>
+      &#28982;&#21518;&#20351;&#29992;template&#30340;&#26041;&#27861;&#23558;&#25991;&#20214;&#20869;&#23481;&#21152;&#36733;&#22312;&#21040;Template&#32467;&#26500;&#20307;&#20013;&#12290;
+    </p>
+    <p>
+      &#28982;&#21518;&#20351;&#29992;gin.Engine&#30340;SetHTMLTemplate()&#26041;&#27861;&#21152;&#36733;&#21040;Engine&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#28982;&#21518;&#23601;&#21487;&#20197;&#20687;&#21152;&#36733;&#26412;&#22320;&#30913;&#30424;&#25991;&#20214;&#19968;&#26679;&#20351;&#29992;&#27169;&#29256;&#25991;&#20214;&#20102;<br/>
+    </p>
+    <p>
+      c.HTML(http.StatusOK, &quot;/html/index.tmpl&quot;, gin.H{
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;Foo&quot;: &quot;World&quot;,
+    </p>
+    <p>
+      })
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="&#x8f6f;&#x4ef6;&#x8bbe;&#x8ba1;" POSITION="right" ID="ID_1625116611" CREATED="1582527193651" MODIFIED="1582527206656" STYLE="bubble">
