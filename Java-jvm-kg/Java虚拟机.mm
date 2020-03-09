@@ -3,7 +3,7 @@
 <node TEXT="Java&#x865a;&#x62df;&#x673a;" FOLDED="false" ID="ID_644356039" CREATED="1577590050747" MODIFIED="1577590069985" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true"/>
+    <properties fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="10" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="11" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="0 &#x5404;&#x7ec4;&#x4ef6;&#x529f;&#x80fd;&#x548c;&#x5173;&#x7cfb;" POSITION="right" ID="ID_1860944614" CREATED="1577594350361" MODIFIED="1577594367186" STYLE="bubble">
 <edge COLOR="#7c0000"/>
 <node TEXT="JDK&#x3001;JRE&#x7684;&#x533a;&#x522b;" ID="ID_292258085" CREATED="1578389036129" MODIFIED="1578389150527">
@@ -100,7 +100,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="PC&#x673a;&#x5668;&#x7801;&#x6267;&#x884c;" ID="ID_1631832407" CREATED="1578405447959" MODIFIED="1578405472276">
@@ -133,7 +132,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -216,6 +214,10 @@
 <node TEXT="jinfo" ID="ID_1495327432" CREATED="1577594753336" MODIFIED="1577594757092"/>
 <node TEXT="jmap" ID="ID_635100375" CREATED="1577594757256" MODIFIED="1577594762659"/>
 </node>
+</node>
+<node TEXT="6 JIT&#x539f;&#x7406;&#x4f18;&#x5316;" POSITION="right" ID="ID_589112476" CREATED="1583554869016" MODIFIED="1583554880628">
+<edge COLOR="#7c7c00"/>
+<node TEXT="JIT&#x5de5;&#x4f5c;&#x539f;&#x7406;&#x56fe;" ID="ID_217459919" CREATED="1583557637639" MODIFIED="1583557660317" LINK="imgs/JIT&#x5de5;&#x4f5c;&#x539f;&#x7406;.png"/>
 </node>
 </node>
 </map>
