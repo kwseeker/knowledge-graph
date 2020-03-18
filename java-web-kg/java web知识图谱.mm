@@ -760,7 +760,7 @@
 <node TEXT="&#x5b58;&#x50a8;&#x8fc7;&#x7a0b;" ID="ID_580061666" CREATED="1570870051597" MODIFIED="1571634351867" ICON_SIZE="12.0 pt"/>
 <node TEXT="&#x89e6;&#x53d1;&#x5668;&#xff08;&#x4e00;&#x822c;&#x4e0d;&#x518d;&#x4f7f;&#x7528;&#xff09;" ID="ID_1055472762" CREATED="1570870057608" MODIFIED="1571634351867" ICON_SIZE="12.0 pt"/>
 </node>
-<node TEXT="MySQL" FOLDED="true" ID="ID_37917392" CREATED="1569668015966" MODIFIED="1571634351867" ICON_SIZE="12.0 pt" STYLE="bubble">
+<node TEXT="MySQL" ID="ID_37917392" CREATED="1569668015966" MODIFIED="1571634351867" ICON_SIZE="12.0 pt" STYLE="bubble">
 <edge STYLE="sharp_bezier"/>
 <richcontent TYPE="NOTE">
 
@@ -778,7 +778,788 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="MySQL&#x67b6;&#x6784;" ID="ID_482490440" CREATED="1569742766142" MODIFIED="1571634351867" ICON_SIZE="12.0 pt">
+<node TEXT="TODO" ID="ID_83489434" CREATED="1583760529670" MODIFIED="1583760537274">
+<node TEXT="&#x7d22;&#x5f15;&#x68c0;&#x7d22;&#x9700;&#x8981;&#x78c1;&#x76d8;IO&#x64cd;&#x4f5c;" ID="ID_1772354192" CREATED="1583760537756" MODIFIED="1583760557666"/>
+<node TEXT="&#x5bf9;&#x4e8e;&#x7ec4;&#x5408;&#x7d22;&#x5f15;&#xff0c;&#x5b58;&#x50a8;&#x5f15;&#x64ce;&#x4f1a;&#x4f18;&#x5316;&#x987a;&#x5e8f;" ID="ID_1262628618" CREATED="1583760558471" MODIFIED="1583760606819"/>
+<node TEXT="&#x5b58;&#x5728;null&#x503c;&#x7684;&#x5217;&#x5efa;&#x7d22;&#x5f15;&#xff0c;null&#x884c;&#x4e0d;&#x4f1a;&#x51fa;&#x73b0;&#x5728;B+&#x6811;&#x4e2d;" ID="ID_1977491588" CREATED="1583829144108" MODIFIED="1583829193671"/>
+<node TEXT="&#x975e;&#x552f;&#x4e00;&#x7d22;&#x5f15;&#xff0c;&#x5982;&#x679c;&#x51fa;&#x73b0;&#x7d22;&#x5f15;&#x5217;&#x76f8;&#x540c;&#x7684;&#x4e24;&#x884c;&#x6570;&#x636e;&#xff0c;&#x600e;&#x4e48;&#x5b58;&#x50a8;&#xff1f;&#xa;&#x6328;&#x7740;&#x952e;&#x76f8;&#x540c;&#x7684;&#x8282;&#x70b9;&#x5b58;&#x50a8;&#xff0c;B+&#x6811;&#x4e0d;&#x6392;&#x65a5;&#x76f8;&#x540c;&#x7684;&#x8282;&#x70b9;" ID="ID_1970455298" CREATED="1583826930884" MODIFIED="1583829811159"/>
+<node TEXT="select * from employees.employees where first_name like &apos;%an&apos;;&#xa;-- &#x8fd9;&#x79cd;&#x4f7f;&#x7528;&#x8986;&#x76d6;&#x7d22;&#x5f15;&#x771f;&#x7684;&#x80fd;&#x8d77;&#x5230;&#x6027;&#x80fd;&#x4f18;&#x5316;&#x7684;&#x6548;&#x679c;&#x4e48;&#xff1f;&#x53ea;&#x662f;&#x51cf;&#x5c11;&#x4e86;&#x4e00;&#x6b21;&#x7528;&#x4e3b;&#x952e;&#x518d;&#x67e5;&#x8be2;&#x6240;&#x6709;&#x5217;&#x503c;&#x7684;&#x64cd;&#x4f5c;&#xa;select first_name from employees.employees where first_name like &apos;%an&apos;;" ID="ID_107362886" CREATED="1583828094797" MODIFIED="1583828520696"/>
+<node TEXT="&#x7d22;&#x5f15;&#x503c;&#x53ef;&#x4e3a;null&#xff0c;where &lt;index_name&gt; is null &#x662f;&#x5426;&#x4f7f;&#x7528;&#x7d22;&#x5f15;&#xff1f;" ID="ID_1221230271" CREATED="1583830665641" MODIFIED="1583836347822">
+<icon BUILTIN="help"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p charset="utf-8" class="title" style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-size: 14.256px; vertical-align: baseline; background-color: rgb(255,; background-position: 255, 255); background-image: null; background-repeat: repeat; background-attachment: scroll; line-height: 1.75; display: block; color: rgb(85, 85, 85); font-family: Open Sans, Arial, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <font size="14.256px"><b style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-size: 14.256px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">&#23448;&#26041;&#25991;&#26723;&#35828;&#65292;&#38500;&#20102;&#20027;&#38190;&#32034;&#24341;&#65292;&#20854;&#20182;&#32034;&#24341;&#19981;&#38480;&#23450;&#38750;&#31354;&#30340;&#24773;&#20917;&#19979;&#37117;&#21487;&#20197;&#23384;&#20648;null&#20540;&#65292;&#32780;&#19988;is null&#12289; is not null &#37117;&#26159;&#20250;&#20351;&#29992;&#32034;&#24341;&#30340;&#12290; </b></font>
+    </p>
+    <p charset="utf-8" class="title" style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-size: 14.256px; vertical-align: baseline; background-color: rgb(255,; background-position: 255, 255); background-image: null; background-repeat: repeat; background-attachment: scroll; line-height: 1.75; display: block; color: rgb(85, 85, 85); font-family: Open Sans, Arial, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <font size="14.256px"><b style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-size: 14.256px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">Table&#160;13.2&#160;InnoDB Storage Engine Index Characteristics</b></font>
+    </p>
+    <div class="table-contents" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-size: 14.256px; vertical-align: baseline; background-color: rgb(255,; background-position: 255, 255); background-image: null; background-repeat: repeat; background-attachment: scroll; color: rgb(85, 85, 85); font-family: Open Sans, Arial, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <table summary="Index characteristics of the InnoDB storage engine." style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-size: 14.256px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-spacing: 0px; line-height: 1.6">
+        <colgroup>
+        <col width="15%"/>
+        <col width="10%"/>
+        <col width="15%"/>
+        <col width="20%"/>
+        <col width="20%"/>
+        <col width="20%"/>
+        </colgroup>
+        
+
+        <tr style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-size: 14.256px; vertical-align: top; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+          <th scope="col" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 3px; padding-right: 3px; padding-bottom: 3px; padding-left: 3px; font-size: 14.256px; vertical-align: baseline; background-color: rgb(255,; background-position: 255, 255); background-image: null; background-repeat: repeat; background-attachment: scroll; font-weight: 700; font-style: normal">
+            Index Class
+          </th>
+          <th scope="col" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 3px; padding-right: 3px; padding-bottom: 3px; padding-left: 3px; font-size: 14.256px; vertical-align: baseline; background-color: rgb(255,; background-position: 255, 255); background-image: null; background-repeat: repeat; background-attachment: scroll; font-weight: 700; font-style: normal">
+            Index Type
+          </th>
+          <th scope="col" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 3px; padding-right: 3px; padding-bottom: 3px; padding-left: 3px; font-size: 14.256px; vertical-align: baseline; background-color: rgb(255,; background-position: 255, 255); background-image: null; background-repeat: repeat; background-attachment: scroll; font-weight: 700; font-style: normal">
+            Stores NULL VALUES
+          </th>
+          <th scope="col" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 3px; padding-right: 3px; padding-bottom: 3px; padding-left: 3px; font-size: 14.256px; vertical-align: baseline; background-color: rgb(255,; background-position: 255, 255); background-image: null; background-repeat: repeat; background-attachment: scroll; font-weight: 700; font-style: normal">
+            Permits Multiple NULL Values
+          </th>
+          <th scope="col" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 3px; padding-right: 3px; padding-bottom: 3px; padding-left: 3px; font-size: 14.256px; vertical-align: baseline; background-color: rgb(255,; background-position: 255, 255); background-image: null; background-repeat: repeat; background-attachment: scroll; font-weight: 700; font-style: normal">
+            IS NULL Scan Type
+          </th>
+          <th scope="col" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 3px; padding-right: 3px; padding-bottom: 3px; padding-left: 3px; font-size: 14.256px; vertical-align: baseline; background-color: rgb(255,; background-position: 255, 255); background-image: null; background-repeat: repeat; background-attachment: scroll; font-weight: 700; font-style: normal">
+            IS NOT NULL Scan Type
+          </th>
+        </tr>
+        <tr style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-size: 14.256px; vertical-align: top; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+          <td scope="row" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 5px; padding-left: 5px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+            Primary key
+          </td>
+          <td style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 5px; padding-left: 5px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+            <code class="literal" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; color: rgb(0, 0, 0); font-weight: 400; font-family: Courier New, Courier, fixed, monospace"><font size="13.5432px" color="rgb(0, 0, 0)" face="Courier New, Courier, fixed, monospace">BTREE</font></code>
+          </td>
+          <td style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 5px; padding-left: 5px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+            No
+          </td>
+          <td style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 5px; padding-left: 5px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+            No
+          </td>
+          <td style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 5px; padding-left: 5px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+            N/A
+          </td>
+          <td style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 5px; padding-left: 5px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+            N/A
+          </td>
+        </tr>
+        <tr style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-size: 14.256px; vertical-align: top; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+          <td scope="row" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 5px; padding-left: 5px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+            Unique
+          </td>
+          <td style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 5px; padding-left: 5px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+            <code class="literal" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; color: rgb(0, 0, 0); font-weight: 400; font-family: Courier New, Courier, fixed, monospace"><font size="13.5432px" color="rgb(0, 0, 0)" face="Courier New, Courier, fixed, monospace">BTREE</font></code>
+          </td>
+          <td style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 5px; padding-left: 5px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+            Yes
+          </td>
+          <td style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 5px; padding-left: 5px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+            Yes
+          </td>
+          <td style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 5px; padding-left: 5px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+            Index
+          </td>
+          <td style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 5px; padding-left: 5px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+            Index
+          </td>
+        </tr>
+        <tr style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-size: 14.256px; vertical-align: top; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+          <td scope="row" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 5px; padding-left: 5px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+            Key
+          </td>
+          <td style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 5px; padding-left: 5px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+            <code class="literal" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; color: rgb(0, 0, 0); font-weight: 400; font-family: Courier New, Courier, fixed, monospace"><font size="13.5432px" color="rgb(0, 0, 0)" face="Courier New, Courier, fixed, monospace">BTREE</font></code>
+          </td>
+          <td style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 5px; padding-left: 5px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+            Yes
+          </td>
+          <td style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 5px; padding-left: 5px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+            Yes
+          </td>
+          <td style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 5px; padding-left: 5px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+            Index
+          </td>
+          <td style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 5px; padding-left: 5px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+            Index
+          </td>
+        </tr>
+        <tr style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-size: 14.256px; vertical-align: top; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+          <td scope="row" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 5px; padding-left: 5px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+            <code class="literal" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; color: rgb(0, 0, 0); font-weight: 400; font-family: Courier New, Courier, fixed, monospace"><font size="13.5432px" color="rgb(0, 0, 0)" face="Courier New, Courier, fixed, monospace">FULLTEXT</font></code>
+          </td>
+          <td style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 5px; padding-left: 5px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+            N/A
+          </td>
+          <td style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 5px; padding-left: 5px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+            Yes
+          </td>
+          <td style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 5px; padding-left: 5px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+            Yes
+          </td>
+          <td style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 5px; padding-left: 5px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+            Table
+          </td>
+          <td style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 5px; padding-left: 5px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+            Table
+          </td>
+        </tr>
+        <tr style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-size: 14.256px; vertical-align: top; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+          <td scope="row" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 5px; padding-left: 5px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+            <code class="literal" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; color: rgb(0, 0, 0); font-weight: 400; font-family: Courier New, Courier, fixed, monospace"><font size="13.5432px" color="rgb(0, 0, 0)" face="Courier New, Courier, fixed, monospace">SPATIAL</font></code>
+          </td>
+          <td style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 5px; padding-left: 5px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+            N/A
+          </td>
+          <td style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 5px; padding-left: 5px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+            No
+          </td>
+          <td style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 5px; padding-left: 5px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+            No
+          </td>
+          <td style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 5px; padding-left: 5px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+            N/A
+          </td>
+          <td style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 5px; padding-left: 5px; font-size: 13.5432px; vertical-align: baseline; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null">
+            N/A
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="is null &#x548c; is not null &#x90fd;&#x662f;&#x7528;&#x7d22;&#x5f15;&#xff1b;&#xa;null&#x8c8c;&#x4f3c;&#x4f5c;&#x4e3a;&#x4e00;&#x4e2a;&#x7279;&#x6b8a;&#x7684;&#x503c;&#x5b58;&#x50a8;&#xff0c;&#x800c;&#x4e14;&#x53ef;&#x4ee5;&#x540c;&#x65f6;&#x5b58;&#x50a8;&#x591a;&#x4e2a;null&#xff1b;&#x5355;&#x5217;&#x7d22;&#x5f15;B+&#x6811;&#x4e2d;&#x4e0d;&#x4f1a;&#x4fdd;&#x5b58;null&#x8282;&#x70b9;" ID="ID_224899368" CREATED="1583833062721" MODIFIED="1583833216018"/>
+</node>
+<node TEXT="&#x7ec4;&#x5408;&#x7d22;&#x5f15;&#xa;where firstname = &apos;aaa&apos; and lastname like &apos;b%&apos; and rankname = &apos;mss&apos; &#xff08;&#x7528;&#x5230;&#x4e09;&#x4e2a;&#xff09;&#xa;where firstname = &apos;aaa&apos; and lastname &gt; &apos;baa&apos; and rankname = &apos;mss&apos; &#xff08;&#x53ea;&#x7528;&#x5230;&#x4e24;&#x4e2a;&#xff09;" ID="ID_238026232" CREATED="1583836348973" MODIFIED="1583836453946">
+<icon BUILTIN="help"/>
+</node>
+</node>
+<node TEXT="MySQL&#x6587;&#x4ef6;" ID="ID_1614318263" CREATED="1583749782564" MODIFIED="1583749802898">
+<node TEXT="&#x6587;&#x4ef6;&#x5b58;&#x50a8;&#x4f4d;&#x7f6e;" ID="ID_1942841764" CREATED="1583750060912" MODIFIED="1583750070872">
+<node TEXT="Linux/MacOS&#x9ed8;&#x8ba4;: /usr/local/mysql/" ID="ID_329359016" CREATED="1583750093749" MODIFIED="1583757813302"/>
+</node>
+<node TEXT="5.7&#x548c;8.0&#x7248;&#x672c;&#x5dee;&#x5f02;" ID="ID_1281116374" CREATED="1583757292241" MODIFIED="1583757686565"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1&#65289;8.0&#27809;&#26377;.frm&#25991;&#20214;&#65292;&#34920;&#32467;&#26500;&#25968;&#25454;&#23384;&#20648;&#21040;&#31995;&#32479;&#34920;&#20013;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x914d;&#x7f6e;&#x6587;&#x4ef6;" ID="ID_125886020" CREATED="1569744167258" MODIFIED="1583757842450" ICON_SIZE="8.0 pt">
+<edge STYLE="sharp_bezier"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#37197;&#32622;&#25991;&#20214;&#36335;&#24452;&#65306;
+    </p>
+    <p>
+      Window&#65306;my.ini
+    </p>
+    <p>
+      Linux: my.cnf
+    </p>
+    <p>
+      Mac: &#40664;&#35748;&#27809;&#26377;&#37197;&#32622;&#25991;&#20214;
+    </p>
+    <p>
+      $ mysql --help | grep my.cnf
+    </p>
+    <p>
+      /etc/my.cnf /etc/mysql/my.cnf /usr/local/mysql/etc/my.cnf ~/.my.cnf
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="my.cnf" ID="ID_1388325167" CREATED="1583758436760" MODIFIED="1583760145878"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#20010;&#37197;&#32622;&#25991;&#20214;&#20013;&#30340;&#20540;&#19981;&#20934;&#30830;&#65292;&#21644; show variables like &quot;&quot; &#26174;&#31034;&#30340;&#20540;&#19981;&#21516;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      #
+    </p>
+    <p>
+      # The MySQL database server configuration file.
+    </p>
+    <p>
+      #
+    </p>
+    <p>
+      # You can copy this to one of:
+    </p>
+    <p>
+      # - &quot;/etc/mysql/my.cnf&quot; to set global options,
+    </p>
+    <p>
+      # - &quot;~/.my.cnf&quot; to set user-specific options.
+    </p>
+    <p>
+      #
+    </p>
+    <p>
+      # One can use all long options that the program supports.
+    </p>
+    <p>
+      # Run program with --help to get a list of available options and with
+    </p>
+    <p>
+      # --print-defaults to see which it would actually understand and use.
+    </p>
+    <p>
+      #
+    </p>
+    <p>
+      # For explanations see
+    </p>
+    <p>
+      # http://dev.mysql.com/doc/mysql/en/server-system-variables.html
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # This will be passed to all mysql clients
+    </p>
+    <p>
+      # It has been reported that passwords should be enclosed with ticks/quotes
+    </p>
+    <p>
+      # escpecially if they contain &quot;#&quot; chars...
+    </p>
+    <p>
+      # Remember to edit /etc/mysql/debian.cnf when changing the socket location.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # Here is entries for some specific programs
+    </p>
+    <p>
+      # The following values assume you have at least 32M ram
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      [mysqld_safe]
+    </p>
+    <p>
+      socket&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;= /var/run/mysqld/mysqld.sock
+    </p>
+    <p>
+      nice&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;= 0
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      [mysqld]
+    </p>
+    <p>
+      #
+    </p>
+    <p>
+      # * Basic Settings
+    </p>
+    <p>
+      #
+    </p>
+    <p>
+      user&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;= mysql
+    </p>
+    <p>
+      pid-file&#160;&#160;&#160;&#160;= /var/run/mysqld/mysqld.pid
+    </p>
+    <p>
+      socket&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;= /var/run/mysqld/mysqld.sock
+    </p>
+    <p>
+      port&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;= 3306
+    </p>
+    <p>
+      basedir&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;= /usr
+    </p>
+    <p>
+      datadir&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;= /var/lib/mysql
+    </p>
+    <p>
+      tmpdir&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;= /tmp
+    </p>
+    <p>
+      lc-messages-dir&#160;&#160;&#160;&#160;= /usr/share/mysql
+    </p>
+    <p>
+      skip-external-locking
+    </p>
+    <p>
+      #
+    </p>
+    <p>
+      # Instead of skip-networking the default is now to listen only on
+    </p>
+    <p>
+      # localhost which is more compatible and is not less secure.
+    </p>
+    <p>
+      bind-address&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;= 127.0.0.1
+    </p>
+    <p>
+      #
+    </p>
+    <p>
+      # * Fine Tuning
+    </p>
+    <p>
+      #
+    </p>
+    <p>
+      key_buffer_size&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;= 16M
+    </p>
+    <p>
+      max_allowed_packet&#160;&#160;&#160;&#160;= 16M
+    </p>
+    <p>
+      thread_stack&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;= 192K
+    </p>
+    <p>
+      thread_cache_size&#160;&#160;&#160;&#160;&#160;&#160;&#160;= 8
+    </p>
+    <p>
+      # This replaces the startup script and checks MyISAM tables if needed
+    </p>
+    <p>
+      # the first time they are touched
+    </p>
+    <p>
+      myisam-recover-options&#160;&#160;= BACKUP
+    </p>
+    <p>
+      #max_connections&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;= 100
+    </p>
+    <p>
+      #table_open_cache&#160;&#160;&#160;&#160;&#160;&#160;&#160;= 64
+    </p>
+    <p>
+      #thread_concurrency&#160;&#160;&#160;&#160;&#160;= 10
+    </p>
+    <p>
+      #
+    </p>
+    <p>
+      # * Query Cache Configuration
+    </p>
+    <p>
+      #
+    </p>
+    <p>
+      query_cache_limit&#160;&#160;&#160;&#160;= 1M
+    </p>
+    <p>
+      query_cache_size&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;= 16M
+    </p>
+    <p>
+      #
+    </p>
+    <p>
+      # * Logging and Replication
+    </p>
+    <p>
+      #
+    </p>
+    <p>
+      # Both location gets rotated by the cronjob.
+    </p>
+    <p>
+      # Be aware that this log type is a performance killer.
+    </p>
+    <p>
+      # As of 5.1 you can enable the log at runtime!
+    </p>
+    <p>
+      #general_log_file&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;= /var/log/mysql/mysql.log
+    </p>
+    <p>
+      #general_log&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;= 1
+    </p>
+    <p>
+      #
+    </p>
+    <p>
+      # Error log - should be very few entries.
+    </p>
+    <p>
+      #
+    </p>
+    <p>
+      log_error = /var/log/mysql/error.log
+    </p>
+    <p>
+      #
+    </p>
+    <p>
+      # Here you can see queries with especially long duration
+    </p>
+    <p>
+      #slow_query_log&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;= 1
+    </p>
+    <p>
+      #slow_query_log_file&#160;&#160;&#160;&#160;= /var/log/mysql/mysql-slow.log
+    </p>
+    <p>
+      #long_query_time = 2
+    </p>
+    <p>
+      #log-queries-not-using-indexes
+    </p>
+    <p>
+      #
+    </p>
+    <p>
+      # The following can be used as easy to replay backup logs or for replication.
+    </p>
+    <p>
+      # note: if you are setting up a replication slave, see README.Debian about
+    </p>
+    <p>
+      #&#160;&#160;&#160;&#160;&#160;&#160;&#160;other settings you may need to change.
+    </p>
+    <p>
+      #server-id&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;= 1
+    </p>
+    <p>
+      #log_bin&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;= /var/log/mysql/mysql-bin.log
+    </p>
+    <p>
+      expire_logs_days&#160;&#160;&#160;&#160;= 10
+    </p>
+    <p>
+      max_binlog_size&#160;&#160;&#160;= 100M
+    </p>
+    <p>
+      #binlog_do_db&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;= include_database_name
+    </p>
+    <p>
+      #binlog_ignore_db&#160;&#160;&#160;&#160;= include_database_name
+    </p>
+    <p>
+      #
+    </p>
+    <p>
+      # * InnoDB
+    </p>
+    <p>
+      #
+    </p>
+    <p>
+      # InnoDB is enabled by default with a 10MB datafile in /var/lib/mysql/.
+    </p>
+    <p>
+      # Read the manual for more InnoDB related options. There are many!
+    </p>
+    <p>
+      #
+    </p>
+    <p>
+      # * Security Features
+    </p>
+    <p>
+      #
+    </p>
+    <p>
+      # Read the manual, too, if you want chroot!
+    </p>
+    <p>
+      # chroot = /var/lib/mysql/
+    </p>
+    <p>
+      #
+    </p>
+    <p>
+      # For generating SSL certificates I recommend the OpenSSL GUI &quot;tinyca&quot;.
+    </p>
+    <p>
+      #
+    </p>
+    <p>
+      # ssl-ca=/etc/mysql/cacert.pem
+    </p>
+    <p>
+      # ssl-cert=/etc/mysql/server-cert.pem
+    </p>
+    <p>
+      # ssl-key=/etc/mysql/server-key.pem
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x670d;&#x52a1;&#x7aef;&#x53e3;&#x3001;&#x6587;&#x4ef6;&#x8def;&#x5f84;&#x3001;&#x7ed1;&#x5b9a;IP&#x3001;&#x67e5;&#x8be2;&#x7f13;&#x5b58;&#x3001;&#x65e5;&#x5fd7;&#x76f8;&#x5173;&#x914d;&#x7f6e;&#x3001;ssl&#x8fde;&#x63a5; ..." ID="ID_1698904407" CREATED="1583758527770" MODIFIED="1583758763722"/>
+</node>
+</node>
+<node TEXT="&#x6570;&#x636e;&#x6587;&#x4ef6;" ID="ID_665427456" CREATED="1569744176982" MODIFIED="1583758823767" ICON_SIZE="8.0 pt">
+<edge STYLE="sharp_bezier"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      SHOW VARIABLES LIKE '%datadir%';
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      InnoDB&#25968;&#25454;&#25991;&#20214;&#65306;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      .frm&#25991;&#20214;(8.0&#29256;&#26412;&#19981;&#22312;&#20351;&#29992;&#36825;&#20010;&#25991;&#20214;)&#65306;&#20027;&#35201;&#23384;&#25918;&#19982;&#34920;&#30456;&#20851;&#30340;&#25968;&#25454;&#20449;&#24687;,&#20027;&#35201;&#21253;&#25324;&#34920;&#32467;&#26500;&#30340;&#23450;&#20041;&#20449;&#24687;
+    </p>
+    <p>
+      .ibd&#65306;&#20351;&#29992;&#29420;&#20139;&#34920;&#31354;&#38388;&#23384;&#20648;&#34920;&#25968;&#25454;&#21644;&#32034;&#24341;&#20449;&#24687;&#65292;&#19968;&#24352;&#34920;&#23545;&#24212;&#19968;&#20010;ibd&#25991;&#20214;&#12290;
+    </p>
+    <p>
+      ibdata&#25991;&#20214;&#65306;&#20351;&#29992;&#20849;&#20139;&#34920;&#31354;&#38388;&#23384;&#20648;&#34920;&#25968;&#25454;&#21644;&#32034;&#24341;&#20449;&#24687;&#65292;&#25152;&#26377;&#34920;&#20849;&#21516;&#20351;&#29992;&#19968;&#20010;&#25110;&#32773;&#22810;&#20010;ibdata&#25991;
+    </p>
+    <p>
+      &#20214;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&lt;TABLE&gt;.frm" ID="ID_1774643980" CREATED="1583759094155" MODIFIED="1583759105291"/>
+<node TEXT="&lt;TABLE&gt;.ibd" ID="ID_774828673" CREATED="1583759105866" MODIFIED="1583759120891"/>
+<node TEXT="ibdata&lt;N&gt;" ID="ID_1742676219" CREATED="1583759123582" MODIFIED="1583759131871"/>
+</node>
+<node TEXT="&#x65e5;&#x5fd7;&#x6587;&#x4ef6;" ID="ID_1010323248" CREATED="1583757155675" MODIFIED="1583757159587">
+<node TEXT="&#x9519;&#x8bef;&#x65e5;&#x5fd7;" ID="ID_28621199" CREATED="1569746912900" MODIFIED="1583759427362" ICON_SIZE="8.0 pt"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $ show variables like 'log_error'
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#30001;&#37197;&#32622;&#25991;&#20214;&#20013;&#30340;log_error&#25351;&#23450;&#65306;
+    </p>
+    <p>
+      log_error = /var/log/mysql/error.log
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#38169;&#35823;&#26085;&#24535;&#35760;&#24405;&#20102;MySQL Server&#27599;&#27425;&#21551;&#21160;&#21644;&#20851;&#38381;&#30340;&#35814;&#32454;&#20449;&#24687;&#20197;&#21450;&#36816;&#34892;&#36807;&#31243;&#20013;&#25152;&#26377;&#36739;&#20026;&#20005;&#37325;&#30340;&#35686;&#21578;&#21644;&#38169;&#35823;&#20449;&#24687;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="error.log (my.cnf&#x7684;log_error&#x53c2;&#x6570;&#x6307;&#x5b9a;)" ID="ID_512416867" CREATED="1583759441833" MODIFIED="1583759483140"/>
+</node>
+<node TEXT="&#x4e8c;&#x8fdb;&#x5236;&#x65e5;&#x5fd7;" ID="ID_226815795" CREATED="1569744038155" MODIFIED="1583760003280" ICON_SIZE="8.0 pt">
+<edge STYLE="sharp_bezier"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $ show variables like 'log_bin%'
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#30001; my.cnf &#20013;&#19979;&#38754;&#19977;&#20010;&#21442;&#25968;&#25351;&#23450;&#65306;
+    </p>
+    <p>
+      log_bin = ON
+    </p>
+    <p>
+      log_bin_basename = /usr/local/mysql/data/binlog
+    </p>
+    <p>
+      log_bin_index = /usr/local/mysql/data/binlog.index<br/>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      bin log &#30340;&#25991;&#20214;&#21517;&#26684;&#24335;&#20026; binlog.000001 &#36825;&#31181;&#65292;mysql&#27599;&#37325;&#21551;&#19968;&#27425;&#29983;&#25104;&#19968;&#20010;binlog&#26085;&#24535;&#25991;&#20214;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      binlog&#35760;&#24405;&#20102;&#25968;&#25454;&#24211;&#25152;&#26377;&#30340;ddl&#35821;&#21477;&#21644;dml&#35821;&#21477;&#65292;&#20294;&#19981;&#21253;&#25324;select&#35821;&#21477;&#20869;&#23481;&#65292;&#35821;&#21477;&#20197;&#20107;&#20214;&#30340;&#24418;&#24335;&#20445;&#23384;&#65292;&#25551;
+    </p>
+    <p>
+      &#36848;&#20102;&#25968;&#25454;&#30340;&#21464;&#26356;&#39034;&#24207;&#65292;binlog&#36824;&#21253;&#25324;&#20102;&#27599;&#20010;&#26356;&#26032;&#35821;&#21477;&#30340;&#25191;&#34892;&#26102;&#38388;&#20449;&#24687;&#12290;&#22914;&#26524;&#26159;DDL&#35821;&#21477;&#65292;&#21017;&#30452;&#25509;&#35760;&#24405;&#21040;
+    </p>
+    <p>
+      binlog&#26085;&#24535;&#65292;&#32780;DML&#35821;&#21477;&#65292;&#24517;&#39035;&#36890;&#36807;&#20107;&#21153;&#25552;&#20132;&#25165;&#33021;&#35760;&#24405;&#21040;binlog&#26085;&#24535;&#20013;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="binlog.&lt;xxxxxx&gt;" ID="ID_1522494588" CREATED="1583759506003" MODIFIED="1583759523613"/>
+</node>
+<node TEXT="&#x901a;&#x7528;&#x67e5;&#x8be2;&#x65e5;&#x5fd7;" ID="ID_1490410040" CREATED="1569744068711" MODIFIED="1569825912058" ICON_SIZE="8.0 pt">
+<edge STYLE="sharp_bezier"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21861;&#37117;&#35760;&#24405; &#32791;&#24615;&#33021; &#29983;&#20135;&#20013;&#19981;&#24320;&#21551;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x6162;&#x67e5;&#x8be2;&#x65e5;&#x5fd7;" ID="ID_663281014" CREATED="1569744078070" MODIFIED="1569825912058" ICON_SIZE="8.0 pt">
+<edge STYLE="sharp_bezier"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      SQL&#35843;&#20248; &#23450;&#20301;&#24930;&#30340; select
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x5f00;&#x542f;&#x6162;&#x67e5;&#x8be2;&#x65e5;&#x5fd7;" ID="ID_646582720" CREATED="1569750067704" MODIFIED="1569825912058" ICON_SIZE="8.0 pt"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #&#24320;&#21551;&#24930;&#26597;&#35810;&#26085;&#24535;
+    </p>
+    <p>
+      slow_query_log=ON
+    </p>
+    <p>
+      #&#24930;&#26597;&#35810;&#30340;&#38408;&#20540;
+    </p>
+    <p>
+      long_query_time=3
+    </p>
+    <p>
+      #&#26085;&#24535;&#35760;&#24405;&#25991;&#20214;&#22914;&#26524;&#27809;&#26377;&#32473;&#20986;file_name&#20540;&#65292; &#40664;&#35748;&#20026;&#20027;&#26426;&#21517;&#65292;&#21518;&#32512;&#20026;-slow.log&#12290;&#22914;&#26524;&#32473;&#20986;&#20102;&#25991;&#20214;&#21517;&#65292;&#20294;&#19981;
+    </p>
+    <p>
+      &#26159;&#32477;&#23545;&#36335;&#24452;&#21517;&#65292;&#25991;&#20214;&#21017;&#20889;&#20837;&#25968;&#25454;&#30446;&#24405;&#12290;
+    </p>
+    <p>
+      slow_query_log_file=file_name
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x91cd;&#x505a;&#x65e5;&#x5fd7;" ID="ID_1329621361" CREATED="1569747215668" MODIFIED="1571634669216" ICON_SIZE="8.0 pt"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ib_logfile0 ib_logfile1 &#40664;&#35748;&#26159;8M&#65292;&#21487;&#20197;&#36890;&#36807;&#20462;&#25913;MySQL&#37197;&#32622;&#21442;&#25968; innodb_log_buffer_size &#20462;&#25913;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x56de;&#x6eda;&#x65e5;&#x5fd7;(undo log)" ID="ID_1069064909" CREATED="1569747223843" MODIFIED="1572063790746" ICON_SIZE="8.0 pt">
+<node TEXT="undo log&#x5b58;&#x50a8;&#x7ed3;&#x6784;" ID="ID_1336575241" CREATED="1572063984429" MODIFIED="1572064350830"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23384;&#20648;&#20869;&#23481;&#21253;&#25324;&#65306;
+    </p>
+    <p>
+      &#34892;id&#65292;&#20107;&#21153;id&#65292;&#22238;&#28378;&#25351;&#38024;&#65288;&#25351;&#21521;&#19978;&#19968;&#20010;&#21382;&#21490;&#29256;&#26412;&#35760;&#24405;&#65289;&#12289;&#34892;&#25968;&#25454;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x529f;&#x80fd;" ID="ID_1019500991" CREATED="1572063968509" MODIFIED="1572063979563">
+<node TEXT="1&#xff09;&#x6570;&#x636e;&#x5e93;&#x56de;&#x6eda;" ID="ID_1783442871" CREATED="1572063792394" MODIFIED="1572063812487"/>
+<node TEXT="2&#xff09;MVCC&#x63a7;&#x5236;" ID="ID_1221137106" CREATED="1572063812942" MODIFIED="1572063833568"/>
+</node>
+</node>
+<node TEXT="&#x4e2d;&#x7ee7;&#x65e5;&#x5fd7;" ID="ID_1790084506" CREATED="1569747233088" MODIFIED="1569825912058" ICON_SIZE="8.0 pt"/>
+</node>
+</node>
+<node TEXT="MySQL&#x67b6;&#x6784;" FOLDED="true" ID="ID_482490440" CREATED="1569742766142" MODIFIED="1571634351867" ICON_SIZE="12.0 pt">
 <edge STYLE="sharp_bezier"/>
 <node TEXT="&#x903b;&#x8f91;&#x67b6;&#x6784;" ID="ID_1917076782" CREATED="1569742790965" MODIFIED="1569825912056" ICON_SIZE="8.0 pt">
 <edge STYLE="sharp_bezier"/>
@@ -950,7 +1731,9 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="explain (&#x67e5;&#x770b;sql&#x6267;&#x884c;&#x8ba1;&#x5212;)" ID="ID_4046093" CREATED="1570702059723" MODIFIED="1571634351868" ICON_SIZE="12.0 pt"><richcontent TYPE="NOTE">
+<node TEXT="explain (&#x67e5;&#x770b;sql&#x6267;&#x884c;&#x8ba1;&#x5212;)" ID="ID_4046093" CREATED="1570702059723" MODIFIED="1583836204715" ICON_SIZE="12.0 pt">
+<icon BUILTIN="messagebox_warning"/>
+<richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1015,16 +1798,16 @@
       <b>type</b>&#160;: &#26597;&#35810;&#31867;&#22411;&#65292;&#38500;&#20102;ALL&#20043;&#22806;&#20854;&#20182;&#37117;&#20351;&#29992;&#20102;&#32034;&#24341;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;system&#65292;&#34920;&#20013;&#21482;&#26377;&#19968;&#34892;&#25968;&#25454;&#25110;&#32773;&#26159;&#31354;&#34920;&#12290;
+      &#160;&#160;&#160;&#160;&#160;&#160;<b>system&#65292;&#34920;&#20013;&#21482;&#26377;&#19968;&#34892;&#25968;&#25454;&#25110;&#32773;&#26159;&#31354;&#34920;</b>&#12290;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;const&#65292;&#20351;&#29992;&#21807;&#19968;&#32034;&#24341;&#25110;&#32773;&#20027;&#38190;&#65292;&#36820;&#22238;&#35760;&#24405;&#19968;&#23450;&#26159;1&#34892;&#35760;&#24405;&#30340;&#31561;&#20540;where&#26465;&#20214;&#26102;&#65292;&#36890;&#24120;type&#26159;const&#12290;&#20854;&#20182;&#25968;&#25454;&#24211;&#20063;&#21483;&#20570;&#21807;&#19968;&#32034;&#24341;&#25195;&#25551;
+      <b>&#160;&#160;&#160;&#160;&#160;&#160;const&#65292;&#20351;&#29992;&#21807;&#19968;&#32034;&#24341;&#25110;&#32773;&#20027;&#38190;&#65292;&#36820;&#22238;&#35760;&#24405;&#19968;&#23450;&#26159;1&#34892;&#35760;&#24405;&#30340;&#31561;&#20540;where&#26465;&#20214;&#26102;&#65292;&#36890;&#24120;type&#26159;const&#12290;&#20854;&#20182;&#25968;&#25454;&#24211;&#20063;&#21483;&#20570;&#21807;&#19968;&#32034;&#24341;&#25195;&#25551;</b>
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;eq_ref&#65292;&#20851;&#38190;&#23383;:&#36830;&#25509;&#23383;&#27573;&#20027;&#38190;&#25110;&#32773;&#21807;&#19968;&#24615;&#32034;&#24341;&#12290;&#27492;&#31867;&#22411;&#36890;&#24120;&#20986;&#29616;&#22312;&#22810;&#34920;&#30340; join &#26597;&#35810;, &#34920;&#31034;&#23545;&#20110;&#21069;&#34920;&#30340;&#27599;&#19968;&#20010;&#32467;&#26524;, &#37117;&#21482;&#33021;&#21305;&#37197;&#21040;&#21518;&#34920;&#30340;&#19968;&#34892;&#32467;&#26524;. &#24182;&#19988;&#26597;&#35810;&#30340;&#27604;&#36739;&#25805;&#20316;&#36890;&#24120;&#26159; '=', &#26597;&#35810;&#25928;&#29575;&#36739;&#39640;.
+      <b>&#160;&#160;&#160;&#160;&#160;&#160;eq_ref&#65292;&#20851;&#38190;&#23383;:&#36830;&#25509;&#23383;&#27573;&#20027;&#38190;&#25110;&#32773;&#21807;&#19968;&#24615;&#32034;&#24341;&#12290;&#27492;&#31867;&#22411;&#36890;&#24120;&#20986;&#29616;&#22312;&#22810;&#34920;&#30340; join &#26597;&#35810;, &#34920;&#31034;&#23545;&#20110;&#21069;&#34920;&#30340;&#27599;&#19968;&#20010;&#32467;&#26524;, &#37117;&#21482;&#33021;&#21305;&#37197;&#21040;&#21518;&#34920;&#30340;&#19968;&#34892;&#32467;&#26524;. &#24182;&#19988;&#26597;&#35810;&#30340;&#27604;&#36739;&#25805;&#20316;&#36890;&#24120;&#26159; '=', &#26597;&#35810;&#25928;&#29575;&#36739;&#39640;.</b>
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;ref&#65292;&#38024;&#23545;&#38750;&#21807;&#19968;&#24615;&#32034;&#24341;&#65292;&#20351;&#29992;&#31561;&#20540;&#65288;=&#65289;&#26597;&#35810;&#38750;&#20027;&#38190;&#12290;&#25110;&#32773;&#26159;&#20351;&#29992;&#20102;&#26368;&#24038;&#21069;&#32512;&#35268;&#21017;&#32034;&#24341;&#30340;&#26597;&#35810;&#12290;
+      <b>&#160;&#160;&#160;&#160;&#160;&#160;ref&#65292;&#38024;&#23545;&#38750;&#21807;&#19968;&#24615;&#32034;&#24341;&#65292;&#20351;&#29992;&#31561;&#20540;&#65288;=&#65289;&#26597;&#35810;&#38750;&#20027;&#38190;&#12290;&#25110;&#32773;&#26159;&#20351;&#29992;&#20102;&#26368;&#24038;&#21069;&#32512;&#35268;&#21017;&#32034;&#24341;&#30340;&#26597;&#35810;&#12290;</b>
     </p>
     <p>
       &#160;&#160;&#160;&#160;&#160;&#160;fulltext&#65292;&#20840;&#25991;&#32034;&#24341;&#26816;&#32034;&#65292;&#35201;&#27880;&#24847;&#65292;&#20840;&#25991;&#32034;&#24341;&#30340;&#20248;&#20808;&#32423;&#24456;&#39640;&#65292;&#33509;&#20840;&#25991;&#32034;&#24341;&#21644;&#26222;&#36890;&#32034;&#24341;&#21516;&#26102;&#23384;&#22312;&#26102;&#65292;mysql&#19981;&#31649;&#20195;&#20215;&#65292;&#20248;&#20808;&#36873;&#25321;&#20351;&#29992;&#20840;&#25991;&#32034;&#24341;
@@ -1039,16 +1822,16 @@
       &#160;&#160;&#160;&#160;&#160;&#160;index_subquery&#65292;&#29992;&#20110;in&#24418;&#24335;&#23376;&#26597;&#35810;&#20351;&#29992;&#21040;&#20102;&#36741;&#21161;&#32034;&#24341;&#25110;&#32773;in&#24120;&#25968;&#21015;&#34920;&#65292;&#23376;&#26597;&#35810;&#21487;&#33021;&#36820;&#22238;&#37325;&#22797;&#20540;&#65292;&#21487;&#20197;&#20351;&#29992;&#32034;&#24341;&#23558;&#23376;&#26597;&#35810;&#21435;&#37325;&#12290;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;range&#65292;&#32034;&#24341;&#33539;&#22260;&#25195;&#25551;&#65292;&#24120;&#35265;&#20110;&#20351;&#29992;&gt;,&lt;,is null,between ,in ,like&#31561;&#36816;&#31639;&#31526;&#30340;&#26597;&#35810;&#20013;&#12290;
+      <b>&#160;&#160;&#160;&#160;&#160;&#160;range&#65292;&#32034;&#24341;&#33539;&#22260;&#25195;&#25551;&#65292;&#24120;&#35265;&#20110;&#20351;&#29992;&gt;,&lt;,is null,between ,in ,like&#31561;&#36816;&#31639;&#31526;&#30340;&#26597;&#35810;&#20013;&#12290;</b>
     </p>
     <p>
       &#160;&#160;&#160;&#160;&#160;&#160;index_merge&#65292;&#34920;&#31034;&#26597;&#35810;&#20351;&#29992;&#20102;&#20004;&#20010;&#20197;&#19978;&#30340;&#32034;&#24341;&#65292;&#26368;&#21518;&#21462;&#20132;&#38598;&#25110;&#32773;&#24182;&#38598;&#65292;&#24120;&#35265;and &#65292;or&#30340;&#26465;&#20214;&#20351;&#29992;&#20102;&#19981;&#21516;&#30340;&#32034;&#24341;&#65292;&#23448;&#26041;&#25490;&#24207;&#36825;&#20010;&#22312;ref_or_null&#20043;&#21518;&#65292;&#20294;&#26159;&#23454;&#38469;&#19978;&#30001;&#20110;&#35201;&#35835;&#21462;&#25152;&#20010;&#32034;&#24341;&#65292;&#24615;&#33021;&#21487;&#33021;&#22823;&#37096;&#20998;&#26102;&#38388;&#37117;&#19981;&#22914;range
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;index&#65292;&#32034;&#24341;&#20840;&#34920;&#25195;&#25551;&#65292;&#25226;&#32034;&#24341;&#20174;&#22836;&#21040;&#23614;&#25195;&#19968;&#36941;&#65292;&#24120;&#35265;&#20110;&#20351;&#29992;&#32034;&#24341;&#21015;&#23601;&#21487;&#20197;&#22788;&#29702;&#19981;&#38656;&#35201;&#35835;&#21462;&#25968;&#25454;&#25991;&#20214;&#30340;&#26597;&#35810;&#12289;&#21487;
+      <b>&#160;&#160;&#160;&#160;&#160;&#160;index&#65292;&#32034;&#24341;&#20840;&#34920;&#25195;&#25551;&#65292;&#25226;&#32034;&#24341;&#20174;&#22836;&#21040;&#23614;&#25195;&#19968;&#36941;&#65292;&#24120;&#35265;&#20110;&#20351;&#29992;&#32034;&#24341;&#21015;&#23601;&#21487;&#20197;&#22788;&#29702;&#19981;&#38656;&#35201;&#35835;&#21462;&#25968;&#25454;&#25991;&#20214;&#30340;&#26597;&#35810;&#12289;&#21487;&#20197;&#20351;&#29992;&#32034;&#24341;&#25490;&#24207;&#25110;&#32773;&#20998;&#32452;&#30340;&#26597;&#35810;&#12290; </b>
     </p>
     <p>
-      &#20197;&#20351;&#29992;&#32034;&#24341;&#25490;&#24207;&#25110;&#32773;&#20998;&#32452;&#30340;&#26597;&#35810;&#12290;
+      <b>&#160;&#160;&#160;&#160;&#160;&#160;NULL&#65306;mysql&#33021;&#22815;&#22312;&#20248;&#21270;&#38454;&#27573;&#20998;&#35299;&#26597;&#35810;&#35821;&#21477;&#65292;&#22312;&#25191;&#34892;&#38454;&#27573;&#29992;&#19981;&#30528;&#20877;&#35775;&#38382;&#34920;&#25110;&#32034;&#24341;&#12290;</b>
     </p>
     <p>
       &#160;&#160;&#160;&#160;&#160;&#160;ALL
@@ -1081,7 +1864,7 @@
       rows : &#36825;&#37324;&#26159;&#25191;&#34892;&#35745;&#21010;&#20013;&#20272;&#31639;&#30340;&#25195;&#25551;&#34892;&#25968;&#65292;&#19981;&#26159;&#31934;&#30830;&#20540;&#65288;InnoDB&#19981;&#26159;&#31934;&#30830;&#30340;&#20540;&#65292;MyISAM&#26159;&#31934;&#30830;&#30340;&#20540;&#65292;&#20027;&#35201;&#21407;&#22240;&#26159;InnoDB&#37324;&#38754;&#20351;&#29992;&#20102;MVCC&#24182;&#21457;&#26426;&#21046;&#65289;
     </p>
     <p>
-      Extra :&#160;&#36825;&#20010;&#21015;&#21253;&#21547;&#19981;&#36866;&#21512;&#22312;&#20854;&#20182;&#21015;&#20013;&#26174;&#31034;&#21333;&#21313;&#20998;&#37325;&#35201;&#30340;&#39069;&#22806;&#30340;&#20449;&#24687;&#65292;&#36825;&#20010;&#21015;&#21487;&#20197;&#26174;&#31034;&#30340;&#20449;&#24687;&#38750;&#24120;&#22810;&#65292;&#26377;&#20960;&#21313;&#31181;&#65292;&#24120;&#29992;&#30340;&#26377;
+      <b>Extra :&#160;&#65288;&#36825;&#20010;&#21442;&#25968;&#34920;&#31034;select&#21518;&#38754;&#35821;&#21477;&#65292;type&#21442;&#25968;&#26159;&#25351;where&#21518;&#38754;&#35821;&#21477;&#20351;&#29992;&#32034;&#24341;&#24773;&#20917;&#65289;</b>&#36825;&#20010;&#21015;&#21253;&#21547;&#19981;&#36866;&#21512;&#22312;&#20854;&#20182;&#21015;&#20013;&#26174;&#31034;&#21333;&#21313;&#20998;&#37325;&#35201;&#30340;&#39069;&#22806;&#30340;&#20449;&#24687;&#65292;&#36825;&#20010;&#21015;&#21487;&#20197;&#26174;&#31034;&#30340;&#20449;&#24687;&#38750;&#24120;&#22810;&#65292;&#26377;&#20960;&#21313;&#31181;&#65292;&#24120;&#29992;&#30340;&#26377;
     </p>
     <p>
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;no tables used&#65306;
@@ -1099,7 +1882,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;MySQL&#20013;&#26080;&#27861;&#21033;&#29992;&#32034;&#24341;&#23436;&#25104;&#30340;&#25490;&#24207;&#25805;&#20316;&#31216;&#20026;&#8220;&#25991;&#20214;&#25490;&#24207;&#8221;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;using index&#65306;
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;using index(&#26597;&#35810;&#30340;&#21015;&#34987;&#32034;&#24341;&#35206;&#30422;)&#65306;
     </p>
     <p>
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#26597;&#35810;&#26102;&#19981;&#38656;&#35201;&#22238;&#34920;&#26597;&#35810;&#65292;&#30452;&#25509;&#36890;&#36807;&#32034;&#24341;&#23601;&#21487;&#20197;&#33719;&#21462;&#26597;&#35810;&#30340;&#25968;&#25454;&#12290;
@@ -1129,7 +1912,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#22312;select&#37096;&#20998;&#20351;&#29992;&#20102;distinct&#20851;&#38190;&#23383; &#65288;&#32034;&#24341;&#23383;&#27573;&#65289;
     </p>
     <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;using where&#65306;
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;using where&#65288;&#26410;&#34987;&#32034;&#24341;&#35206;&#30422;&#65292;&#20351;&#29992;where&#35821;&#21477;&#31579;&#36873;&#20986;&#26469;&#30340;&#32467;&#26524;&#65289;&#65306;
     </p>
     <p>
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#34920;&#31034;&#23384;&#20648;&#24341;&#25806;&#36820;&#22238;&#30340;&#35760;&#24405;&#24182;&#19981;&#26159;&#25152;&#26377;&#30340;&#37117;&#28385;&#36275;&#26597;&#35810;&#26465;&#20214;&#65292;&#38656;&#35201;&#22312;server&#23618;&#36827;&#34892;&#36807;&#28388;&#12290;
@@ -1147,19 +1930,20 @@
       <b>key_len&#30340;&#38271;&#24230;&#35745;&#31639;&#20844;&#24335;</b>&#65306;
     </p>
     <p>
-      varchr(10)&#21464;&#38271;&#23383;&#27573;&#19988;&#20801;&#35768;NULL&#160;&#160;&#160;&#160;=&#160;&#160;10 * ( character set&#65306;utf8=3,gbk=2,latin1=1)+1(NULL)+2(&#21464;&#38271;&#23383;&#27573;)
+      varchr(10)&#21464;&#38271;&#23383;&#27573;&#19988;&#20801;&#35768;NULL&#160;&#160;&#160;&#160;=&#160;&#160;10 * ( character set&#65306;utf8mb4=4,utf8=3,gbk=2,latin1=1)+1(NULL)+2(&#21464;&#38271;&#23383;&#27573;)
     </p>
     <p>
-      varchr(10)&#21464;&#38271;&#23383;&#27573;&#19988;&#19981;&#20801;&#35768;NULL =&#160;&#160;10 * ( character set&#65306;utf8=3,gbk=2,latin1=1)+2(&#21464;&#38271;&#23383;&#27573;)
+      varchr(10)&#21464;&#38271;&#23383;&#27573;&#19988;&#19981;&#20801;&#35768;NULL =&#160;&#160;10 * ( character set&#65306;utf8mb4=4,utf8=3,gbk=2,latin1=1)+2(&#21464;&#38271;&#23383;&#27573;)
     </p>
     <p>
-      char(10)&#22266;&#23450;&#23383;&#27573;&#19988;&#20801;&#35768;NULL&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;=&#160;&#160;10 * ( character set&#65306;utf8=3,gbk=2,latin1=1)+1(NULL)
+      char(10)&#22266;&#23450;&#23383;&#27573;&#19988;&#20801;&#35768;NULL&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;=&#160;&#160;10 * ( character set&#65306;utf8mb4=4,utf8=3,gbk=2,latin1=1)+1(NULL)
     </p>
     <p>
-      char(10)&#22266;&#23450;&#23383;&#27573;&#19988;&#19981;&#20801;&#35768;NULL&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;=&#160;&#160;10 * ( character set&#65306;utf8=3,gbk=2,latin1=1)
+      char(10)&#22266;&#23450;&#23383;&#27573;&#19988;&#19981;&#20801;&#35768;NULL&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;=&#160;&#160;10 * ( character set&#65306;utf8mb4=4,utf8=3,gbk=2,latin1=1)
     </p>
   </body>
 </html>
+
 </richcontent>
 <font BOLD="false"/>
 </node>
@@ -1185,6 +1969,7 @@
 <edge STYLE="sharp_bezier"/>
 <node TEXT="MyISAM" ID="ID_298410994" CREATED="1569741491054" MODIFIED="1571634351868" ICON_SIZE="12.0 pt">
 <edge STYLE="sharp_bezier"/>
+<node TEXT="&#x7d22;&#x5f15;&#x7684;&#x6570;&#x636e;&#x7ed3;&#x6784;&#x4e5f;&#x662f;B+&#x6811;&#xff0c;&#x4f46;&#x662f;&#x4eba;&#x5bb6;&#x53f6;&#x5b50;&#x8282;&#x70b9;&#x4e0d;&#x5b58;&#x6570;&#x636e;&#x800c;&#x662f;&#x5b58;&#x78c1;&#x76d8;&#x5b58;&#x50a8;&#x5730;&#x5740;&#xff08;&#x5373;&#x975e;&#x805a;&#x7c07;&#x7d22;&#x5f15;&#xff09;&#xff0c;&#x5148;&#x901a;&#x8fc7;&#x7d22;&#x5f15;&#x67e5;&#x5b58;&#x50a8;&#x5730;&#x5740;&#xff0c;&#x518d;&#x7528;&#x5b58;&#x50a8;&#x5730;&#x5740;&#x67e5;.frm&#x6587;&#x4ef6;&#x8bfb;&#x53d6;&#x6570;&#x636e;" ID="ID_161885242" CREATED="1583806503032" MODIFIED="1583806642589"/>
 </node>
 <node TEXT="InnoDB" ID="ID_1445373508" CREATED="1569741499741" MODIFIED="1571634351868" ICON_SIZE="12.0 pt">
 <edge STYLE="sharp_bezier"/>
@@ -1251,247 +2036,50 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="MySQL&#x65e5;&#x5fd7;&#x4e0e;&#x6587;&#x4ef6;" ID="ID_211781475" CREATED="1569742687346" MODIFIED="1571634351868" ICON_SIZE="12.0 pt">
-<edge STYLE="sharp_bezier"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#26085;&#24535;&#25991;&#20214;&#36335;&#24452;&#65306;
-    </p>
-    <p>
-      Linux&#21644;Mac&#40664;&#35748;&#36335;&#24452;&#65306;/usr/local/mysql/data/
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#37197;&#32622;&#25991;&#20214;&#36335;&#24452;&#65306;
-    </p>
-    <p>
-      Window&#65306;my.ini
-    </p>
-    <p>
-      Linux: my.cnf
-    </p>
-    <p>
-      Mac: &#40664;&#35748;&#27809;&#26377;&#37197;&#32622;&#25991;&#20214;
-    </p>
-    <p>
-      $ mysql --help | grep my.cnf
-    </p>
-    <p>
-      /etc/my.cnf /etc/mysql/my.cnf /usr/local/mysql/etc/my.cnf ~/.my.cnf
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="&#x9519;&#x8bef;&#x65e5;&#x5fd7;" ID="ID_28621199" CREATED="1569746912900" MODIFIED="1569825912058" ICON_SIZE="8.0 pt"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      $ show variables like 'log_error'<br/>/usr/local/mysql/data/mysqld.local.err
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#38169;&#35823;&#26085;&#24535;&#35760;&#24405;&#20102;MySQL Server&#27599;&#27425;&#21551;&#21160;&#21644;&#20851;&#38381;&#30340;&#35814;&#32454;&#20449;&#24687;&#20197;&#21450;&#36816;&#34892;&#36807;&#31243;&#20013;&#25152;&#26377;&#36739;&#20026;&#20005;&#37325;&#30340;&#35686;&#21578;&#21644;&#38169;&#35823;&#20449;&#24687;&#12290;
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="&#x4e8c;&#x8fdb;&#x5236;&#x65e5;&#x5fd7; binlog" ID="ID_226815795" CREATED="1569744038155" MODIFIED="1569825912058" ICON_SIZE="8.0 pt">
-<edge STYLE="sharp_bezier"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      $ show variables like 'log_bin%'
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      bin log &#30340;&#25991;&#20214;&#21517;&#26684;&#24335;&#20026; binlog.000001 &#36825;&#31181;&#65292;mysql&#27599;&#37325;&#21551;&#19968;&#27425;&#29983;&#25104;&#19968;&#20010;binlog&#26085;&#24535;&#25991;&#20214;&#12290;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      binlog&#35760;&#24405;&#20102;&#25968;&#25454;&#24211;&#25152;&#26377;&#30340;ddl&#35821;&#21477;&#21644;dml&#35821;&#21477;&#65292;&#20294;&#19981;&#21253;&#25324;select&#35821;&#21477;&#20869;&#23481;&#65292;&#35821;&#21477;&#20197;&#20107;&#20214;&#30340;&#24418;&#24335;&#20445;&#23384;&#65292;&#25551;
-    </p>
-    <p>
-      &#36848;&#20102;&#25968;&#25454;&#30340;&#21464;&#26356;&#39034;&#24207;&#65292;binlog&#36824;&#21253;&#25324;&#20102;&#27599;&#20010;&#26356;&#26032;&#35821;&#21477;&#30340;&#25191;&#34892;&#26102;&#38388;&#20449;&#24687;&#12290;&#22914;&#26524;&#26159;DDL&#35821;&#21477;&#65292;&#21017;&#30452;&#25509;&#35760;&#24405;&#21040;
-    </p>
-    <p>
-      binlog&#26085;&#24535;&#65292;&#32780;DML&#35821;&#21477;&#65292;&#24517;&#39035;&#36890;&#36807;&#20107;&#21153;&#25552;&#20132;&#25165;&#33021;&#35760;&#24405;&#21040;binlog&#26085;&#24535;&#20013;&#12290;
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="&#x901a;&#x7528;&#x67e5;&#x8be2;&#x65e5;&#x5fd7;" ID="ID_1490410040" CREATED="1569744068711" MODIFIED="1569825912058" ICON_SIZE="8.0 pt">
-<edge STYLE="sharp_bezier"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#21861;&#37117;&#35760;&#24405; &#32791;&#24615;&#33021; &#29983;&#20135;&#20013;&#19981;&#24320;&#21551;
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="&#x6162;&#x67e5;&#x8be2;&#x65e5;&#x5fd7;" ID="ID_663281014" CREATED="1569744078070" MODIFIED="1569825912058" ICON_SIZE="8.0 pt">
-<edge STYLE="sharp_bezier"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      SQL&#35843;&#20248; &#23450;&#20301;&#24930;&#30340; select
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="&#x5f00;&#x542f;&#x6162;&#x67e5;&#x8be2;&#x65e5;&#x5fd7;" ID="ID_646582720" CREATED="1569750067704" MODIFIED="1569825912058" ICON_SIZE="8.0 pt"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      #&#24320;&#21551;&#24930;&#26597;&#35810;&#26085;&#24535;
-    </p>
-    <p>
-      slow_query_log=ON
-    </p>
-    <p>
-      #&#24930;&#26597;&#35810;&#30340;&#38408;&#20540;
-    </p>
-    <p>
-      long_query_time=3
-    </p>
-    <p>
-      #&#26085;&#24535;&#35760;&#24405;&#25991;&#20214;&#22914;&#26524;&#27809;&#26377;&#32473;&#20986;file_name&#20540;&#65292; &#40664;&#35748;&#20026;&#20027;&#26426;&#21517;&#65292;&#21518;&#32512;&#20026;-slow.log&#12290;&#22914;&#26524;&#32473;&#20986;&#20102;&#25991;&#20214;&#21517;&#65292;&#20294;&#19981;
-    </p>
-    <p>
-      &#26159;&#32477;&#23545;&#36335;&#24452;&#21517;&#65292;&#25991;&#20214;&#21017;&#20889;&#20837;&#25968;&#25454;&#30446;&#24405;&#12290;
-    </p>
-    <p>
-      slow_query_log_file=file_name
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="&#x91cd;&#x505a;&#x65e5;&#x5fd7;" ID="ID_1329621361" CREATED="1569747215668" MODIFIED="1571634669216" ICON_SIZE="8.0 pt"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      ib_logfile0 ib_logfile1 &#40664;&#35748;&#26159;8M&#65292;&#21487;&#20197;&#36890;&#36807;&#20462;&#25913;MySQL&#37197;&#32622;&#21442;&#25968; innodb_log_buffer_size &#20462;&#25913;&#12290;
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="&#x56de;&#x6eda;&#x65e5;&#x5fd7;(undo log)" ID="ID_1069064909" CREATED="1569747223843" MODIFIED="1572063790746" ICON_SIZE="8.0 pt">
-<node TEXT="undo log&#x5b58;&#x50a8;&#x7ed3;&#x6784;" ID="ID_1336575241" CREATED="1572063984429" MODIFIED="1572064350830"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#23384;&#20648;&#20869;&#23481;&#21253;&#25324;&#65306;
-    </p>
-    <p>
-      &#34892;id&#65292;&#20107;&#21153;id&#65292;&#22238;&#28378;&#25351;&#38024;&#65288;&#25351;&#21521;&#19978;&#19968;&#20010;&#21382;&#21490;&#29256;&#26412;&#35760;&#24405;&#65289;&#12289;&#34892;&#25968;&#25454;&#12290;
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="&#x529f;&#x80fd;" ID="ID_1019500991" CREATED="1572063968509" MODIFIED="1572063979563">
-<node TEXT="1&#xff09;&#x6570;&#x636e;&#x5e93;&#x56de;&#x6eda;" ID="ID_1783442871" CREATED="1572063792394" MODIFIED="1572063812487"/>
-<node TEXT="2&#xff09;MVCC&#x63a7;&#x5236;" ID="ID_1221137106" CREATED="1572063812942" MODIFIED="1572063833568"/>
-</node>
-</node>
-<node TEXT="&#x4e2d;&#x7ee7;&#x65e5;&#x5fd7;" ID="ID_1790084506" CREATED="1569747233088" MODIFIED="1569825912058" ICON_SIZE="8.0 pt"/>
-<node TEXT="&#x914d;&#x7f6e;&#x6587;&#x4ef6;" ID="ID_125886020" CREATED="1569744167258" MODIFIED="1569825912058" ICON_SIZE="8.0 pt">
-<edge STYLE="sharp_bezier"/>
-</node>
-<node TEXT="&#x6570;&#x636e;&#x6587;&#x4ef6;" ID="ID_665427456" CREATED="1569744176982" MODIFIED="1569825912058" ICON_SIZE="8.0 pt">
-<edge STYLE="sharp_bezier"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      SHOW VARIABLES LIKE '%datadir%';
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      InnoDB&#25968;&#25454;&#25991;&#20214;
-    </p>
-    <p>
-      .frm&#25991;&#20214;&#65306;&#20027;&#35201;&#23384;&#25918;&#19982;&#34920;&#30456;&#20851;&#30340;&#25968;&#25454;&#20449;&#24687;,&#20027;&#35201;&#21253;&#25324;&#34920;&#32467;&#26500;&#30340;&#23450;&#20041;&#20449;&#24687;
-    </p>
-    <p>
-      .ibd&#65306;&#20351;&#29992;&#29420;&#20139;&#34920;&#31354;&#38388;&#23384;&#20648;&#34920;&#25968;&#25454;&#21644;&#32034;&#24341;&#20449;&#24687;&#65292;&#19968;&#24352;&#34920;&#23545;&#24212;&#19968;&#20010;ibd&#25991;&#20214;&#12290;
-    </p>
-    <p>
-      ibdata&#25991;&#20214;&#65306;&#20351;&#29992;&#20849;&#20139;&#34920;&#31354;&#38388;&#23384;&#20648;&#34920;&#25968;&#25454;&#21644;&#32034;&#24341;&#20449;&#24687;&#65292;&#25152;&#26377;&#34920;&#20849;&#21516;&#20351;&#29992;&#19968;&#20010;&#25110;&#32773;&#22810;&#20010;ibdata&#25991;
-    </p>
-    <p>
-      &#20214;&#12290;
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="MySQL&#x7d22;&#x5f15;" ID="ID_1623129493" CREATED="1569742233371" MODIFIED="1571634351868" ICON_SIZE="12.0 pt">
+<node TEXT="InnoDB&#x7d22;&#x5f15;" ID="ID_1623129493" CREATED="1569742233371" MODIFIED="1583802756612" ICON_SIZE="12.0 pt">
 <edge STYLE="sharp_bezier"/>
 <node TEXT="&#x7d22;&#x5f15;&#x539f;&#x7406;" ID="ID_628548458" CREATED="1569742286460" MODIFIED="1569825912056" ICON_SIZE="8.0 pt">
 <edge STYLE="sharp_bezier"/>
-<node TEXT="B+ Tree" ID="ID_1567821991" CREATED="1569750579227" MODIFIED="1569825912056" ICON_SIZE="8.0 pt" LINK="https://github.com/kwseeker/data-structure-and-algorithms"><richcontent TYPE="NOTE">
+<node TEXT="Hash&#x7d22;&#x5f15;&#xff08;&#x53ef;&#x9009;&#xff09;" ID="ID_362311438" CREATED="1583760949073" MODIFIED="1583763569411" LINK="%20imgs/MySQL%20Hash&#x7d22;&#x5f15;&#x539f;&#x7406;.png"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20248;&#21183;&#65306;
+    </p>
+    <p>
+      &#31561;&#20540;&#26597;&#35810;&#19988;&#32034;&#24341;&#20540;&#21807;&#19968;&#21069;&#25552;&#19979;&#36895;&#24230;&#20250;&#38750;&#24120;&#30340;&#24555;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21155;&#21183;&#65306;
+    </p>
+    <p>
+      &#26377;&#19968;&#20123;&#22330;&#26223;&#26080;&#27861;&#20351;&#29992;&#65288;&#22240;&#20026;HashCode&#21644;&#32034;&#24341;&#20540;&#24182;&#19981;&#26159;&#19968;&#33268;&#30340;&#39034;&#24207;&#65289;&#65306;
+    </p>
+    <p>
+      1&#65289;Hash&#32034;&#24341;&#26080;&#27861;&#29992;&#20110;&#33539;&#22260;&#26597;&#35810;&#65307;
+    </p>
+    <p>
+      2&#65289;Hash&#32034;&#24341;&#26080;&#27861;&#29992;&#20110; like &quot;xxx%&quot; &#27169;&#31946;&#26597;&#35810;&#65307;
+    </p>
+    <p>
+      3&#65289;Hash&#32034;&#24341;&#19981;&#33021;&#29992;&#20110;&#32452;&#21512;&#32034;&#24341;&#65307;
+    </p>
+    <p>
+      4&#65289;Hash&#32034;&#24341;&#22312;&#38190;&#20540;&#22823;&#37327;&#37325;&#22797;&#24773;&#20917;&#19979;&#65292;&#25928;&#29575;&#24456;&#20302;&#65292;&#22240;&#20026;&#36825;&#31181;&#24773;&#20917;&#19979;&#22823;&#37327;&#30896;&#25758;&#65292;&#20351;&#29992;Hash&#26742;&#23384;&#20648;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="B+&#x6811;&#x7d22;&#x5f15;" ID="ID_1567821991" CREATED="1569750579227" MODIFIED="1583769492806" ICON_SIZE="8.0 pt" LINK="%20imgs/B+&#x6811;&#x793a;&#x4f8b;.png"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1500,6 +2088,18 @@
   <body>
     <p>
       &#22810;&#21449;&#24179;&#34913;&#26597;&#25214;&#26641;, &#36215;&#21021;&#26159;&#20026;&#20102;&#22788;&#29702;&#30913;&#30424;&#35775;&#38382;&#32780;&#35774;&#35745;&#65292;&#36890;&#36807;&#38477;&#20302;&#26641;&#30340;&#39640;&#24230;&#65292;&#20943;&#23569;IO&#35835;&#20889;&#27425;&#25968;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#19979;&#38754;&#26159;&#26576;&#26412;&#20070;&#19978;&#30340;&#23450;&#20041;&#65292;&#20294;&#26159;&#26214;&#28073;&#38590;&#25026;&#65292;&#21487;&#20197;&#26080;&#35270;&#65307;&#30452;&#25509;&#21442;&#32771;&#36825;&#20010;&#32593;&#31449;&#26356;&#22909;&#65306;<a charset="utf-8" href="https://www.cs.usfca.edu/~galles/visualization/BPlusTree.html">https://www.cs.usfca.edu/~galles/visualization/BPlusTree.html</a>
+    </p>
+    <p>
+      &#21482;&#38656;&#35201;&#27880;&#24847;B+&#26641;&#30340;&#19977;&#20010;&#37325;&#35201;&#29305;&#24449;&#23601;&#34892;&#20102;&#12290;
+    </p>
+    <p>
+      
     </p>
     <p>
       
@@ -1564,13 +2164,12 @@
     <p>
       
     </p>
-    <p>
-      
-    </p>
   </body>
 </html>
+
 </richcontent>
-<node TEXT="B Tree" ID="ID_1223857076" CREATED="1569808417997" MODIFIED="1569825912057" ICON_SIZE="8.0 pt"><richcontent TYPE="NOTE">
+<node TEXT="&#x76f8;&#x5173;&#x6570;&#x636e;&#x7ed3;&#x6784;" ID="ID_321551592" CREATED="1583764694782" MODIFIED="1583764703659">
+<node TEXT="B Tree" FOLDED="true" ID="ID_1223857076" CREATED="1569808417997" MODIFIED="1583764073383" ICON_SIZE="8.0 pt"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1651,11 +2250,80 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="&#x63d2;&#x5165;(&#x5148;&#x63d2;&#x5165;&#x5230;&#x53f6;&#x5b50;&#x7ed3;&#x70b9;&#xff0c;&#x5982;&#x679c;&#x5173;&#x952e;&#x5b57;&#x6570;&#x91cf;&#x8d85;&#x8fc7;&#x9650;&#x5236;&#x5219;&#x5206;&#x88c2;&#x7136;&#x540e;&#x5411;&#x4e0a;&#x5f52;&#x5e76;&#xff0c;&#x76f4;&#x5230;&#x8282;&#x70b9;&#x5173;&#x952e;&#x5b57;&#x6570;&#x91cf;&#x7b26;&#x5408;&#x89c4;&#x8303;)" ID="ID_772786927" CREATED="1569813891080" MODIFIED="1569825912057" ICON_SIZE="8.0 pt"/>
 <node TEXT="&#x5220;&#x9664;(&#x5148;&#x627e;&#x5230;&#x503c;&#x6240;&#x5728;&#x8282;&#x70b9;&#xff0c;&#x7136;&#x540e;&#x83b7;&#x53d6;&#x5de6;&#x5206;&#x652f;&#x6700;&#x63a5;&#x8fd1;&#x7684;&#x503c;&#xff0c;&#x66ff;&#x6362;&#x88ab;&#x5220;&#x9664;&#x7684;&#x503c;&#xff0c;&#x6b64;&#x65f6;&#x539f;&#x672c;&#x66ff;&#x6362;&#x88ab;&#x5220;&#x9664;&#x503c;&#x7684;&#x503c;&#x7684;&#x4f4d;&#x7f6e;&#x7a7a;&#x7f3a;&#xff0c;&#x7136;&#x540e;&#x4ece;&#x53f6;&#x5b50;&#x7ed3;&#x70b9;&#x5f00;&#x59cb;&#x4f9d;&#x6b21;&#x5411;&#x6bcf;&#x4e00;&#x7ea7;&#x7236;&#x8282;&#x70b9;&#x501f;&#x503c;&#x7ef4;&#x6301;&#x5e73;&#x8861;)" ID="ID_1532859436" CREATED="1569813925913" MODIFIED="1569825912057" ICON_SIZE="8.0 pt"/>
 </node>
 <node TEXT="B* Tree" ID="ID_702193098" CREATED="1569808443123" MODIFIED="1569825912057" ICON_SIZE="8.0 pt"/>
+</node>
+<node TEXT="&#x7279;&#x5f81;" ID="ID_1490576188" CREATED="1583764708249" MODIFIED="1583764735176">
+<node TEXT="&#x6700;&#x5927;&#x5ea6;&#x6570;&#xff08;&#x5206;&#x53c9;&#x6570;&#xff0c;&#x8fd9;&#x4e2a;&#x503c;&#x53ef;&#x4ee5;&#x5f88;&#x5927;&#xff0c;&#x4ece;&#x800c;&#x964d;&#x4f4e;&#x6811;&#x7684;&#x9ad8;&#x5ea6;&#xff09;" ID="ID_1472818223" CREATED="1583764736980" MODIFIED="1583770612324">
+<node TEXT="&#x5982;&#x4f55;&#x786e;&#x5b9a;&#x6700;&#x9002;&#x5408;&#x7684;&#x6700;&#x5927;&#x5ea6;&#x6570;" ID="ID_80774916" CREATED="1583767178860" MODIFIED="1583767474637">
+<icon BUILTIN="help"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#28145;&#24230;&#21644;&#23485;&#24230;&#20043;&#38388;&#23547;&#25214;&#24179;&#34913;&#65311;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x53f6;&#x5b50;&#x8282;&#x70b9;&#x5b58;&#x50a8;&#x5168;&#x90e8;&#x7d22;&#x5f15;&#x4ee5;&#x53ca;&#x7d22;&#x5f15;&#x884c;&#x7684;&#x6570;&#x636e;" ID="ID_855005423" CREATED="1583764749379" MODIFIED="1583770413543"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#38750;&#23376;&#33410;&#28857;&#19981;&#23384;&#20648;&#25968;&#25454;&#65292;&#21482;&#23384;&#20648;&#32034;&#24341;&#20540;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x53f6;&#x5b50;&#x8282;&#x70b9;&#x662f;&#x4e00;&#x4e2a;&#x6709;&#x5e8f;&#x94fe;&#x8868;&#xff08;&#x65b9;&#x4fbf;&#x8303;&#x56f4;&#x67e5;&#x8be2;&#xff09;" ID="ID_1978955617" CREATED="1583764894693" MODIFIED="1583765204546"/>
+</node>
+<node TEXT="&#x6027;&#x80fd;&#x5206;&#x6790;(&#x78c1;&#x76d8;IO&#x6570;&#x91cf;)" ID="ID_1471981146" CREATED="1583770681460" MODIFIED="1583802550602"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#19968;&#33324;&#20351;&#29992;&#30913;&#30424;I/O&#27425;&#25968;&#35780;&#20215;&#32034;&#24341;&#32467;&#26500;&#30340;&#20248;&#21155;
+    </p>
+    <p>
+      &#39044;&#35835;&#65306;&#30913;&#30424;&#19968;&#33324;&#20250;&#39034;&#24207;&#21521;&#21518;&#35835;&#21462;&#19968;&#23450;&#38271;&#24230;&#30340;&#25968;&#25454;(&#39029;&#30340;&#25972;&#25968;&#20493;)&#25918;&#20837;&#20869;&#23384;
+    </p>
+    <p>
+      &#23616;&#37096;&#24615;&#21407;&#29702;&#65306;&#24403;&#19968;&#20010;&#25968;&#25454;&#34987;&#29992;&#21040;&#26102;&#65292;&#20854;&#38468;&#36817;&#30340;&#25968;&#25454;&#20063;&#36890;&#24120;&#20250;&#39532;&#19978;&#34987;&#20351;&#29992;
+    </p>
+    <p>
+      B+Tree&#33410;&#28857;&#30340;&#22823;&#23567;&#35774;&#20026;&#31561;&#20110;&#19968;&#20010;&#39029;&#65292;&#27599;&#27425;&#26032;&#24314;&#33410;&#28857;&#30452;&#25509;&#30003;&#35831;&#19968;&#20010;&#39029;&#30340;&#31354;&#38388;&#65292;&#36825;&#26679;&#23601;&#20445;&#35777;&#19968;&#20010;&#33410;&#28857;&#29289;&#29702;&#19978;&#20063;&#23384;&#20648;&#22312;&#19968;&#20010;&#39029;&#37324;&#65292;&#23601;&#23454;&#29616;&#20102;&#19968;&#20010;&#33410;&#28857;&#30340;&#36733;&#20837;&#21482;&#38656;&#19968;&#27425;I/O
+    </p>
+    <p>
+      B+Tree&#30340;&#24230;d&#19968;&#33324;&#20250;&#36229;&#36807;100&#65292;&#22240;&#27492;h&#38750;&#24120;&#23567;(&#19968;&#33324;&#20026;3&#21040;5&#20043;&#38388;)
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="&#x4e3b;&#x952e;&#x7d22;&#x5f15;&#x548c;&#x8f85;&#x52a9;&#x7d22;&#x5f15;" ID="ID_226200804" CREATED="1561354269424" MODIFIED="1569825912057" ICON_SIZE="8.0 pt">
 <edge STYLE="sharp_bezier"/>
@@ -2182,7 +2850,7 @@
 <node TEXT="" ID="ID_700361493" CREATED="1570849335731" MODIFIED="1570849335732">
 <hook NAME="FirstGroupNode"/>
 </node>
-<node TEXT="&#x7ec4;&#x5408;&#x7d22;&#x5f15;&#x4e0d;&#x7b26;&#x5408;&#x6700;&#x4f73;&#x5de6;&#x524d;&#x7f00;&#x6cd5;&#x5219;" ID="ID_148190167" CREATED="1570847885756" MODIFIED="1570847949047"><richcontent TYPE="NOTE">
+<node TEXT="&#x7ec4;&#x5408;&#x7d22;&#x5f15;&#x4e0d;&#x7b26;&#x5408;&#x6700;&#x5de6;&#x524d;&#x7f00;&#x6cd5;&#x5219;" ID="ID_148190167" CREATED="1570847885756" MODIFIED="1583825571637"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2211,7 +2879,7 @@
 </richcontent>
 </node>
 <node TEXT="&#x7d22;&#x5f15;&#x4e2d;&#x8303;&#x56f4;&#x6761;&#x4ef6;&#xff08;bettween&#x3001;&lt;&#x3001;&gt;&#x3001;in&#x7b49;&#xff09;&#x53f3;&#x8fb9;&#x7684;&#x5217;&#x7d22;&#x5f15;&#x5931;&#x6548;" ID="ID_1685267148" CREATED="1570848121494" MODIFIED="1570848131575"/>
-<node TEXT="&#x7d22;&#x5f15;&#x5b57;&#x6bb5;&#x4e0a;&#x4f7f;&#x7528;&#xff08; != &#x6216;&#x8005; &lt;&gt;&#xff09;&#x5224;&#x65ad;&#x7d22;&#x5f15;&#x5931;&#x6548;" ID="ID_174259585" CREATED="1570848161290" MODIFIED="1570871323948"/>
+<node TEXT="&#x7d22;&#x5f15;&#x5b57;&#x6bb5;&#x4e0a;&#x4f7f;&#x7528;&#xff08; != &#x6216;&#x8005; &lt;&gt;&#xff09;&#x5224;&#x65ad;&#x7d22;&#x5f15;&#x5931;&#x6548;&#xa;(mysql8.0&#x5df2;&#x7ecf;&#x505a;&#x8fc7;&#x4f18;&#x5316;&#x4e86;&#xff0c;&#x4f1a;&#x4f7f;&#x7528;&#x7d22;&#x5f15;)" ID="ID_174259585" CREATED="1570848161290" MODIFIED="1583825991516"/>
 <node TEXT="&#x524d;&#x7f6e;&#x6a21;&#x7cca;&#x67e5;&#x8be2;&#xff08;%&#x5b57;&#x7b26;&#x4e32;&#xff09;" ID="ID_329774280" CREATED="1569832685486" MODIFIED="1570871620033"><richcontent TYPE="NOTE">
 
 <html>
@@ -2227,22 +2895,220 @@
 </richcontent>
 </node>
 <node TEXT="&#x7d22;&#x5f15;&#x5b57;&#x6bb5;&#x5b57;&#x7b26;&#x4e32;&#x4e0d;&#x52a0;&#x5355;&#x5f15;&#x53f7;&#xff08;&#x4e2a;&#x4eba;&#x611f;&#x89c9;&#x4e0d;&#x5e94;&#x5217;&#x5165;&#x7d22;&#x5f15;&#x5931;&#x6548;&#x539f;&#x56e0;&#xff0c;&#x8fd9;&#x5e94;&#x8be5;&#x5c5e;&#x4e8e;&#x8bed;&#x6cd5;&#x9519;&#x8bef;&#xff09;" ID="ID_1144201202" CREATED="1570848535927" MODIFIED="1570849948457"/>
-<node TEXT="&#x7d22;&#x5f15;&#x5b57;&#x6bb5;&#x4f7f;&#x7528;or&#x7d22;&#x5f15;&#x5931;&#x6548;" ID="ID_353775038" CREATED="1570848647870" MODIFIED="1570848664649"/>
+<node TEXT="&#x7d22;&#x5f15;&#x5b57;&#x6bb5;&#x4f7f;&#x7528;or&#x7d22;&#x5f15;&#x5931;&#x6548;&#xa;&#xff08;mysql8.0&#x505a;&#x4e86;&#x4f18;&#x5316;&#xff0c;&#x8c8c;&#x4f3c;&#x4e0d;&#x4f1a;&#x5931;&#x6548;&#xff09;" ID="ID_353775038" CREATED="1570848647870" MODIFIED="1583833525054"/>
+<node TEXT="&#x5f53;&#x8986;&#x76d6;&#x7d22;&#x5f15;&#x6307;&#x5411;&#x7684;&#x5b57;&#x6bb5;&#x662f;varchar(380)&#x53ca;380&#x4ee5;&#x4e0a;&#x7684;&#x5b57;&#x6bb5;&#x65f6;&#xff0c;&#x8986;&#x76d6;&#x7d22;&#x5f15;&#x4f1a;&#x5931;&#x6548;" ID="ID_1470805607" CREATED="1583827237997" MODIFIED="1583827239619"/>
 <node TEXT="" ID="ID_106297858" CREATED="1570849335728" MODIFIED="1570849365021">
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
 <node TEXT="1 &#x7d22;&#x5f15;&#x5b57;&#x6bb5;&#x524d;&#x9762;&#x6216;&#x4e2d;&#x95f4;&#x51fa;&#x73b0;&#x4e0d;&#x786e;&#x5b9a;&#x5b50;&#x5b57;&#x7b26;&#x4e32;" ID="ID_603768957" CREATED="1570849335732" MODIFIED="1570849819777"/>
 <node TEXT="2 &#x4e0d;&#x6309;&#x7ec4;&#x5408;&#x7d22;&#x5f15;&#x5b57;&#x6bb5;&#x987a;&#x5e8f;&#x67e5;&#x8be2;" ID="ID_805879206" CREATED="1570849702400" MODIFIED="1570850107676"/>
 <node TEXT="3 &#x540c;&#x4e00;&#x7d22;&#x5f15;&#x591a;&#x503c;&#x67e5;&#x8be2;" ID="ID_1080740322" CREATED="1570850028631" MODIFIED="1570850756790"/>
+<node TEXT="&#x53e3;&#x8bc0;&#xff1a;&#xa;&#x5168;&#x503c;&#x5339;&#x914d;&#x6211;&#x6700;&#x7231;&#xff0c;&#x6700;&#x5de6;&#x524d;&#x7f00;&#x8981;&#x9075;&#x5b88;&#xff1b;&#xa;&#x5e26;&#x5934;&#x5927;&#x54e5;&#x4e0d;&#x80fd;&#x6b7b;&#xff0c;&#x4e2d;&#x95f4;&#x5144;&#x5f1f;&#x4e0d;&#x80fd;&#x65ad;&#xff1b;&#xa;&#x7d22;&#x5f15;&#x5217;&#x4e0a;&#x5c11;&#x8ba1;&#x7b97;&#xff0c;&#x8303;&#x56f4;&#x4e4b;&#x540e;&#x5168;&#x5931;&#x6548;&#xff1b;&#xa;LIKE&#x767e;&#x5206;&#x5199;&#x6700;&#x53f3;&#xff0c;&#x8986;&#x76d6;&#x7d22;&#x5f15;&#x4e0d;&#x5199;&#x661f;&#xff1b;&#xa;&#x4e0d;&#x7b49;&#x7a7a;&#x503c;&#x8fd8;&#x6709;or&#xff0c;&#x7d22;&#x5f15;&#x5931;&#x6548;&#x8981;&#x5c11;&#x7528;&#x3002;" ID="ID_900132385" CREATED="1583836844590" MODIFIED="1583836883398"/>
 </node>
 </node>
 </node>
 <node TEXT="MySQL&#x6027;&#x80fd;&#x4f18;&#x5316;" ID="ID_1060452476" CREATED="1569742206752" MODIFIED="1571634351868" ICON_SIZE="12.0 pt">
 <edge STYLE="sharp_bezier"/>
+<node TEXT="MySQL&#x5de5;&#x5177;" ID="ID_1858704795" CREATED="1583890863023" MODIFIED="1583890882680">
+<node TEXT="Percona Toolkit" ID="ID_268295889" CREATED="1583890895773" MODIFIED="1583897504791" LINK="https://www.percona.com/downloads/percona-toolkit/LATEST/"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      percona toolkit&#26159;&#19968;&#20010;&#26377;30&#22810;&#20010;mysql&#24037;&#20855;&#30340;&#24037;&#20855;&#31665;&#12290;&#20860;&#23481;mysql,percona server,mariadb&#65307;&#23427;&#21487;&#20197;&#24110;&#21161;DBA&#33258;&#21160;&#21270;&#30340;&#31649;&#29702;&#25968;&#25454;&#24211;&#21644;&#31995;&#32479;&#20219;&#21153;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Mac&#23433;&#35013;&#65306;
+    </p>
+    <p>
+      $ brew install percona-toolkit
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x6d4b;&#x8bd5;&#x6570;&#x636e;&#x5e93;" ID="ID_1948231077" CREATED="1583892311780" MODIFIED="1583892317948">
+<node TEXT="sakila-db" ID="ID_1303518699" CREATED="1583892323337" MODIFIED="1583892659400"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://dev.mysql.com/doc/index-other.html
+    </p>
+    <p>
+      https://dev.mysql.com/doc/sakila/en/sakila-installation.html
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      mysql&gt; source /Users/lee/Downloads/sakila-db/sakila-schema.sql;
+    </p>
+    <p>
+      mysql&gt; source /Users/lee/Downloads/sakila-db/sakila-data.sql
+    </p>
+    <p>
+      <br/>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x6267;&#x884c;&#x8ba1;&#x5212;&#xa;explain&#x5206;&#x6790;" ID="ID_1965119014" CREATED="1583809435779" MODIFIED="1583809464142">
+<node TEXT="explain extended&#xff08;8.0&#x5df2;&#x7ecf;&#x9ed8;&#x8ba4;&#x5c06;&#x6b64;&#x62d3;&#x5c55;&#x53c2;&#x6570;&#x52a0;&#x5165;&#x4e86;explain&#xff09;&#xa;show warnings" ID="ID_1098788528" CREATED="1583812634485" MODIFIED="1583815250630"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26597;&#30475;&#20248;&#21270;&#22120;&#20570;&#20102;&#21738;&#20123;&#20248;&#21270;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="explain partitions (8.0&#x4e5f;&#x5df2;&#x7ecf;&#x5c06;&#x6b64;&#x53c2;&#x6570;&#x52a0;&#x5165;explain)" ID="ID_1416720560" CREATED="1583812682231" MODIFIED="1583815473411"/>
+<node TEXT="type&#x6027;&#x80fd;&#x6392;&#x5e8f;" ID="ID_996592686" CREATED="1583812734803" MODIFIED="1583814561423"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23436;&#25972;&#30340;&#32467;&#26524;&#20540;&#20174;&#26368;&#20248;&#21040;&#26368;&#24046;&#20998;&#21035;&#20026;&#65306;
+    </p>
+    <p>
+      <b>system</b>&gt;<b>const</b>&gt;<b>eq_ref</b>&gt;<b>ref</b>&gt;fulltext&gt;ref_or_null&gt;index_merge&gt;unique_subquery&gt;index_subquery&gt;<b>range</b>&gt;<b>index</b>&gt;<b>ALL </b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>&#19968;&#33324;&#26469;&#35828;&#65292;&#24471;&#20445;&#35777;&#26597;&#35810;&#36798;&#21040;range&#32423;&#21035;&#65292;&#26368;&#22909;&#36798;&#21040;ref&#12290;</b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 <node TEXT="&#x6027;&#x80fd;&#x5206;&#x6790;" ID="ID_691235254" CREATED="1569743346480" MODIFIED="1571634351869" ICON_SIZE="12.0 pt">
 <edge STYLE="sharp_bezier"/>
-<node TEXT="&#x6162;&#x67e5;&#x8be2;&#x65e5;&#x5fd7;" ID="ID_1694023201" CREATED="1569743355320" MODIFIED="1571634351869" ICON_SIZE="12.0 pt">
+<node TEXT="&#x6162;&#x67e5;&#x8be2;&#x76d1;&#x63a7;&#xa;&#x4e0e;&#x65e5;&#x5fd7;&#x5206;&#x6790;" ID="ID_1694023201" CREATED="1569743355320" MODIFIED="1583892827731" ICON_SIZE="12.0 pt">
 <edge STYLE="sharp_bezier"/>
+<node TEXT="&#x5f00;&#x542f;&#x6162;&#x67e5;&#x8be2;&#x65e5;&#x5fd7;" ID="ID_1005108679" CREATED="1583893814353" MODIFIED="1583897297080"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #&#24320;&#21551;&#24930;&#26597;&#35810;&#26085;&#24535;
+    </p>
+    <p>
+      <font color="#cc7832"><b>set global </b></font>slow_query_log=<font color="#cc7832"><b>on</b>; </font>
+    </p>
+    <p>
+      #&#25351;&#23450;&#24930;&#26597;&#35810;&#26085;&#24535;&#23384;&#20648;&#20301;&#32622;<font color="#cc7832"><br/><b>set global </b></font>slow_query_log_file=<font color="#6a8759">'/usr/local/mysql/log_slow_query/log_slow.log'</font><font color="#cc7832">; </font>
+    </p>
+    <p>
+      #&#35760;&#24405;&#27809;&#26377;&#20351;&#29992;&#32034;&#24341;&#30340;sql &#24320;&#21551;&#24930;&#26597;&#35810;&#26085;&#24535;
+    </p>
+    <p>
+      <font color="#cc7832"><b>set global </b></font>log_queries_not_using_indexes=<font color="#cc7832"><b>on</b>;<br/></font>
+    </p>
+    <p>
+      #&#35760;&#24405;&#26597;&#35810;&#36229;&#36807;0.5s&#30340;sql<font color="#cc7832"><br/><b>set global </b></font>long_query_time=0.5<font color="#cc7832">;<br/><b>show variables like </b></font><font color="#6a8759">'%quer%'</font><font color="#cc7832">;</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#28982;&#21518;&#23458;&#25143;&#31471;&#37325;&#26032;&#36830;&#25509;MySQL&#26381;&#21153;&#65288;&#21542;&#21017;&#21487;&#33021;show variables&#36824;&#26159;&#26087;&#20540;&#65289;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="mysqldumpslow" ID="ID_117474178" CREATED="1583896351747" MODIFIED="1583897306842"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23448;&#26041;&#24930;&#26597;&#35810;&#26085;&#24535;&#20998;&#26512;&#24037;&#20855;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      #&#26597;&#30475;&#21442;&#25968;&#21015;&#34920;
+    </p>
+    <p>
+      mysqldumpslow -h
+    </p>
+    <p>
+      #&#20998;&#26512;&#24930;&#26597;&#35810;&#26085;&#24535;&#20013;&#21069;&#19977;&#26465;&#27604;&#36739;&#24930;&#30340;sql
+    </p>
+    <p>
+      mysqldumpslow -t 3 <font color="#6a8759">/usr/local/mysql/log_slow_query/log_slow.log</font>&#160;| more
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="pt-query-digest" ID="ID_698582529" CREATED="1583897391148" MODIFIED="1583899227314"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22914;&#20309;&#36890;&#36807;&#24930;&#26597;&#35810;&#26085;&#24535;&#21457;&#29616;&#26377;&#38382;&#39064;&#30340;SQL&#65311;
+    </p>
+    <p>
+      1 .&#26597;&#35810;&#27425;&#25968;&#22810;&#19988;&#27599;&#27425;&#26597;&#35810;&#21344;&#29992;&#26102;&#38388;&#38271;&#30340;SQL &#36890;&#24120;&#20026;pt-query-digest&#20998;&#26512;&#30340;&#21069;&#20960;&#20010;&#26597;&#35810;&#65307;
+    </p>
+    <p>
+      2 .IO&#22823;&#30340;SQL&#65288;&#25968;&#25454;&#24211;&#20027;&#35201;&#29942;&#39048;&#20986;&#29616;&#22312;IO&#23618;&#27425;&#65289; &#27880;&#24847;pt-query-digest&#20998;&#26512;&#20013;&#30340;Rows examine&#39033;
+    </p>
+    <p>
+      3.&#26410;&#21629;&#20013;&#32034;&#24341;&#30340;SQL &#27880;&#24847;pt-query-digest&#20998;&#26512;&#20013;&#30340;Rows examine&#21644;Rows Sent&#30340;&#23545;&#27604;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="profile&#x5206;&#x6790;" ID="ID_1425586613" CREATED="1569743362416" MODIFIED="1571634351869" ICON_SIZE="12.0 pt">
 <edge STYLE="sharp_bezier"/>
@@ -2253,14 +3119,28 @@
 <node TEXT="&#x670d;&#x52a1;&#x5668;&#x5c42;&#x9762;" ID="ID_1003098910" CREATED="1569743388922" MODIFIED="1571634351869" ICON_SIZE="12.0 pt">
 <edge STYLE="sharp_bezier"/>
 <node TEXT="&#x8bfb;&#x5199;&#x5206;&#x79bb;" ID="ID_644424288" CREATED="1571406384963" MODIFIED="1571634351869" ICON_SIZE="12.0 pt"/>
-<node TEXT="&#x5206;&#x5e93;&#x5206;&#x8868;" ID="ID_659518690" CREATED="1571406409365" MODIFIED="1571634351869" ICON_SIZE="12.0 pt"/>
+<node TEXT="&#x5206;&#x5e93;&#x5206;&#x8868;" ID="ID_659518690" CREATED="1571406409365" MODIFIED="1583897408793" ICON_SIZE="12.0 pt"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20998;&#26512;&#32467;&#26524;&#27604;mysqldumpslow&#26356;&#35814;&#32454;&#20840;&#38754;&#65292;&#23427;&#21487;&#20197;&#20998;&#26512;binlog&#12289;General log&#12289;slowlog&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="&#x8868;&#x8bbe;&#x8ba1;&#x5c42;&#x9762;" ID="ID_446596973" CREATED="1569743410060" MODIFIED="1571634351869" ICON_SIZE="12.0 pt">
 <edge STYLE="sharp_bezier"/>
 <node TEXT="&#x7f13;&#x5b58;&#x3001;&#x7d22;&#x5f15;" ID="ID_1306662147" CREATED="1571406443331" MODIFIED="1571634351869" ICON_SIZE="12.0 pt"/>
 </node>
 <node TEXT="&#x53c2;&#x6570;&#x4f18;&#x5316;" ID="ID_300687952" CREATED="1571406463142" MODIFIED="1571634351869" ICON_SIZE="12.0 pt"/>
-<node TEXT="SQL&#x4f18;&#x5316;" ID="ID_1346179832" CREATED="1569743422080" MODIFIED="1571634351869" ICON_SIZE="12.0 pt">
+<node TEXT="SQL&#x4f18;&#x5316;" ID="ID_1346179832" CREATED="1569743422080" MODIFIED="1583854154854" ICON_SIZE="12.0 pt">
 <edge STYLE="sharp_bezier"/>
 <richcontent TYPE="NOTE">
 
@@ -2280,7 +3160,126 @@
     </p>
   </body>
 </html>
+
 </richcontent>
+<node TEXT="&#x79bb;&#x6563;&#x5ea6;&#x5927;&#x7684;&#x5217;&#x653e;&#x5230;&#x8054;&#x5408;&#x7d22;&#x5f15;&#x7684;&#x524d;&#x9762;" ID="ID_472740059" CREATED="1583854105307" MODIFIED="1583854211165"/>
+<node TEXT="count()&#x67e5;&#x8be2;&#x4f18;&#x5316;" ID="ID_1539272500" CREATED="1583807203513" MODIFIED="1583899748288"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20855;&#20307;&#21442;&#32771;&#12298;&#39640;&#24615;&#33021;MySQL&#12299;6.7.1&#31456;&#33410;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#27880;&#24847;&#36825;&#20010;&#32858;&#21512;&#20989;&#25968;&#30340;&#21151;&#33021;&#65306;
+    </p>
+    <p>
+      1&#65289;&#23545;&#20110;&#25351;&#23450;&#21015;&#21517;&#30340;&#26597;&#35810;&#65288;&#22914;&#65306;count(name)&#65289;&#34920;&#31034;&#32479;&#35745;&#23545;&#24212;&#21015;&#38750;&#31354;&#65288;&#19981;&#32479;&#35745;&#20540;&#20026;NULL&#65289;&#30340;&#25968;&#37327;&#65307;
+    </p>
+    <p>
+      2&#65289;&#23545;&#20110;&#19981;&#25351;&#23450;&#21015;&#21517;&#30340;&#26597;&#35810;&#65288;&#22914;&#65306;count(*)&#65289;&#34920;&#31034;&#24573;&#30053;&#25152;&#26377;&#21015;&#65292;&#30452;&#25509;&#32479;&#35745;&#34892;&#25968;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      -- or null &#26159;&#20026;&#20102;&#21435;&#38500;&#20540;&#20026;null&#30340;&#34892;
+    </p>
+    <p>
+      <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>explain select </b></font></span><span style="color: #ffc66d; font-style: italic"><font color="#ffc66d"><i>count</i></font></span>(<span style="color: #9876aa"><font color="#9876aa">release_year</font></span>=<span style="color: #6a8759"><font color="#6a8759">'2006' </font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>or null</b></font></span>) <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>as </b></font></span><span style="color: #6a8759"><font color="#6a8759">'2006&#24180;&#30005;&#24433;&#25968;&#37327;'</font></span><span style="color: #cc7832"><font color="#cc7832">,</font></span><span style="color: #ffc66d; font-style: italic"><font color="#ffc66d"><i>count</i></font></span>(<span style="color: #9876aa"><font color="#9876aa">release_year</font></span>=<span style="color: #6a8759"><font color="#6a8759">'2007' </font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>or null</b></font></span>) <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>as </b></font></span><span style="color: #6a8759"><font color="#6a8759">'2007&#24180;&#30005;&#24433;&#25968;&#37327;' </font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>from </b></font></span>sakila.film<span style="color: #cc7832"><font color="#cc7832">;</font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x6ca1;&#x6709;where&#x6761;&#x4ef6;&#x65f6;MyISAM&#x67e5;&#x8be2;count(*)&#x4f1a;&#x5f88;&#x5feb;&#x7684;&#x539f;&#x56e0;" ID="ID_352933498" CREATED="1583808127747" MODIFIED="1583808340617"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25991;&#20214;&#20013;&#23384;&#20648;&#26377;&#19968;&#20010;&#34892;&#25968;&#30340;&#35745;&#25968;&#20540;&#65292;&#27809;&#26377;where&#26465;&#20214;&#26102;&#65292;&#36825;&#26465;&#35821;&#21477;&#30452;&#25509;&#36820;&#22238;&#36825;&#20010;&#35745;&#25968;&#20540;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="5.5&#x7248;&#x672c;&#x4e4b;&#x540e;&#xff0c;InnoDb&#x5bf9;count(*)&#x548c;count(1)&#x7684;&#x4f18;&#x5316;&#x662f;&#x4e00;&#x6837;&#x7684;&#xff0c;&#x6ca1;&#x6709;&#x4e8c;&#x7ea7;&#x7d22;&#x5f15;&#x7684;&#x8bdd;&#xff0c;&#x4f1a;&#x5bf9;&#x4e3b;&#x952e;&#x7d22;&#x5f15;&#x8fdb;&#x884c;&#x626b;&#x63cf;&#x7edf;&#x8ba1;&#xff0c;&#x6709;&#x4e8c;&#x7ea7;&#x7d22;&#x5f15;&#x5219;&#x4f7f;&#x7528;&#x5360;&#x7a7a;&#x95f4;&#x66f4;&#x5c0f;&#x7684;&#x4e8c;&#x7ea7;&#x7d22;&#x5f15;&#x626b;&#x63cf;&#x7edf;&#x8ba1;" ID="ID_924235609" CREATED="1583809015272" MODIFIED="1583809245102"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#39640;&#24615;&#33021;MySQL&#8212;&#8212;Count(1) OR Count(*)&#65311; <a charset="utf-8" href="https://zhuanlan.zhihu.com/p/28397595">https://zhuanlan.zhihu.com/p/28397595</a>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x907f;&#x514d;&#x5728;&#x7d22;&#x5f15;&#x4e0a;&#x4f7f;&#x7528; not&#xff0c;&lt;&gt;&#xff0c;!=&#xff1b;&#x5e94;&#x8be5;&#x4f7f;&#x7528; &quot;&lt; AND &gt;&quot;&#xa;&#x4e0d;&#x8fc7;&#x8fd9;&#x4e2a;&#x4f18;&#x5316;&#x5668;&#x5df2;&#x7ecf;&#x4f18;&#x5316;&#x4e86;" ID="ID_1794261505" CREATED="1583814590865" MODIFIED="1583814976134"/>
+<node TEXT="max()&#x4f18;&#x5316;&#xff1a;&#x53ef;&#x4ee5;&#x5bf9;&#x5217;&#x5efa;&#x7acb;&#x7d22;&#x5f15;" ID="ID_905531348" CREATED="1583899351420" MODIFIED="1583899382429"/>
+<node TEXT="&#x5b50;&#x67e5;&#x8be2;&#x4f18;&#x5316;&#x4e3a;join&#xff08;join&#x4e0d;&#x4f1a;&#x5efa;&#x4e34;&#x65f6;&#x8868;&#xff09;" ID="ID_849702415" CREATED="1583899773330" MODIFIED="1583901776031"/>
+<node TEXT="group by&#x4f18;&#x5316;&#xff1a;&#x5148;&#x7ed9;&#x5206;&#x7ec4;&#x5b57;&#x6bb5;&#x5efa;&#x7d22;&#x5f15;&#x518d;&#x5bf9;&#x8be5;&#x8868;&#x5206;&#x7ec4;&#x3001;&#x5206;&#x7ec4;&#x540e;&#x518d;&#x548c;&#x5176;&#x4ed6;&#x8868;&#x5173;&#x8054;&#x67e5;&#x8be2;" ID="ID_431330820" CREATED="1583900875897" MODIFIED="1583900895382"/>
+<node TEXT="order by limit &#x4f18;&#x5316;&#xff1a;&#x5efa;&#x7d22;&#x5f15;&#xff0c;&#x8bb0;&#x5f55;&#x4e0a;&#x6b21;&#x7d22;&#x5f15;&#x4f4d;&#x7f6e;&#x4e0b;&#x6b21;&#x4ece;&#x8bb0;&#x5f55;&#x4f4d;&#x7f6e;&#x67e5;" ID="ID_390941473" CREATED="1583901338389" MODIFIED="1583901533136"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # &#20998;&#39029;&#26597;&#35810;&#24433;&#29255;&#25551;&#36848;&#20449;&#24687;
+    </p>
+    <p>
+      explain select film_id,description from film order by title limit 50,5;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # &#20248;&#21270;1&#65306;&#20351;&#29992;&#26377;&#32034;&#24341;&#30340;&#21015;&#25110;&#20027;&#38190;&#36827;&#34892;order by&#25805;&#20316;&#65288;order by film_id&#65289;
+    </p>
+    <p>
+      # &#39029;&#25968;&#36234;&#22823;&#65292;rows&#36234;&#22823;
+    </p>
+    <p>
+      explain select film_id,description from film order by film_id limit 50,5;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # &#20248;&#21270;2:&#35760;&#24405;&#19978;&#27425;&#36820;&#22238;&#30340;&#20027;&#38190;&#65292;&#22312;&#19979;&#27425;&#26597;&#35810;&#30340;&#26102;&#20505;&#29992;&#20027;&#38190;&#36807;&#28388;&#65292;&#36991;&#20813;&#20102;&#25968;&#25454;&#37327;&#22823;&#26102;&#25195;&#25551;&#36807;&#22810;&#30340;&#35760;&#24405;
+    </p>
+    <p>
+      # &#27880;&#24847;&#35201;&#27714;&#26377;&#24207;&#20027;&#38190; &#25110;&#32773;&#24314;&#31435;&#26377;&#24207;&#36741;&#21161;&#32034;&#24341;&#21015;&#65292;&#32780;&#19988;&#25968;&#25454;&#19981;&#33021;&#24635;&#26159;&#39057;&#32321;&#25913;&#21464;
+    </p>
+    <p>
+      explain select film_id,description from film where film_id&gt;55 and film_id&lt;=60
+    </p>
+    <p>
+      order by film_id limit 1,5;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="in exist &#x4f18;&#x5316;&#xff1a;&#x8fd9;&#x79cd;&#x7d22;&#x5f15;&#x5e2e;&#x4e0d;&#x4e0a;&#x5fd9;&#xff0c;&#x9700;&#x8981;&#x5c0f;&#x8868;&#x9a71;&#x52a8;&#x5927;&#x8868;&#x5c3d;&#x91cf;&#x628a;&#x6570;&#x636e;&#x8fc7;&#x6ee4;&#x7684;&#x8db3;&#x591f;&#x5c11;&#xff0c;&#x518d;&#x6267;&#x884c;in exist" ID="ID_46178747" CREATED="1583901448833" MODIFIED="1583901676654"/>
+<node TEXT="join&#x5e76;&#x5bf9;&#x8fde;&#x63a5;&#x5b57;&#x6bb5;&#x6392;&#x5e8f;&#xff1a;&#x9009;&#x62e9;&#x9a71;&#x52a8;&#x8868;&#x7684;&#x5c5e;&#x6027;&#x4f5c;&#x4e3a;&#x6392;&#x5e8f;&#x8868;&#x4e2d;&#x7684;&#x6761;&#x4ef6;" ID="ID_1105531355" CREATED="1583901792409" MODIFIED="1583901848961"/>
 </node>
 </node>
 </node>
@@ -2966,17 +3965,99 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x5206;&#x5e93;&#x5206;&#x8868;" FOLDED="true" ID="ID_1520008199" CREATED="1569742374996" MODIFIED="1571634351871" ICON_SIZE="12.0 pt" STYLE="bubble">
+<node TEXT="&#x5206;&#x5e93;&#x5206;&#x8868;" ID="ID_1520008199" CREATED="1569742374996" MODIFIED="1571634351871" ICON_SIZE="12.0 pt" STYLE="bubble">
 <edge STYLE="sharp_bezier"/>
-<node TEXT="&#x6570;&#x636e;&#x5e93;&#x6027;&#x80fd;&#x74f6;&#x9888;" ID="ID_1291281277" CREATED="1571406287008" MODIFIED="1571634351871" ICON_SIZE="12.0 pt">
+<node TEXT="&#x4e3a;&#x4f55;&#x5206;&#x5e93;&#x5206;&#x8868;" ID="ID_145408023" CREATED="1583906211634" MODIFIED="1583906223240">
+<node TEXT="&#x5927;&#x4e1a;&#x52a1;&#x91cf;&#x4e0b;&#x6570;&#x636e;&#x5e93;&#xa;&#x78c1;&#x76d8;IO&#x6027;&#x80fd;&#x6210;&#x4e3a;&#x74f6;&#x9888;" ID="ID_1291281277" CREATED="1571406287008" MODIFIED="1583906665955" ICON_SIZE="12.0 pt">
 <node TEXT="&#x6570;&#x636e;&#x5e93;&#x8fde;&#x63a5;&#x6709;&#x9650;&#xff08;&#x9ed8;&#x8ba4;100&#xff0c;&#x6700;&#x9ad8;1500&#xff09;" ID="ID_1209363258" CREATED="1571406304494" MODIFIED="1571634351871" ICON_SIZE="12.0 pt"/>
+<node TEXT="Sql&#x3001;&#x7d22;&#x5f15;&#x3001;&#x5b57;&#x6bb5;&#x4f18;&#x5316;&#x5df2;&#x7ecf;&#x9ed4;&#x9a74;&#x6280;&#x7a77;" ID="ID_698907691" CREATED="1583906817870" MODIFIED="1583906842564"/>
+<node TEXT="&#x76f8;&#x5173;&#x4f18;&#x5316;" ID="ID_754304323" CREATED="1583906759404" MODIFIED="1583906879654">
+<node TEXT="&#x6dfb;&#x52a0;Redis" ID="ID_1025164637" CREATED="1583906880522" MODIFIED="1583906881617"/>
+<node TEXT="&#x8bfb;&#x5199;&#x5206;&#x79bb;" ID="ID_1893126064" CREATED="1583906882608" MODIFIED="1583906907707">
+<node TEXT="&#x4e3b;&#x4ece;&#x540c;&#x6b65;" ID="ID_1305980413" CREATED="1583922464177" MODIFIED="1583922476914"/>
+<node TEXT="&#x6570;&#x636e;&#x4e00;&#x81f4;&#x6027;" ID="ID_1253837841" CREATED="1583920061050" MODIFIED="1583920113285">
+<icon BUILTIN="help"/>
 </node>
-<node TEXT="&#x4f7f;&#x7528;&#x573a;&#x666f;" ID="ID_1750397800" CREATED="1571406613034" MODIFIED="1571634351871" ICON_SIZE="12.0 pt"/>
+</node>
+<node TEXT="&#x5206;&#x533a;&#xff08;&#x5386;&#x53f2;&#x6570;&#x636e;&#x653e;&#x5728;&#x72ec;&#x7acb;&#x5206;&#x533a;&#xff09;" ID="ID_1021697088" CREATED="1583906920674" MODIFIED="1583906967772">
+<icon BUILTIN="help"/>
+</node>
+</node>
+</node>
+<node TEXT="&#x5355;&#x6570;&#x636e;&#x5e93;&#x8868;&#x7684;&#x6570;&#x91cf;&#x8fc7;&#x591a;" ID="ID_414351174" CREATED="1584100620628" MODIFIED="1584100644540"/>
+<node TEXT="&#x4e1a;&#x52a1;&#x6570;&#x636e;&#x91cf;&#x8d85;&#x8fc7;&#x5355;&#x8868;&#x4e0a;&#x9650;&#x6216;&#x6570;&#x636e;&#x91cf;&#x8fc7;&#x5927;&#x5f71;&#x54cd;&#x8bbf;&#x95ee;&#x6027;&#x80fd;" ID="ID_191318490" CREATED="1583906558711" MODIFIED="1584100691302"/>
+<node TEXT="&#x5206;&#x5e93;&#x5206;&#x8868;&#x7684;&#x4f18;&#x70b9;" ID="ID_1625229364" CREATED="1583907110356" MODIFIED="1583907287207">
+<node TEXT="&#x8d1f;&#x8f7d;&#x5206;&#x644a;" ID="ID_1816466886" CREATED="1583907144413" MODIFIED="1583907157572"/>
+<node TEXT="&#x5b9e;&#x73b0;&#x4e86;&#x4e00;&#x5b9a;&#x7684;&#x9ad8;&#x53ef;&#x7528;" ID="ID_285886427" CREATED="1583907179506" MODIFIED="1583907199523"/>
+<node TEXT="&#x4e1a;&#x52a1;&#x66f4;&#x6e05;&#x6670;" ID="ID_312072496" CREATED="1583907306587" MODIFIED="1583907313854"/>
+<node TEXT="&#x5b9e;&#x73b0;&#x52a8;&#x9759;&#x5206;&#x79bb;&#x548c;&#x51b7;&#x70ed;&#x6570;&#x636e;&#x5206;&#x79bb;" ID="ID_974577078" CREATED="1583907339911" MODIFIED="1583907358739">
+<icon BUILTIN="help"/>
+</node>
+</node>
+<node TEXT="&#x5206;&#x5e93;&#x5206;&#x8868;&#x95ee;&#x9898;" ID="ID_1031158193" CREATED="1569743518575" MODIFIED="1583924298940" ICON_SIZE="12.0 pt">
+<edge STYLE="sharp_bezier"/>
+<node TEXT="&#x5e26;&#x6765;&#x5206;&#x5e03;&#x5f0f;&#x4e8b;&#x52a1;&#x95ee;&#x9898;(&#x8de8;&#x5e93;&#x4e8b;&#x52a1;)" ID="ID_633036379" CREATED="1583918041599" MODIFIED="1583918072677"/>
+<node TEXT="&#x8de8;&#x5e93;join" ID="ID_503309400" CREATED="1583918076045" MODIFIED="1583918084736"/>
+<node TEXT="&#x5206;&#x5e03;&#x5f0f;&#x5168;&#x5c40;&#x552f;&#x4e00;ID" ID="ID_85163222" CREATED="1583918089773" MODIFIED="1583918097948">
+<node TEXT="&#x96ea;&#x82b1;&#x7b97;&#x6cd5;" ID="ID_559423446" CREATED="1583924365485" MODIFIED="1583924373626"/>
+</node>
+</node>
+</node>
 <node TEXT="&#x6570;&#x636e;&#x5207;&#x5206;" ID="ID_652385198" CREATED="1571407858577" MODIFIED="1571634351871" ICON_SIZE="12.0 pt">
 <node TEXT="&#x5207;&#x5206;&#x65b9;&#x6848;" ID="ID_290030457" CREATED="1569743508965" MODIFIED="1571634351871" ICON_SIZE="12.0 pt">
 <edge STYLE="sharp_bezier"/>
-<node TEXT="&#x5782;&#x76f4;&#x62c6;&#x5206;" ID="ID_1271060246" CREATED="1571406648135" MODIFIED="1571634351871" ICON_SIZE="12.0 pt"/>
-<node TEXT="&#x6c34;&#x5e73;&#x5207;&#x5206;" ID="ID_481077425" CREATED="1571406635053" MODIFIED="1571634351871" ICON_SIZE="12.0 pt">
+<node TEXT="&#x5782;&#x76f4;&#x62c6;&#x5206;" ID="ID_1271060246" CREATED="1571406648135" MODIFIED="1583909358608" ICON_SIZE="12.0 pt"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <h3>
+      <span style="font-family: &#x5b8b;&#x4f53;"><font face="&#x5b8b;&#x4f53;">&#20248;&#28857;&#65306;</font></span><span lang="EN-US"><o p="#DEFAULT"></o></span>
+    </h3>
+    <p class="MsoNormal">
+      <span lang="EN-US" style="font-size: 12.5pt; font-family: &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;,sans-serif; color: #323232"><font size="12.5pt" face="&#x5fae;&#x8f6f;&#x96c5;&#x9ed1;,sans-serif" color="#323232"><br/>
+      </font></span><span lang="EN-US">1</span><span style="font-family: &#x5b8b;&#x4f53;"><font face="&#x5b8b;&#x4f53;">&#12289;&#25286;&#20998;&#21518;&#19994;&#21153;&#28165;&#26224;&#65288;&#19987;&#24211;&#19987;&#29992;&#25353;&#19994;&#21153;&#25286;&#20998;&#65289;</font></span><span lang="EN-US"><br/>2</span><span style="font-family: &#x5b8b;&#x4f53;"><font face="&#x5b8b;&#x4f53;">&#12289;&#23454;&#29616;&#21160;&#38745;&#20998;&#31163;&#12289;&#20919;&#28909;&#25968;&#25454;&#20998;&#31163;&#35774;&#35745;&#20307;&#29616;&#12290;&#20919;&#24211;</font></span><span lang="EN-US">:</span><span style="font-family: &#x5b8b;&#x4f53;"><font face="&#x5b8b;&#x4f53;">&#21457;&#24067;&#35828;&#35828;&#20449;&#24687;</font></span>&#160;<span style="font-family: &#x5b8b;&#x4f53;"><font face="&#x5b8b;&#x4f53;">&#28909;&#65306;&#35828;&#35828;&#28857;&#36190;&#35780;&#35770;&#25968;&#25454;</font></span><span lang="EN-US">&#160;<br/>3</span><span style="font-family: &#x5b8b;&#x4f53;"><font face="&#x5b8b;&#x4f53;">&#12289;&#25968;&#25454;&#32500;&#25252;&#31616;&#21333;&#12289;&#25353;&#19994;&#21153;&#19981;&#21516;&#19994;&#21153;&#25918;&#21040;&#19981;&#21516;&#26426;&#22120;&#19978;</font></span><span lang="EN-US"><o p="#DEFAULT"></o></span>
+    </p>
+    <h3>
+      <span style="font-family: &#x5b8b;&#x4f53;"><font face="&#x5b8b;&#x4f53;">&#32570;&#28857;&#65306;</font></span><span lang="EN-US"><o p="#DEFAULT"></o></span>
+    </h3>
+    <p class="MsoNormal">
+      <span lang="EN-US">1</span><span style="font-family: &#x5b8b;&#x4f53;"><font face="&#x5b8b;&#x4f53;">&#12289;&#22914;&#26524;&#21333;&#34920;&#30340;&#25968;&#25454;&#37327;&#22823;&#12289;&#20889;&#35835;&#21387;&#21147;&#22823;</font></span><span lang="EN-US"><br/>2</span><span style="font-family: &#x5b8b;&#x4f53;"><font face="&#x5b8b;&#x4f53;">&#12289;&#21463;&#26576;&#31181;&#19994;&#21153;&#26469;&#20915;&#23450;&#12289;&#25110;&#32773;&#34987;&#38480;&#21046;&#12290;&#20063;&#23601;&#26159;&#35828;&#19968;&#20010;&#19994;&#21153;&#24448;&#24448;&#20250;&#24433;&#21709;&#21040;&#25968;&#25454;&#24211;&#30340;&#29942;&#39048;&#65288;&#24615;&#33021;&#38382;&#39064;&#65289;</font></span><span lang="EN-US"><br/>3</span><span style="font-family: &#x5b8b;&#x4f53;"><font face="&#x5b8b;&#x4f53;">&#12289;&#37096;&#20998;&#19994;&#21153;&#26080;&#27861;&#20851;&#32852;</font></span><span lang="EN-US">&#160;join</span><span style="font-family: &#x5b8b;&#x4f53;"><font face="&#x5b8b;&#x4f53;">&#12289;&#21482;&#33021;&#36890;&#36807;</font></span><span lang="EN-US">java</span><span style="font-family: &#x5b8b;&#x4f53;"><font face="&#x5b8b;&#x4f53;">&#31243;&#24207;&#25509;&#21475;&#21435;&#35843;&#29992;&#65292;&#25552;&#20379;&#20102;&#24320;&#21457;&#22797;&#26434;&#24230;&#12290;</font></span>&#160;<span style="font-family: &#x5b8b;&#x4f53;"><font face="&#x5b8b;&#x4f53;">&#65288;&#21830;&#21697;&#12289;&#35746;&#21333;&#20449;&#24687;&#12289;&#20250;&#21592;&#20449;&#24687;&#65289;</font></span><span lang="EN-US"><o p="#DEFAULT"></o></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x6c34;&#x5e73;&#x5207;&#x5206;" FOLDED="true" ID="ID_481077425" CREATED="1571406635053" MODIFIED="1583909384954" ICON_SIZE="12.0 pt"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <h3>
+      <span style="font-family: &#x5b8b;&#x4f53;"><font face="&#x5b8b;&#x4f53;">&#20248;&#28857;&#65306;</font></span><span lang="EN-US"><o p="#DEFAULT"></o></span>
+    </h3>
+    <p class="MsoNormal">
+      <span lang="EN-US">1</span><span style="font-family: &#x5b8b;&#x4f53;"><font face="&#x5b8b;&#x4f53;">&#12289;&#21333;&#24211;&#65288;&#34920;&#65289;&#30340;&#25968;&#25454;&#20445;&#25345;&#22312;&#19968;&#23450;&#30340;&#37327;&#65288;&#20943;&#23569;&#65289;&#65292;&#26377;&#21161;&#20110;&#24615;&#33021;&#25552;&#39640;</font></span><span lang="EN-US"><br/>2</span><span style="font-family: &#x5b8b;&#x4f53;"><font face="&#x5b8b;&#x4f53;">&#12289;&#25552;&#39640;&#20102;&#31995;&#32479;&#30340;&#31283;&#23450;&#24615;&#21644;&#36127;&#36733;&#33021;&#21147;&#12290;</font></span><span lang="EN-US"><br/>3</span><span style="font-family: &#x5b8b;&#x4f53;"><font face="&#x5b8b;&#x4f53;">&#12289;&#20999;&#20998;&#30340;&#34920;&#30340;&#32467;&#26500;&#30456;&#21516;&#12289;&#31243;&#24207;&#25913;&#36896;&#36739;&#23569;</font></span><span lang="EN-US"><o p="#DEFAULT"></o></span>
+    </p>
+    <h3>
+      <span style="font-family: &#x5b8b;&#x4f53;"><font face="&#x5b8b;&#x4f53;">&#32570;&#28857;&#65306;</font></span><span lang="EN-US"><o p="#DEFAULT"></o></span>
+    </h3>
+    <p class="MsoNormal">
+      <span lang="EN-US">1</span><span style="font-family: &#x5b8b;&#x4f53;"><font face="&#x5b8b;&#x4f53;">&#12289;&#25968;&#25454;&#30340;&#25193;&#23481;&#24456;&#26377;&#38590;&#24230;&#32500;&#25252;&#37327;&#22823;</font></span><span lang="EN-US"><br/>2</span><span style="font-family: &#x5b8b;&#x4f53;"><font face="&#x5b8b;&#x4f53;">&#12289;&#25286;&#20998;&#35268;&#21017;&#24456;&#38590;&#25277;&#35937;&#20986;&#26469;</font></span><span lang="EN-US"><br/>3</span><span style="font-family: &#x5b8b;&#x4f53;"><font face="&#x5b8b;&#x4f53;">&#12289;&#20998;&#29255;&#20107;&#21153;&#30340;&#19968;&#33268;&#24615;&#30340;&#38382;&#39064;&#37096;&#20998;&#19994;&#21153;&#26080;&#27861;&#20851;&#32852;</font></span><span lang="EN-US">&#160;join</span><span style="font-family: &#x5b8b;&#x4f53;"><font face="&#x5b8b;&#x4f53;">&#12289;&#21482;&#33021;&#36890;&#36807;</font></span><span lang="EN-US">java</span><span style="font-family: &#x5b8b;&#x4f53;"><font face="&#x5b8b;&#x4f53;">&#31243;&#24207;&#25509;&#21475;&#21435;&#35843;&#29992;</font></span><span lang="EN-US"><o p="#DEFAULT"></o></span>
+    </p>
+    <p class="MsoNormal">
+      <span lang="EN-US"><o p="#DEFAULT">
+      &#160;</o></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
 <node TEXT="&#x53d6;&#x6a21;" ID="ID_1014526152" CREATED="1571407753584" MODIFIED="1571634351871" ICON_SIZE="12.0 pt"><richcontent TYPE="NOTE">
 
 <html>
@@ -3004,8 +4085,12 @@
   </body>
 </html>
 </richcontent>
+<node TEXT="&#x7b97;&#x6cd5;&#x539f;&#x7406;" ID="ID_1647010663" CREATED="1583907939635" MODIFIED="1583907946974">
+<icon BUILTIN="help"/>
 </node>
 </node>
+</node>
+<node TEXT="&#x4e00;&#x822c;&#x662f;&#x5148;&#x5782;&#x76f4;&#x62c6;&#x5206;&#x518d;&#x6c34;&#x5e73;&#x62c6;&#x5206;" ID="ID_80195831" CREATED="1583914907860" MODIFIED="1584100912534"/>
 </node>
 <node TEXT="&#x5207;&#x5206;&#x539f;&#x5219;" ID="ID_1772202738" CREATED="1571407873369" MODIFIED="1571634351871" ICON_SIZE="12.0 pt">
 <node TEXT="&#x7b2c;&#x4e00;&#x539f;&#x5219;&#xff1a;&#x80fd;&#x4e0d;&#x5207;&#x5c3d;&#x91cf;&#x4e0d;&#x5207;" ID="ID_1001622362" CREATED="1571407881380" MODIFIED="1571634351871" ICON_SIZE="12.0 pt"/>
@@ -3013,10 +4098,19 @@
 <node TEXT="&#x7b2c;&#x4e09;&#x539f;&#x5219;&#xff1a;&#x5c3d;&#x91cf;&#x901a;&#x8fc7;&#x6570;&#x636e;&#x5197;&#x4f59;&#x6216;&#x8868;&#x5206;&#x7ec4;&#x6765;&#x964d;&#x4f4e;&#x8de8;&#x5e93;join&#x95ee;&#x9898;" ID="ID_1308004754" CREATED="1571407934961" MODIFIED="1571634351872" ICON_SIZE="12.0 pt"/>
 </node>
 </node>
-<node TEXT="&#x5206;&#x5e93;&#x5206;&#x8868;&#x7684;&#x95ee;&#x9898;" ID="ID_1031158193" CREATED="1569743518575" MODIFIED="1571634351872" ICON_SIZE="12.0 pt">
+<node TEXT="&#x5206;&#x5e93;&#x5206;&#x8868;&#x6807;&#x51c6;" ID="ID_1715565689" CREATED="1583906687285" MODIFIED="1583906701836">
+<node TEXT="&#x4f55;&#x65f6;&#x5782;&#x76f4;&#x62c6;&#x5206;" ID="ID_473816519" CREATED="1584100921082" MODIFIED="1584100934542">
+<node TEXT="&#x5f53;&#x4e00;&#x5f20;&#x8868;&#x660e;&#x663e;&#x6709;&#x4e9b;&#x6570;&#x636e;&#x7ecf;&#x5e38;&#x8bbf;&#x95ee;&#x4fee;&#x6539;&#xff0c;&#x53e6;&#x4e00;&#x90e8;&#x5206;&#x5374;&#x4e0d;&#x600e;&#x4e48;&#x4f7f;&#x7528;&#xff0c;&#x5373;&#x51b7;&#x70ed;&#x6570;&#x636e;&#x5728;&#x4e00;&#x8d77;&#xff0c;&#x5c31;&#x5e94;&#x8be5;&#x5782;&#x76f4;&#x62c6;&#x5206;&#x8868;" ID="ID_1519945543" CREATED="1584100934958" MODIFIED="1584101060697"/>
+</node>
+<node TEXT="&#x4f55;&#x65f6;&#x6c34;&#x5e73;&#x62c6;&#x5206;" ID="ID_169140727" CREATED="1584100980344" MODIFIED="1584100991329">
+<node TEXT="&#x4e00;&#x822c;&#x5f53;&#x5355;&#x8868;&#x6570;&#x636e;&#x91cf;&#x5927;&#x4e8e;500w&#x5c31;&#x5e94;&#x8be5;&#x6c34;&#x5e73;&#x62c6;&#x5206;&#x8868;" ID="ID_928775688" CREATED="1584100991823" MODIFIED="1584101042447"/>
+</node>
+<node TEXT="&#x6839;&#x672c;&#x8fd8;&#x662f;&#x4f9d;&#x8d56;&#x4e1a;&#x52a1;&#x91cf;" ID="ID_1972944442" CREATED="1584101073748" MODIFIED="1584101090586"/>
+</node>
+</node>
+<node TEXT="&#x5206;&#x5e93;&#x5206;&#x8868;&#x65b9;&#x6848;" ID="ID_1808669948" CREATED="1569743532544" MODIFIED="1583922986874" ICON_SIZE="12.0 pt" STYLE="bubble">
 <edge STYLE="sharp_bezier"/>
-<node TEXT="&#x5206;&#x5e03;&#x5f0f;&#x4e8b;&#x52a1;&#x95ee;&#x9898;" ID="ID_402361917" CREATED="1571408106539" MODIFIED="1571634351872" ICON_SIZE="12.0 pt"/>
-<node TEXT="&#x5206;&#x5e03;&#x5f0f;&#x4e3b;&#x952e;&#x95ee;&#x9898;" ID="ID_1929224591" CREATED="1571408145101" MODIFIED="1571634351872" ICON_SIZE="12.0 pt"><richcontent TYPE="NOTE">
+<node TEXT="&#x57fa;&#x4e8e;JDBC&#x534f;&#x8bae;" ID="ID_1922768076" CREATED="1583922922955" MODIFIED="1583923822580"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -3024,19 +4118,284 @@
   </head>
   <body>
     <p>
-      &#35201;&#20445;&#35777;&#25968;&#25454;&#24211;ID&#19981;&#37325;&#22797;&#12290;
+      &#32534;&#35793;&#36827;&#24212;&#29992;&#65292;&#30456;&#24403;&#20110;
+    </p>
+    <p>
+      &#23454;&#29616;&#20998;&#24067;&#24335;&#30340;JDBC&#39537;&#21160;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="MsoNormal">
+      <span style="font-family: &#x5b8b;&#x4f53;"><font face="&#x5b8b;&#x4f53;">&#20248;&#28857;&#65306;</font></span><span lang="EN-US"><o p="#DEFAULT"></o></span>
+    </p>
+    <p class="MsoNormal">
+      <span lang="EN-US">1</span><span style="font-family: &#x5b8b;&#x4f53;"><font face="&#x5b8b;&#x4f53;">&#12289;&#24615;&#33021;&#24456;&#22909;&#30340;</font></span><span lang="EN-US">&#160; </span>
+    </p>
+    <p class="MsoNormal">
+      <span lang="EN-US">2</span><span style="font-family: &#x5b8b;&#x4f53;"><font face="&#x5b8b;&#x4f53;">&#12289;&#25903;&#25345;&#36328;&#25968;&#25454;&#24211;</font></span><span lang="EN-US">jdbc<o p="#DEFAULT"></o></span>
+    </p>
+    <p class="MsoNormal">
+      <span style="font-family: &#x5b8b;&#x4f53;"><font face="&#x5b8b;&#x4f53;">&#32570;&#28857;&#65306;</font></span><span lang="EN-US"><o p="#DEFAULT"></o></span>
+    </p>
+    <p class="MsoNormal">
+      <span lang="EN-US">1</span><span style="font-family: &#x5b8b;&#x4f53;"><font face="&#x5b8b;&#x4f53;">&#12289;&#22686;&#21152;&#20102;&#24320;&#21457;&#38590;&#24230;</font></span><span>&#160; </span>
+    </p>
+    <p class="MsoNormal">
+      <span lang="EN-US">2</span><span style="font-family: &#x5b8b;&#x4f53;"><font face="&#x5b8b;&#x4f53;">&#12289;&#19981;&#25903;&#25345;&#36328;&#35821;&#35328;&#65288;</font></span><span lang="EN-US">java</span><span style="font-family: &#x5b8b;&#x4f53;"><font face="&#x5b8b;&#x4f53;">&#65289;</font></span><span lang="EN-US"><o p="#DEFAULT"></o></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Sharding-Sphere" ID="ID_1675746855" CREATED="1569742392002" MODIFIED="1583923632179" ICON_SIZE="12.0 pt" LINK="https://shardingsphere.apache.org/index_zh.html" STYLE="bubble">
+<edge STYLE="sharp_bezier"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21407;&#29702;&#26159;&#37325;&#20889;JDBC&#23454;&#29616;&#65292;&#20250;&#25972;&#21512;&#21040;&#29992;&#25143;&#24212;&#29992;&#20013;&#65292;&#24615;&#33021;&#36739;&#22909;&#65292;&#25345;&#32493;&#26356;&#26032;&#32500;&#25252;&#20013;
     </p>
   </body>
 </html>
 </richcontent>
-</node>
-</node>
-<node TEXT="&#x5206;&#x8868;&#x539f;&#x5219;" ID="ID_14757025" CREATED="1571409108902" MODIFIED="1571634351872" ICON_SIZE="12.0 pt"/>
-<node TEXT="&#x5206;&#x5e93;&#x5206;&#x8868;&#x65b9;&#x6848;" ID="ID_1808669948" CREATED="1569743532544" MODIFIED="1571634351872" ICON_SIZE="12.0 pt">
+<node TEXT="Sharding-JDBC" ID="ID_1271029078" CREATED="1569743041143" MODIFIED="1583944322333" ICON_SIZE="12.0 pt" STYLE="bubble">
 <edge STYLE="sharp_bezier"/>
-<node TEXT="TDDL" ID="ID_1587781499" CREATED="1571408991197" MODIFIED="1571634351872" ICON_SIZE="12.0 pt"/>
-<node TEXT="Cobar" ID="ID_1443349705" CREATED="1571408997067" MODIFIED="1571634351872" ICON_SIZE="12.0 pt"/>
-<node TEXT="MyCat&#xff08;&#x57fa;&#x4e8e;Cobar&#xff09;" ID="ID_1503553561" CREATED="1569742386987" MODIFIED="1572314200309" ICON_SIZE="12.0 pt">
+<node TEXT="&#x5206;&#x7247;&#x7b56;&#x7565;" ID="ID_316021087" CREATED="1569743594807" MODIFIED="1571634351872" ICON_SIZE="12.0 pt">
+<edge STYLE="sharp_bezier"/>
+</node>
+<node TEXT="&#x8bfb;&#x5199;&#x5206;&#x79bb;" ID="ID_270385711" CREATED="1569743604181" MODIFIED="1571634351872" ICON_SIZE="12.0 pt">
+<edge STYLE="sharp_bezier"/>
+</node>
+<node TEXT="&#x9879;&#x76ee;&#x6848;&#x4f8b;" ID="ID_995519484" CREATED="1569743631582" MODIFIED="1571634351872" ICON_SIZE="12.0 pt">
+<edge STYLE="sharp_bezier"/>
+</node>
+<node TEXT="&#x57fa;&#x672c;&#x6982;&#x5ff5;" ID="ID_1624841574" CREATED="1583944496667" MODIFIED="1583944503695">
+<node TEXT="&#x903b;&#x8f91;&#x8868; LogicTable" ID="ID_1986496831" CREATED="1583944504966" MODIFIED="1583944651120"/>
+<node TEXT="&#x771f;&#x5b9e;&#x8868; ActualTable" ID="ID_396374748" CREATED="1583944510331" MODIFIED="1583944669521"/>
+<node TEXT="&#x6570;&#x636e;&#x8282;&#x70b9;&#x8868; DataNode&#xff08;&#x771f;&#x5b9e;&#x6570;&#x636e;&#x6e90;.&#x771f;&#x5b9e;&#x8868;&#xff09;" ID="ID_702437669" CREATED="1583944681329" MODIFIED="1583944918014"/>
+<node TEXT="&#x7ed1;&#x5b9a;&#x8868; BindingTable" ID="ID_841788731" CREATED="1583945062872" MODIFIED="1584101802239">
+<icon BUILTIN="yes"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="10.5pt" face="&#x5b8b;&#x4f53;">&#20998;&#29255;&#35268;&#21017;&#22343;&#19968;&#33268;&#30340;&#20027;&#34920;&#21644;&#23376;&#34920;&#12290;&#20363;&#65306;&#35746;&#21333;&#34920;&#21644;&#35746;&#21333;&#39033;&#34920;&#65292;&#22343;&#25353;&#29031;&#35746;&#21333;</font><font size="10.5pt" face="Calibri,sans-serif">ID</font><font size="10.5pt" face="&#x5b8b;&#x4f53;">&#20998;&#29255;&#65292;&#21017;&#27492;&#20004;&#24352;&#34920;&#20114;&#20026;</font><font size="10.5pt" face="Calibri,sans-serif">BindingTable</font><font size="10.5pt" face="&#x5b8b;&#x4f53;">&#20851;&#31995;&#12290;</font><font size="10.5pt" face="Calibri,sans-serif">BindingTable</font><font size="10.5pt" face="&#x5b8b;&#x4f53;">&#20851;&#31995;&#30340;&#22810;&#34920;&#20851;&#32852;&#26597;&#35810;&#19981;&#20250;&#20986;&#29616;&#31515;&#21345;&#23572;&#31215;&#20851;&#32852;&#65292;&#20851;&#32852;&#26597;&#35810;&#25928;&#29575;&#23558;&#22823;&#22823;&#25552;&#21319;&#12290;</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x901a;&#x8fc7;&#x7ed1;&#x5b9a;&#x4e24;&#x5f20;&#x5206;&#x7247;&#x89c4;&#x5219;&#x4e00;&#x81f4;&#x7684;&#x8868;&#x4e3a;&#x7ed1;&#x5b9a;&#x8868;&#xff0c;&#x907f;&#x514d;&#x53d1;&#x751f;&#x7b1b;&#x5361;&#x5c14;&#x79ef;&#x5173;&#x8054;" ID="ID_1261140226" CREATED="1584101294755" MODIFIED="1584101766530"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#27604;&#22914;&#65306;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      t_order&#21644;t_order_item&#34920;&#37117;&#36890;&#36807;order_id&#20351;&#29992;&#21462;&#27169;&#31639;&#27861;&#65288;%2&#65289;&#36827;&#34892;&#20998;&#29255;&#65292;&#37027;&#20040;&#19979;&#38754;SQL
+    </p>
+    <p>
+      <font color="#3399ff">SELECT i.* FROM t_order o JOIN t_order_item i ON o.order_id=i.order_id WHERE o.order_id in (10, 11);</font>
+    </p>
+    <p>
+      &#27809;&#24517;&#35201;&#25913;&#20889;&#20026;
+    </p>
+    <p>
+      <font color="#3399ff">SELECT i.* FROM t_order_0 o JOIN t_order_item_0 i ON o.order_id=i.order_id WHERE o.order_id in (10, 11); </font>
+    </p>
+    <p>
+      <font color="#3399ff">SELECT i.* FROM t_order_0 o JOIN t_order_item_1 i ON o.order_id=i.order_id WHERE o.order_id in (10, 11);&#160;&#160;&#160;&#160;&#160;-- &#19981;&#21487;&#33021;&#26377;&#25968;&#25454; </font>
+    </p>
+    <p>
+      <font color="#3399ff">SELECT i.* FROM t_order_1 o JOIN t_order_item_0 i ON o.order_id=i.order_id WHERE o.order_id in (10, 11); </font>
+    </p>
+    <p>
+      <font color="#3399ff">SELECT i.* FROM t_order_1 o JOIN t_order_item_1 i ON o.order_id=i.order_id WHERE o.order_id in (10, 11);&#160;&#160;&#160;&#160;&#160;--&#19981;&#21487;&#33021;&#26377;&#25968;&#25454; </font>
+    </p>
+    <p>
+      &#21482;&#38656;&#35201;&#25913;&#20889;&#20026;
+    </p>
+    <p>
+      <font color="#3399ff">SELECT i.* FROM t_order_0 o JOIN t_order_item_0 i ON o.order_id=i.order_id WHERE o.order_id in (10, 11); </font>
+    </p>
+    <p>
+      <font color="#3399ff">SELECT i.* FROM t_order_1 o JOIN t_order_item_0 i ON o.order_id=i.order_id WHERE o.order_id in (10, 11);</font>
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x5206;&#x7247;&#x5b57;&#x6bb5; ShardingColumn" ID="ID_704997789" CREATED="1583945138844" MODIFIED="1583945271274"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-size: 10.5pt; font-family: &#x5b8b;&#x4f53;"><font size="10.5pt" face="&#x5b8b;&#x4f53;">&#20998;&#29255;&#23383;&#27573;&#12290;&#29992;&#20110;&#23558;&#25968;&#25454;&#24211;</font></span><span lang="EN-US" style="font-size: 10.5pt; font-family: Calibri,sans-serif"><font size="10.5pt" face="Calibri,sans-serif">(</font></span><span style="font-size: 10.5pt; font-family: &#x5b8b;&#x4f53;"><font size="10.5pt" face="&#x5b8b;&#x4f53;">&#34920;</font></span><span lang="EN-US" style="font-size: 10.5pt; font-family: Calibri,sans-serif"><font size="10.5pt" face="Calibri,sans-serif">)</font></span><span style="font-size: 10.5pt; font-family: &#x5b8b;&#x4f53;"><font size="10.5pt" face="&#x5b8b;&#x4f53;">&#27700;&#24179;&#25286;&#20998;&#30340;&#20851;&#38190;&#23383;&#27573;&#12290;&#20363;&#65306;&#35746;&#21333;&#34920;&#35746;&#21333;</font></span><span lang="EN-US" style="font-size: 10.5pt; font-family: Calibri,sans-serif"><font size="10.5pt" face="Calibri,sans-serif">ID</font></span><span style="font-size: 10.5pt; font-family: &#x5b8b;&#x4f53;"><font size="10.5pt" face="&#x5b8b;&#x4f53;">&#20998;&#29255;&#23614;&#25968;&#21462;&#27169;&#20998;&#29255;&#65292;&#21017;&#35746;&#21333;</font></span><span lang="EN-US" style="font-size: 10.5pt; font-family: Calibri,sans-serif"><font size="10.5pt" face="Calibri,sans-serif">ID</font></span><span style="font-size: 10.5pt; font-family: &#x5b8b;&#x4f53;"><font size="10.5pt" face="&#x5b8b;&#x4f53;">&#20026;&#20998;&#29255;&#23383;&#27573;&#12290;</font></span><span lang="EN-US" style="font-size: 10.5pt; font-family: Calibri,sans-serif"><font size="10.5pt" face="Calibri,sans-serif">SQL</font></span><span style="font-size: 10.5pt; font-family: &#x5b8b;&#x4f53;"><font size="10.5pt" face="&#x5b8b;&#x4f53;">&#20013;&#22914;&#26524;&#26080;&#20998;&#29255;&#23383;&#27573;&#65292;&#23558;&#25191;&#34892;&#20840;&#36335;&#30001;&#65292;&#24615;&#33021;&#36739;&#24046;&#12290; </font></span>
+    </p>
+    <p>
+      <span lang="EN-US" style="font-size: 10.5pt; font-family: Calibri,sans-serif"><font size="10.5pt" face="Calibri,sans-serif">Sharding-JDBC</font></span><span style="font-size: 10.5pt; font-family: &#x5b8b;&#x4f53;"><font size="10.5pt" face="&#x5b8b;&#x4f53;">&#25903;&#25345;&#22810;&#20998;&#29255;&#23383;&#27573;</font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x5e7f;&#x64ad;&#x8868; BroadcatTable&#xff08;&#x6bcf;&#x4e2a;&#x5206;&#x7247;&#x6570;&#x636e;&#x6e90;&#x4e2d;&#x90fd;&#x5b58;&#x5728;&#x7684;&#x4e14;&#x7ed3;&#x6784;&#x548c;&#x6570;&#x636e;&#x5b8c;&#x5168;&#x4e00;&#x81f4;&#xff09;" ID="ID_619749940" CREATED="1583945373673" MODIFIED="1584106927904"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-size: 10.5pt; font-family: &#x5b8b;&#x4f53;"><font size="10.5pt" face="&#x5b8b;&#x4f53;">&#25351;&#25152;&#26377;&#30340;&#20998;&#29255;&#25968;&#25454;&#28304;&#20013;&#37117;&#23384;&#22312;&#30340;&#34920;&#65292;&#34920;&#32467;&#26500;&#21644;&#34920;&#20013;&#30340;&#25968;&#25454;&#22312;&#27599;&#20010;&#25968;&#25454;&#24211;&#20013;&#22343;&#23436;&#20840;&#19968;&#33268;&#12290;&#36866;&#29992;&#20110;&#25968;&#25454;&#37327;&#19981;&#22823;&#19988;&#38656;&#35201;&#19982;&#28023;&#37327;&#25968;&#25454;&#30340;&#34920;&#36827;&#34892;&#20851;&#32852;&#26597;&#35810;&#30340;&#22330;&#26223;&#65292;&#20363;&#22914;&#65306;&#23383;&#20856;&#34920;</font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x901a;&#x8fc7;&#x9002;&#x5f53;&#x7684;&#x5197;&#x4f59;&#xff0c;&#x89e3;&#x51b3;&#x5927;&#x91cf;&#x8de8;&#x8868;&#x8054;&#x7ed3;&#x4ea7;&#x751f;&#x7684;&#x6027;&#x80fd;&#x95ee;&#x9898;&#xa;&#x9002;&#x7528;&#x4e8e;&#x6570;&#x636e;&#x91cf;&#x5c11;&#x4e0e;&#x5176;&#x4ed6;&#x8868;&#x8054;&#x8868;&#x53ca;&#x5176;&#x9891;&#x7e41;&#x7684;&#x6570;&#x636e;&#x8868;" ID="ID_1588423274" CREATED="1584106929277" MODIFIED="1584107081364"/>
+</node>
+<node TEXT="&#x903b;&#x8f91;&#x7d22;&#x5f15;" ID="ID_338048572" CREATED="1583945459789" MODIFIED="1583945621724"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-size: 10.5pt; font-family: &#x5b8b;&#x4f53;"><font size="10.5pt" face="&#x5b8b;&#x4f53;">&#26576;&#20123;&#25968;&#25454;&#24211;&#65288;&#22914;&#65306;</font></span><span lang="EN-US" style="font-size: 10.5pt; font-family: Calibri,sans-serif"><font size="10.5pt" face="Calibri,sans-serif">PostgreSQL</font></span><span style="font-size: 10.5pt; font-family: &#x5b8b;&#x4f53;"><font size="10.5pt" face="&#x5b8b;&#x4f53;">&#65289;&#19981;&#20801;&#35768;&#21516;&#19968;&#20010;&#24211;&#23384;&#22312;&#21517;&#31216;&#30456;&#21516;&#32034;&#24341;&#65292;&#26576;&#20123;&#25968;&#25454;&#24211;&#65288;&#22914;&#65306;</font></span><span lang="EN-US" style="font-size: 10.5pt; font-family: Calibri,sans-serif"><font size="10.5pt" face="Calibri,sans-serif">MySQL</font></span><span style="font-size: 10.5pt; font-family: &#x5b8b;&#x4f53;"><font size="10.5pt" face="&#x5b8b;&#x4f53;">&#65289;&#21017;&#20801;&#35768;&#21482;&#35201;&#21516;&#19968;&#20010;&#34920;&#20013;&#19981;&#23384;&#22312;&#21517;&#31216;&#30456;&#21516;&#30340;&#32034;&#24341;&#21363;&#21487;&#12290;</font></span><span style="font-size: 10.5pt; font-family: Calibri,sans-serif"><font size="10.5pt" face="Calibri,sans-serif">&#160; </font></span><span style="font-size: 10.5pt; font-family: &#x5b8b;&#x4f53;"><font size="10.5pt" face="&#x5b8b;&#x4f53;">&#36923;&#36753;&#32034;&#24341;&#29992;&#20110;&#21516;&#19968;&#20010;&#24211;&#19981;&#20801;&#35768;&#20986;&#29616;&#30456;&#21516;&#32034;&#24341;&#21517;&#31216;&#30340;&#20998;&#34920;&#22330;&#26223;&#65292;&#38656;&#35201;&#23558;&#21516;&#24211;&#19981;&#21516;&#34920;&#30340;&#32034;&#24341;&#21517;&#31216;&#25913;&#20889;&#20026;&#32034;&#24341;&#21517;</font></span><span lang="EN-US" style="font-size: 10.5pt; font-family: Calibri,sans-serif"><font size="10.5pt" face="Calibri,sans-serif">&#160; + </font></span><span style="font-size: 10.5pt; font-family: &#x5b8b;&#x4f53;"><font size="10.5pt" face="&#x5b8b;&#x4f53;">&#34920;&#21517;&#65292;&#25913;&#20889;&#20043;&#21069;&#30340;&#32034;&#24341;&#21517;&#31216;&#25104;&#20026;&#36923;&#36753;&#32034;&#24341;&#12290;</font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x9488;&#x5bf9;&#x4e0d;&#x5141;&#x8bb8;&#x540c;&#x4e00;&#x4e2a;&#x5e93;&#x5b58;&#x5728;&#x540d;&#x79f0;&#x76f8;&#x540c;&#x7d22;&#x5f15;&#x7684;&#x6570;&#x636e;&#x5e93;" ID="ID_1770127080" CREATED="1584107138828" MODIFIED="1584107149147"/>
+</node>
+<node TEXT="&#x5206;&#x7247;&#x7b97;&#x6cd5; ShardingAlgorithm" ID="ID_1229136325" CREATED="1583946117607" MODIFIED="1583946138525"/>
+<node TEXT="&#x5206;&#x7247;&#x7b56;&#x7565; StandardShardingStrategy" ID="ID_611500604" CREATED="1583946151037" MODIFIED="1584179567043"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#30001;&#20998;&#29255;&#38190;&#21644;&#20998;&#29255;&#31639;&#27861;&#32452;&#25104;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x6807;&#x51c6;&#x5206;&#x7247;&#x7b56;&#x7565;" ID="ID_399369480" CREATED="1584179568232" MODIFIED="1584179577528"/>
+</node>
+<node TEXT="SQL Hint" ID="ID_1415769411" CREATED="1583946213873" MODIFIED="1583946215350"/>
+</node>
+<node TEXT="&#x903b;&#x8f91;" ID="ID_1390019707" CREATED="1583945624099" MODIFIED="1583945638679">
+<node TEXT="1&#xff09;&#x63d0;&#x51fa;&#x9002;&#x5408;&#x9700;&#x6c42;&#x7684;&#x5206;&#x5e93;&#x5206;&#x8868;&#x548c;&#x4e3b;&#x4ece;&#x590d;&#x5236;&#x96c6;&#x7fa4;&#x67b6;&#x6784;" ID="ID_335913920" CREATED="1583945639202" MODIFIED="1583945738238"/>
+<node TEXT="2&#xff09;&#x5206;&#x5e93;&#x5206;&#x8868;&#x6309;&#x4ec0;&#x4e48;&#x5206;&#x5e93;&#xff0c;&#x6309;&#x4ec0;&#x4e48;&#x5b57;&#x6bb5;&#x5206;&#x8868;&#xff1b;&#x5206;&#x7247;&#x7b56;&#x7565;" ID="ID_67355955" CREATED="1583945738473" MODIFIED="1583945809062"/>
+<node TEXT="3&#xff09;&#x5206;&#x5e93;&#x5206;&#x8868;&#x548c;&#x4e3b;&#x4ece;&#x590d;&#x5236;&#x7684;&#x95ee;&#x9898;&#x600e;&#x4e48;&#x89e3;&#x51b3;" ID="ID_820517127" CREATED="1583945811416" MODIFIED="1583945860281"/>
+<node TEXT="4&#xff09;&#x6027;&#x80fd;&#x95ee;&#x9898;&#x600e;&#x4e48;&#x4f18;&#x5316;" ID="ID_1568370867" CREATED="1583945862004" MODIFIED="1583945879279"/>
+<node TEXT="5&#xff09;&#x968f;&#x7740;&#x4e1a;&#x52a1;&#x6570;&#x636e;&#x589e;&#x52a0;&#x9700;&#x8981;&#x589e;&#x52a0;&#x6570;&#x636e;&#x8282;&#x70b9;&#xff0c;&#x600e;&#x4e48;&#x5b9e;&#x73b0;&#x52a8;&#x6001;&#x5316;&#x914d;&#x7f6e;" ID="ID_598041566" CREATED="1583946946852" MODIFIED="1583947008488"/>
+<node TEXT="6&#xff09;&#x5982;&#x4f55;&#x9650;&#x5236;&#x7279;&#x6b8a;&#x573a;&#x666f;&#x4e0b;&#x8bbf;&#x95ee;&#x6307;&#x5b9a;&#x7684;&#x6570;&#x636e;&#x5e93;&#xff1f;&#x5f3a;&#x5236;&#x8def;&#x7531;" ID="ID_647838238" CREATED="1583948236343" MODIFIED="1583948340104"/>
+</node>
+<node TEXT="&#x5de5;&#x4f5c;&#x539f;&#x7406;" ID="ID_8712893" CREATED="1584008656520" MODIFIED="1584008668889">
+<node TEXT="1&#xff09;&#x89e3;&#x6790;" ID="ID_1121135233" CREATED="1584008669734" MODIFIED="1584008680871"/>
+<node TEXT="2&#xff09;&#x4f18;&#x5316;" ID="ID_1822621870" CREATED="1584008681092" MODIFIED="1584008684176"/>
+<node TEXT="3&#xff09;&#x8def;&#x7531;" ID="ID_752255737" CREATED="1584008684429" MODIFIED="1584008688988"/>
+<node TEXT="4&#xff09;&#x6539;&#x5199;" ID="ID_325357529" CREATED="1584008689187" MODIFIED="1584008710899"/>
+<node TEXT="5&#xff09;&#x6267;&#x884c;" ID="ID_1290852806" CREATED="1584008711267" MODIFIED="1584008714565"/>
+<node TEXT="6&#xff09;&#x5f52;&#x5e76;" ID="ID_1786391208" CREATED="1584008714804" MODIFIED="1584008718910"/>
+</node>
+<node TEXT="&#x5206;&#x5e93;&#x5206;&#x8868;" ID="ID_1455628374" CREATED="1583944463708" MODIFIED="1583944473098">
+<node TEXT="&#x914d;&#x7f6e;" ID="ID_1094125115" CREATED="1583944473734" MODIFIED="1583944477733"/>
+</node>
+</node>
+<node TEXT="Sharding-Proxy" ID="ID_151912847" CREATED="1572313912921" MODIFIED="1583944327586" STYLE="bubble"/>
+<node TEXT="Sharding-Sidecar" ID="ID_105675790" CREATED="1572313930000" MODIFIED="1583944329845" STYLE="bubble"/>
+</node>
+<node TEXT="TDDL&#xff08;&#x90e8;&#x5206;&#x5f00;&#x6e90;&#xff09;" ID="ID_1587781499" CREATED="1571408991197" MODIFIED="1583923142850" ICON_SIZE="12.0 pt" STYLE="bubble"/>
+</node>
+<node TEXT="&#x57fa;&#x4e8e;Proxy" ID="ID_195889789" CREATED="1583922949428" MODIFIED="1583923414016"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#38656;&#35201;&#37096;&#32626;&#26381;&#21153;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20248;&#28857;&#65306;
+    </p>
+    <p>
+      1 &#24320;&#21457;&#26080;&#24863;&#30693;&#65288;&#20294;&#26159;&#19981;&#23481;&#26131;&#25490;&#26597;&#38382;&#39064;&#65289;
+    </p>
+    <p>
+      2 &#22686;&#21024;&#33410;&#28857;&#31243;&#24207;&#19981;&#38656;&#35201;&#37325;&#21551;
+    </p>
+    <p>
+      3 &#36328;&#35821;&#35328;
+    </p>
+    <p>
+      &#32570;&#28857;&#65306;
+    </p>
+    <p>
+      1 &#24615;&#33021;&#30456;&#23545;&#19981;&#22909;
+    </p>
+    <p>
+      2 &#19981;&#25903;&#25345;&#36328;&#25968;&#25454;&#24211;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Cobar" ID="ID_1443349705" CREATED="1571408997067" MODIFIED="1583923006425" ICON_SIZE="12.0 pt" STYLE="bubble"/>
+<node TEXT="MyCat&#xff08;&#x57fa;&#x4e8e;Cobar&#xff09;" ID="ID_1503553561" CREATED="1569742386987" MODIFIED="1583923002715" ICON_SIZE="12.0 pt" STYLE="bubble">
 <edge STYLE="sharp_bezier"/>
 <richcontent TYPE="NOTE">
 
@@ -3060,39 +4419,6 @@
 <node TEXT="&#x9879;&#x76ee;&#x6848;&#x4f8b;" ID="ID_198579246" CREATED="1569743670314" MODIFIED="1571634351872" ICON_SIZE="12.0 pt">
 <edge STYLE="sharp_bezier"/>
 </node>
-</node>
-<node TEXT="Sharding-Sphere" ID="ID_1675746855" CREATED="1569742392002" MODIFIED="1572314299197" ICON_SIZE="12.0 pt">
-<edge STYLE="sharp_bezier"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#21407;&#29702;&#26159;&#37325;&#20889;JDBC&#23454;&#29616;&#65292;&#20250;&#25972;&#21512;&#21040;&#29992;&#25143;&#24212;&#29992;&#20013;&#65292;&#24615;&#33021;&#36739;&#22909;&#65292;&#25345;&#32493;&#26356;&#26032;&#32500;&#25252;&#20013;
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="Sharding-JDBC" ID="ID_1271029078" CREATED="1569743041143" MODIFIED="1572314001087" ICON_SIZE="12.0 pt">
-<edge STYLE="sharp_bezier"/>
-<node TEXT="&#x6838;&#x5fc3;&#x7ec4;&#x4ef6;" ID="ID_1489491839" CREATED="1569743583155" MODIFIED="1571634351872" ICON_SIZE="12.0 pt">
-<edge STYLE="sharp_bezier"/>
-</node>
-<node TEXT="&#x5206;&#x7247;&#x7b56;&#x7565;" ID="ID_316021087" CREATED="1569743594807" MODIFIED="1571634351872" ICON_SIZE="12.0 pt">
-<edge STYLE="sharp_bezier"/>
-</node>
-<node TEXT="&#x8bfb;&#x5199;&#x5206;&#x79bb;" ID="ID_270385711" CREATED="1569743604181" MODIFIED="1571634351872" ICON_SIZE="12.0 pt">
-<edge STYLE="sharp_bezier"/>
-</node>
-<node TEXT="&#x9879;&#x76ee;&#x6848;&#x4f8b;" ID="ID_995519484" CREATED="1569743631582" MODIFIED="1571634351872" ICON_SIZE="12.0 pt">
-<edge STYLE="sharp_bezier"/>
-</node>
-</node>
-<node TEXT="Sharding-Proxy" ID="ID_151912847" CREATED="1572313912921" MODIFIED="1572313914811"/>
-<node TEXT="Sharding-Sidecar" ID="ID_105675790" CREATED="1572313930000" MODIFIED="1572313931296"/>
 </node>
 </node>
 </node>
@@ -5337,7 +6663,7 @@
 <edge STYLE="sharp_bezier"/>
 <node TEXT="&#x53c2;&#x8003;&#x72ec;&#x7acb;&#x7684;&#x601d;&#x7ef4;&#x5bfc;&#x56fe;" ID="ID_562691859" CREATED="1583116207484" MODIFIED="1583116218047"/>
 </node>
-<node TEXT="2.2 &#x5e76;&#x53d1;" ID="ID_76492160" CREATED="1561353642206" MODIFIED="1573477173646" ICON_SIZE="12.0 pt" STYLE="bubble">
+<node TEXT="2.2 &#x5e76;&#x53d1;" FOLDED="true" ID="ID_76492160" CREATED="1561353642206" MODIFIED="1573477173646" ICON_SIZE="12.0 pt" STYLE="bubble">
 <edge STYLE="sharp_bezier"/>
 <node TEXT="&#x5e76;&#x53d1;&#x7f16;&#x7a0b;&#x57fa;&#x7840;" ID="ID_1718672620" CREATED="1583556970997" MODIFIED="1583556990306" STYLE="bubble">
 <node TEXT="Linux&#x5185;&#x6838;&#x6001;&#x548c;&#x7528;&#x6237;&#x6001;" ID="ID_927632970" CREATED="1583556997577" MODIFIED="1583557018308">
@@ -6181,7 +7507,7 @@
 
 </richcontent>
 </node>
-<node TEXT="Condition (await and signal)&#xa;&#x4e0e; Object&#x76d1;&#x89c6;&#x5668;" FOLDED="true" ID="ID_636901396" CREATED="1583241578291" MODIFIED="1583491004969"><richcontent TYPE="NOTE">
+<node TEXT="Condition (await and signal)&#xa;&#x4e0e; Object&#x76d1;&#x89c6;&#x5668;" ID="ID_636901396" CREATED="1583241578291" MODIFIED="1583491004969"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -6472,7 +7798,7 @@
 <node TEXT="&#x5b9e;&#x4f8b;&#x65b9;&#x6cd5;&#xff08;&#x88ab;&#x9501;&#x5bf9;&#x8c61;&#xff1a;&#x5b9e;&#x4f8b;&#x5bf9;&#x8c61;&#xff09;" ID="ID_812773801" CREATED="1583204901927" MODIFIED="1583204955791"/>
 <node TEXT="&#x9759;&#x6001;&#x65b9;&#x6cd5;&#xff08;&#x88ab;&#x9501;&#x5bf9;&#x8c61;&#xff1a;&#x7c7b;&#x5bf9;&#x8c61;&#xff09;" ID="ID_1551680685" CREATED="1583204908333" MODIFIED="1583204968341"/>
 </node>
-<node TEXT="&#x4ee3;&#x7801;&#x5757;" FOLDED="true" ID="ID_1168400125" CREATED="1583204881670" MODIFIED="1583204885916">
+<node TEXT="&#x4ee3;&#x7801;&#x5757;" ID="ID_1168400125" CREATED="1583204881670" MODIFIED="1583204885916">
 <node TEXT="&#x5b9e;&#x4f8b;&#x5bf9;&#x8c61;&#xff08;&#x88ab;&#x9501;&#x5bf9;&#x8c61;&#xff1a;&#x5b9e;&#x4f8b;&#x5bf9;&#x8c61;&#xff09;" ID="ID_1619311986" CREATED="1583204982923" MODIFIED="1583205055498"/>
 <node TEXT="&#x7c7b;&#x5bf9;&#x8c61;&#xff08;&#x88ab;&#x9501;&#x5bf9;&#x8c61;&#xff1a;&#x7c7b;&#x5bf9;&#x8c61;&#xff09;" ID="ID_1634677350" CREATED="1583205008712" MODIFIED="1583205070265"/>
 <node TEXT="&#x4efb;&#x610f;Object&#x5bf9;&#x8c61;&#xff08;&#x88ab;&#x9501;&#x5bf9;&#x8c61;&#xff1a;&#x6b64;Object&#x5bf9;&#x8c61;&#xff09;" ID="ID_1511942568" CREATED="1583205020991" MODIFIED="1583205097112"/>
