@@ -3,7 +3,7 @@
 <node TEXT="DevOps" FOLDED="false" ID="ID_1213948746" CREATED="1583678434492" MODIFIED="1583678444115" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" show_note_icons="true"/>
+    <properties fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="5" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="6" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="&#x8fd0;&#x7ef4;&#x80fd;&#x529b;" POSITION="right" ID="ID_1152862669" CREATED="1583719340686" MODIFIED="1583719349319" STYLE="bubble">
 <edge COLOR="#00ff00"/>
 <node TEXT="&#x5e94;&#x7528;&#x53d1;&#x5e03;&#x3001;&#x8fd0;&#x7ef4;" ID="ID_387101586" CREATED="1583719354753" MODIFIED="1583719406037" STYLE="fork"/>
@@ -83,7 +83,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x57fa;&#x672c;&#x6982;&#x5ff5;" ID="ID_239943728" CREATED="1583720551560" MODIFIED="1583720557143">
 <node TEXT="&#x865a;&#x62df;&#x5316;&#x7684;&#x4f5c;&#x7528;" ID="ID_1543200311" CREATED="1583720275006" MODIFIED="1583720311988">
@@ -126,7 +125,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x5168;&#x865a;&#x62df;&#x5316;" ID="ID_379233079" CREATED="1583720709631" MODIFIED="1583721660358" LINK="imgs/&#x5168;&#x865a;&#x62df;&#x5316;&#x67b6;&#x6784;.png"><richcontent TYPE="NOTE">
 
@@ -140,7 +138,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="OS&#x5c42;&#x865a;&#x62df;&#x5316;" ID="ID_1321866393" CREATED="1583720725838" MODIFIED="1583722027383" LINK="imgs/OS&#x5c42;&#x865a;&#x62df;&#x5316;&#x67b6;&#x6784;.png"><richcontent TYPE="NOTE">
@@ -155,7 +152,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x786c;&#x4ef6;&#x5c42;&#x865a;&#x62df;&#x5316;" ID="ID_634476238" CREATED="1583720733152" MODIFIED="1583722284582" LINK="imgs/&#x786c;&#x4ef6;&#x5c42;&#x865a;&#x62df;&#x5316;&#x67b6;&#x6784;.png"><richcontent TYPE="NOTE">
@@ -170,7 +166,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -190,7 +185,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="KVM" ID="ID_668051390" CREATED="1583722872808" MODIFIED="1583734501029"><richcontent TYPE="NOTE">
@@ -208,7 +202,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="VMware" ID="ID_664445057" CREATED="1583722880095" MODIFIED="1583722886008"/>
@@ -227,7 +220,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Solaris Zones" ID="ID_1404107956" CREATED="1583723341878" MODIFIED="1583723343081"/>
@@ -249,7 +241,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Docker&#x521a;&#x5f00;&#x59cb;&#x57fa;&#x4e8e;LXC&#x5b9e;&#x73b0;" ID="ID_956061115" CREATED="1583723836453" MODIFIED="1583723869682"/>
 </node>
@@ -265,7 +256,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -288,9 +278,12 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
+</node>
+<node TEXT="DI/DC" POSITION="right" ID="ID_176434195" CREATED="1584591943580" MODIFIED="1584591952165" STYLE="bubble">
+<edge COLOR="#7c0000"/>
+<node TEXT="Jenkins" ID="ID_972623596" CREATED="1584591958413" MODIFIED="1584591963749" STYLE="bubble"/>
 </node>
 <node TEXT="&#x5bb9;&#x5668;&#x7ba1;&#x7406;&#x5e73;&#x53f0;" POSITION="right" ID="ID_1327674057" CREATED="1583734582507" MODIFIED="1583734591566" STYLE="bubble">
 <edge COLOR="#ff00ff"/>
@@ -324,7 +317,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -338,7 +330,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x5e94;&#x7528;&#x573a;&#x666f;" ID="ID_608844968" CREATED="1583719129354" MODIFIED="1583719144755">
 <node TEXT="&#x5145;&#x5206;&#x5229;&#x7528;&#x670d;&#x52a1;&#x5668;&#x8d44;&#x6e90;" ID="ID_682909028" CREATED="1583719791087" MODIFIED="1583719801107"/>
@@ -358,7 +349,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -379,7 +369,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Scheduler" ID="ID_1020739374" CREATED="1584113751751" MODIFIED="1584113873557"><richcontent TYPE="NOTE">
@@ -394,7 +383,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x8c03;&#x5ea6;&#x6d41;&#x7a0b;" ID="ID_168683026" CREATED="1584115111761" MODIFIED="1584156220628" LINK="imgs/scheduler&#x8c03;&#x5ea6;.png"><richcontent TYPE="NOTE">
 
@@ -408,7 +396,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x8c03;&#x5ea6;&#x7b97;&#x6cd5;" ID="ID_848999046" CREATED="1584115159534" MODIFIED="1584115168991"><richcontent TYPE="NOTE">
@@ -423,7 +410,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -439,7 +425,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Replication Controller" ID="ID_262110019" CREATED="1584114474354" MODIFIED="1584159442353"><richcontent TYPE="NOTE">
 
@@ -459,7 +444,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="ReplicaSet Controller" ID="ID_1563318502" CREATED="1584159304162" MODIFIED="1584159595520"><richcontent TYPE="DETAILS">
 
@@ -473,7 +457,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -487,7 +470,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -503,7 +485,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x529f;&#x80fd;" ID="ID_1759677189" CREATED="1584159911697" MODIFIED="1584159954504"><richcontent TYPE="NOTE">
 
@@ -526,7 +507,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x548c;ReplicaSet Controller&#x7684;&#x5173;&#x7cfb;&#x56fe;" ID="ID_1882381749" CREATED="1584159971668" MODIFIED="1584160102722" LINK="imgs/Deployment&#x548c;ReplicaSet&#x5173;&#x7cfb;.png"/>
@@ -558,7 +538,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="StatefullSet" ID="ID_1710459950" CREATED="1584161245712" MODIFIED="1584161512401" LINK="https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/"><richcontent TYPE="NOTE">
@@ -597,7 +576,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x89e3;&#x51b3;&#x6709;&#x72b6;&#x6001;&#x670d;&#x52a1;&#x540c;&#x6b65;&#x4e00;&#x81f4;&#x6027;&#x95ee;&#x9898;&#xff0c;&#x5982;&#xff1a;MySQL&#x3001;MQ&#x3001;Redis ..." ID="ID_1984594870" CREATED="1584161279666" MODIFIED="1584161561906"/>
 <node TEXT="Docker&#x5bb9;&#x5668;&#x4e3b;&#x8981;&#x9762;&#x5bf9;&#x65e0;&#x72b6;&#x6001;&#x670d;&#x52a1;" ID="ID_1166099944" CREATED="1584161661239" MODIFIED="1584161681206"/>
@@ -620,7 +598,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x53ef;&#x4ee5;&#x6307;&#x5b9a;&#x7ed9;Node&#x521b;&#x5efa;&#x9ed8;&#x8ba4;&#x7684;pod&#x96c6;&#x5408;" ID="ID_1174721677" CREATED="1584162085329" MODIFIED="1584162109449"/>
 <node TEXT="&#x4f7f;&#x2f64;DaemonSet &#x7684;&#x2f00;&#x4e9b;&#x5178;&#x578b;&#x2f64;&#x6cd5;&#xff1a;&#xa;&#xff08;1&#xff09; &#x8fd0;&#x2f8f;&#x96c6;&#x7fa4;&#x5b58;&#x50a8;daemon,&#x4f8b;&#x5982;&#x5728;&#x6bcf;&#x4e2a;Node&#x4e0a;&#x8fd0;&#x2f8f;glustered,ceph&#xa;&#xff08;2&#xff09;&#x5728;&#x6bcf;&#x4e2a;Node&#x4e0a;&#x8fd0;&#x2f8f;&#x2f47;&#x5fd7;&#x6536;&#x96c6;Daemon,&#x4f8b;&#x5982;&#xff1a;fluentd&#x3001;logstash.&#xa;&#xff08;3&#xff09;&#x5728;&#x6bcf;&#x4e2a;Node&#x4e0a;&#x8fd0;&#x2f8f;&#x76d1;&#x63a7;Daemon,&#x4f8b;&#x5982;&#xff1a;Prometheus Node Exporter" ID="ID_1090922908" CREATED="1584162018172" MODIFIED="1584162031525"/>
@@ -637,7 +614,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Node Controller" ID="ID_1588733892" CREATED="1584114466435" MODIFIED="1584114468114"/>
@@ -663,7 +639,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -679,7 +654,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="pod" ID="ID_1705166151" CREATED="1584114299104" MODIFIED="1584158649167"><richcontent TYPE="NOTE">
 
@@ -699,7 +673,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x5305;&#x542b;&#x4e00;&#x6216;&#x591a;&#x4e2a;&#x5bb9;&#x5668;" ID="ID_195980078" CREATED="1584114317522" MODIFIED="1584149467385"/>
 <node TEXT="pause&#x5bb9;&#x5668;&#xa;(&#x5176;&#x4ed6;&#x4e1a;&#x52a1;&#x670d;&#x52a1;&#x5bb9;&#x5668;&#x4f9d;&#x8d56;&#x4e8e;pause&#x521b;&#x5efa;)" ID="ID_1300963362" CREATED="1584156528237" MODIFIED="1584158359037"><richcontent TYPE="NOTE">
@@ -744,7 +717,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x5171;&#x4eab;&#x7f51;&#x7edc;" ID="ID_355783634" CREATED="1584158359802" MODIFIED="1584158369598"/>
 <node TEXT="&#x5171;&#x4eab;&#x5b58;&#x50a8;" ID="ID_870877348" CREATED="1584158375493" MODIFIED="1584158383854"/>
@@ -773,7 +745,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="dns" ID="ID_469858196" CREATED="1584114733799" MODIFIED="1584114737327"/>
@@ -790,7 +761,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="..." ID="ID_1470507675" CREATED="1584175187337" MODIFIED="1584175191514"/>
@@ -808,7 +778,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="CoreDNS" ID="ID_1217177155" CREATED="1584158806439" MODIFIED="1584158939131"><richcontent TYPE="NOTE">
 
@@ -822,7 +791,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Dashboard" ID="ID_973478024" CREATED="1584158951771" MODIFIED="1584158966413"><richcontent TYPE="NOTE">
@@ -837,7 +805,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="IngressController" ID="ID_423117028" CREATED="1584158825759" MODIFIED="1584158978673"><richcontent TYPE="NOTE">
@@ -852,7 +819,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="FEDERATION" ID="ID_1057353987" CREATED="1584158992422" MODIFIED="1584158998952"><richcontent TYPE="NOTE">
@@ -867,7 +833,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="PROMETHEUS" ID="ID_466390184" CREATED="1584158854248" MODIFIED="1584158917053"><richcontent TYPE="NOTE">
@@ -882,7 +847,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="ELK" ID="ID_155649087" CREATED="1584158877107" MODIFIED="1584158886211"><richcontent TYPE="NOTE">
@@ -897,7 +861,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -915,7 +878,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x5f39;&#x6027;&#x4f38;&#x7f29;" ID="ID_177112090" CREATED="1584111001774" MODIFIED="1584114869851"><richcontent TYPE="NOTE">
@@ -930,7 +892,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x8d44;&#x6e90;&#x76d1;&#x63a7;" ID="ID_930942562" CREATED="1584112622764" MODIFIED="1584114950376"><richcontent TYPE="NOTE">
@@ -945,7 +906,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="" ID="ID_925545000" CREATED="1584173369339" MODIFIED="1584173369340">
@@ -963,7 +923,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x8d1f;&#x8f7d;&#x5747;&#x8861;" ID="ID_70333543" CREATED="1584112659895" MODIFIED="1584114896983"><richcontent TYPE="NOTE">
@@ -978,7 +937,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x7b56;&#x7565;" ID="ID_1366344214" CREATED="1584174385614" MODIFIED="1584174392841">
 <node TEXT="userspace" ID="ID_1560125185" CREATED="1584174393493" MODIFIED="1584176707097" LINK="imgs/&#x670d;&#x52a1;&#x53d1;&#x73b0;&#x4e0e;userspace&#x8d1f;&#x8f7d;&#x5747;&#x8861;.png"><richcontent TYPE="NOTE">
@@ -993,7 +951,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="iptables(&#x9ed8;&#x8ba4;)" ID="ID_1603647765" CREATED="1584174401030" MODIFIED="1584177428416"><richcontent TYPE="NOTE">
@@ -1011,7 +968,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -1028,7 +984,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x968f;&#x673a;&#x8f6c;&#x53d1;" ID="ID_374349005" CREATED="1584177257877" MODIFIED="1584177376458"><richcontent TYPE="NOTE">
 
@@ -1084,7 +1039,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x8f6e;&#x8be2;&#x8f6c;&#x53d1;" ID="ID_1089832921" CREATED="1584177282549" MODIFIED="1584177379472"><richcontent TYPE="NOTE">
@@ -1120,7 +1074,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1139,7 +1092,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -1183,7 +1135,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="rr: &#x8f6e;&#x8be2;" ID="ID_1283485535" CREATED="1584177999073" MODIFIED="1584178000593"/>
 <node TEXT="lc: &#x6700;&#x2f29;&#x8fde;&#x63a5;&#x6570;" ID="ID_1935803327" CREATED="1584178006137" MODIFIED="1584178007779"/>
@@ -1221,7 +1172,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -1238,7 +1188,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1255,7 +1204,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x6eda;&#x52a8;&#x66f4;&#x65b0;" ID="ID_477251914" CREATED="1584113621494" MODIFIED="1584114914162"><richcontent TYPE="NOTE">
@@ -1270,7 +1218,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x5b58;&#x50a8;&#x7f16;&#x6392;&#x5171;&#x4eab;" ID="ID_1391960105" CREATED="1584112784207" MODIFIED="1584114834248"><richcontent TYPE="NOTE">
@@ -1285,7 +1232,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x8ba4;&#x8bc1;&#x6388;&#x6743;" ID="ID_1077697587" CREATED="1584112790129" MODIFIED="1584114952283"><richcontent TYPE="NOTE">
@@ -1300,11 +1246,26 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 <node TEXT="&#x901a;&#x8fc7;K8S&#x8bbf;&#x95ee;&#x6d41;&#x7a0b;" ID="ID_1110567933" CREATED="1584170723786" MODIFIED="1584170735919"/>
+<node TEXT="&#x4f7f;&#x7528;kubeadm&#x90e8;&#x7f72;K8S&#x96c6;&#x7fa4;" ID="ID_544249121" CREATED="1584545492178" MODIFIED="1584546238301"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#19968;&#20010;Master&#33410;&#28857;&#20004;&#20010;Node&#33410;&#28857;;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x53c2;&#x8003;&lt;Kubeadm&#x90e8;&#x7f72;K8S&#x96c6;&#x7fa4;.md&gt;" ID="ID_214873010" CREATED="1584546260472" MODIFIED="1584546313813"/>
+</node>
 </node>
 <node TEXT="Swarm" ID="ID_391150822" CREATED="1583734612013" MODIFIED="1584110184521" STYLE="bubble"><richcontent TYPE="NOTE">
 
@@ -1318,7 +1279,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Mesos" ID="ID_1640889418" CREATED="1583734625329" MODIFIED="1584110294328" STYLE="bubble"><richcontent TYPE="NOTE">
@@ -1333,7 +1293,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
