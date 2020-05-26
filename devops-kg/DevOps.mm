@@ -63,15 +63,267 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="6" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="&#x8fd0;&#x7ef4;&#x80fd;&#x529b;" POSITION="right" ID="ID_1152862669" CREATED="1583719340686" MODIFIED="1583719349319" STYLE="bubble">
-<edge COLOR="#00ff00"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="13" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="&#x5185;&#x5bb9;&#x7b80;&#x4ecb;" POSITION="right" ID="ID_237691068" CREATED="1590289700293" MODIFIED="1590289709361" STYLE="bubble">
+<edge COLOR="#007c7c"/>
+<node TEXT="&#x7814;&#x53d1;&#x6d41;&#x7a0b;" ID="ID_527582982" CREATED="1590289711685" MODIFIED="1590290225326" LINK="imgs/&#x8f6f;&#x4ef6;&#x7814;&#x53d1;&#x6d41;&#x7a0b;.jpg" STYLE="bubble"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22270;&#24182;&#19981;&#26159;&#24456;&#20934;&#30830;&#65292;&#37324;&#38754;&#26377;&quot;&#25345;&#32493;&quot;&#38598;&#25104;&#37096;&#32626;&#20132;&#20114;&#30340;&#24456;&#22810;circle&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x63d0;&#x51fa;&#x9700;&#x6c42;&#xa;(&#x4ea7;&#x54c1;&#x7ecf;&#x7406;&#x63d0;&#x51fa;&#xff0c;&#x6240;&#x6709;&#x56e2;&#x961f;&#xff1a;&#x4ea7;&#x54c1;&#x3001;&#x8bbe;&#x8ba1;&#x3001;&#x5f00;&#x53d1;&#x3001;&#x6d4b;&#x8bd5;&#x3001;&#x8fd0;&#x7ef4;&#x53c2;&#x4e0e;&#x5408;&#x7406;&#x6027;&#x3001;&#x5b9e;&#x73b0;&#x3001;&#x5468;&#x671f;&#x8ba8;&#x8bba;)" ID="ID_1985366339" CREATED="1590290248271" MODIFIED="1590291305378">
+<icon BUILTIN="full-1"/>
+</node>
+<node TEXT="&#x9700;&#x6c42;&#x3001;&#x4ea4;&#x4e92;&#x8bc4;&#x5ba1;&#xa;(&#x4ea7;&#x54c1;&#x7ecf;&#x7406;&#x63d0;&#x51fa;&#x4e00;&#x4e2a;&#x8f83;&#x8be6;&#x7ec6;&#x7684;&#x9700;&#x6c42;&#x65b9;&#x6848;&#xff0c;&#x6240;&#x6709;&#x4eba;&#x5458;&#x8ba8;&#x8bba;&#x7ec6;&#x8282;&#x5b9e;&#x73b0;)" ID="ID_1560469267" CREATED="1590290259351" MODIFIED="1590291307982">
+<icon BUILTIN="full-2"/>
+</node>
+<node TEXT="&#x9700;&#x6c42;&#x5b9e;&#x73b0;&#x8bbe;&#x8ba1;&#xa;(&#x67b6;&#x6784;&#x5e08;&#x6216;&#x6a21;&#x5757;&#x72ec;&#x7acb;&#x5f00;&#x53d1;&#x4eba;&#x5458;&#xff0c;&#x4e5f;&#x53ef;&#x80fd;&#x9700;&#x8981;&#x5176;&#x4ed6;&#x4eba;&#x5458;&#x534f;&#x52a9;)" ID="ID_317025832" CREATED="1590290292182" MODIFIED="1590291573306">
+<icon BUILTIN="full-3"/>
+<font BOLD="true"/>
+<node TEXT="&#x6982;&#x8981;&#x8bbe;&#x8ba1;" ID="ID_329700099" CREATED="1590290812943" MODIFIED="1590290908920"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#38656;&#27714;&#23454;&#29616;&#30340;&#25216;&#26415;&#36873;&#22411;&#65292;&#20248;&#32570;&#28857;&#20998;&#26512;&#65292;&#24320;&#21457;&#12289;&#37096;&#32626;&#12289;&#36816;&#32500;&#21487;&#33021;&#20986;&#29616;&#30340;&#38382;&#39064;&#21644;&#35299;&#20915;&#26041;&#26696;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x8be6;&#x7ec6;&#x8bbe;&#x8ba1;" ID="ID_1263101680" CREATED="1590290819334" MODIFIED="1590290986984"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25972;&#20307;&#26550;&#26500;&#35774;&#35745;&#22909;&#21518;&#23545;&#20855;&#20307;&#32454;&#33410;&#23454;&#29616;&#30340;&#35774;&#35745;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x6d4b;&#x8bd5;&#x7528;&#x4f8b;&#x8bbe;&#x8ba1;&#x4e0e;&#x8bc4;&#x5ba1;&#xa;(&#x6d4b;&#x8bd5;&#x4eba;&#x5458;&#x8bbe;&#x8ba1;&#xff0c;&#x5f00;&#x53d1;&#x3001;&#x8fd0;&#x7ef4;&#x53c2;&#x4e0e;&#x8bc4;&#x5ba1;)" ID="ID_171609412" CREATED="1590290302190" MODIFIED="1590291358327">
+<icon BUILTIN="full-4"/>
+<font BOLD="true"/>
+</node>
+<node TEXT="&#x63a5;&#x53e3;&#x5b9a;&#x4e49;&#xff06;&#x5f00;&#x53d1;&#xff06;&#x524d;&#x540e;&#x7aef;&#x8054;&#x8c03;&#xa;(&#x67b6;&#x6784;&#x5e08;&#x3001;&#x5f00;&#x53d1;&#x4eba;&#x5458;&#x53c2;&#x4e0e;)" ID="ID_1566078196" CREATED="1590291076558" MODIFIED="1590291359415">
+<icon BUILTIN="full-5"/>
+<font BOLD="true"/>
+</node>
+<node TEXT="&#x63d0;&#x6d4b;&#xff06;&#x7070;&#x5ea6;&#x53d1;&#x5e03;&#xff06;&#x4ea7;&#x54c1;&#x7b2c;&#x4e00;&#x6b21;&#x9a8c;&#x6536;&#xa;(&#x5f00;&#x53d1;&#x3001;&#x8fd0;&#x7ef4;&#x3001;&#x6d4b;&#x8bd5;&#x4eba;&#x5458;)" ID="ID_404372875" CREATED="1590291126838" MODIFIED="1590291360544">
+<icon BUILTIN="full-6"/>
+<font BOLD="true"/>
+</node>
+<node TEXT="&#x53d1;&#x5e03;&#x8ba1;&#x5212;&#xff06;&#x65e5;&#x5fd7;&#x76d1;&#x63a7;&#xff06;&#x4e0a;&#x7ebf;" ID="ID_627615750" CREATED="1590291246743" MODIFIED="1590291362015">
+<icon BUILTIN="full-7"/>
+<font BOLD="true"/>
+</node>
+<node TEXT="&#x4ea7;&#x54c1;&#x4e8c;&#x6b21;&#x9a8c;&#x6536;" ID="ID_827472334" CREATED="1590291268975" MODIFIED="1590291322622">
+<icon BUILTIN="full-8"/>
+</node>
+<node TEXT="&#x9700;&#x6c42;&#x7ed3;&#x675f;" ID="ID_1666783627" CREATED="1590291278927" MODIFIED="1590291324670">
+<icon BUILTIN="full-9"/>
+</node>
+</node>
+<node TEXT="&#x4f5c;&#x4e3a;&#x4e00;&#x4e2a;&#x4f18;&#x79c0;&#x7684;&#x5f00;&#x53d1;&#xff0c;&#x5e94;&#x8be5;&#x5173;&#x6ce8;&#x7814;&#x53d1;&#x6d41;&#x7a0b;&#x7684; 3\4\5\6\7" ID="ID_1423132950" CREATED="1590291399071" MODIFIED="1590291450141"/>
+<node TEXT="&#x8fd0;&#x7ef4;&#x80fd;&#x529b;&#xa;(&#x4e0a;&#x9762;&#x7684;6/7)" ID="ID_1152862669" CREATED="1583719340686" MODIFIED="1590291517044" STYLE="bubble">
 <node TEXT="&#x5e94;&#x7528;&#x53d1;&#x5e03;&#x3001;&#x8fd0;&#x7ef4;" ID="ID_387101586" CREATED="1583719354753" MODIFIED="1583719406037" STYLE="fork"/>
 <node TEXT="&#x7ebf;&#x4e0a;&#x95ee;&#x9898;&#x6392;&#x67e5;&#x5206;&#x6790;" ID="ID_714104523" CREATED="1583719376482" MODIFIED="1583719405976" STYLE="fork"/>
 </node>
-<node TEXT="Docker" POSITION="right" ID="ID_65867827" CREATED="1583717330521" MODIFIED="1583724065153" STYLE="bubble">
+</node>
+<node TEXT="&#x9700;&#x6c42;&#x5b9e;&#x73b0;&#x8bbe;&#x8ba1;(&#x53c2;&#x8003;&#x67b6;&#x6784;&#x8bbe;&#x8ba1;&#x5bfc;&#x56fe;)" POSITION="right" ID="ID_1315284793" CREATED="1590291554956" MODIFIED="1590292029467" STYLE="bubble">
+<edge COLOR="#7c7c00"/>
+</node>
+<node TEXT="&#x63a5;&#x53e3;&#x7ba1;&#x7406;" POSITION="right" ID="ID_860871555" CREATED="1590463576028" MODIFIED="1590463588580" STYLE="bubble">
+<edge COLOR="#0000ff"/>
+<node TEXT="&#x5e38;&#x7528;&#x5de5;&#x5177;&#x5bf9;&#x6bd4;" ID="ID_1292655760" CREATED="1590463607530" MODIFIED="1590463656434" STYLE="bubble"/>
+<node TEXT="YAPI" ID="ID_743816168" CREATED="1590463597930" MODIFIED="1590463605554" STYLE="bubble"/>
+</node>
+<node TEXT="&#x6d4b;&#x8bd5;&#x65b9;&#x6cd5;" POSITION="right" ID="ID_1198942756" CREATED="1590287849968" MODIFIED="1590287856565" STYLE="bubble">
+<edge COLOR="#00007c"/>
+<node TEXT="&#x6d4b;&#x8bd5;&#x5206;&#x7c7b;" ID="ID_1876456118" CREATED="1590288170909" MODIFIED="1590288180155" STYLE="bubble">
+<node TEXT="&#x529f;&#x80fd;&#x6d4b;&#x8bd5;" ID="ID_1942403705" CREATED="1590288181261" MODIFIED="1590288188219">
+<node TEXT="&#x63a5;&#x53e3;&#x6d4b;&#x8bd5;" ID="ID_1775147729" CREATED="1590288270375" MODIFIED="1590288274932"/>
+</node>
+<node TEXT="&#x6027;&#x80fd;&#x6d4b;&#x8bd5;" ID="ID_1453137311" CREATED="1590288188837" MODIFIED="1590288193943">
+<node TEXT="&#x8d1f;&#x8f7d;&#x6d4b;&#x8bd5;" ID="ID_847005742" CREATED="1590288255062" MODIFIED="1590288258725"/>
+<node TEXT="&#x538b;&#x529b;&#x6d4b;&#x8bd5;" ID="ID_208199048" CREATED="1590288258957" MODIFIED="1590288262444"/>
+</node>
+<node TEXT="&#x517c;&#x5bb9;&#x6027;&#x6d4b;&#x8bd5;" ID="ID_1034694951" CREATED="1590288194109" MODIFIED="1590288213162"/>
+<node TEXT="&#x5b89;&#x5168;&#x6d4b;&#x8bd5;" ID="ID_147453583" CREATED="1590288214269" MODIFIED="1590288221189"/>
+</node>
+<node TEXT="&#x6d4b;&#x8bd5;&#x65b9;&#x6848;" ID="ID_730631188" CREATED="1590288422207" MODIFIED="1590288432444" STYLE="bubble">
+<node TEXT="&#x5355;&#x5143;&#x6d4b;&#x8bd5;" ID="ID_521899483" CREATED="1590288434495" MODIFIED="1590288447519" STYLE="bubble"/>
+<node TEXT="ABTest" ID="ID_186530104" CREATED="1590287857540" MODIFIED="1590287865467" STYLE="bubble">
+<node TEXT="&#x53c2;&#x8003;&#x8d44;&#x6599;" ID="ID_1824230510" CREATED="1590296719871" MODIFIED="1590296739227"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25171;&#36896;&#24037;&#19994;&#32423;&#25512;&#33616;&#31995;&#32479;&#65288;&#20843;&#65289;&#65306;AB &#27979;&#35797;&#24179;&#21488;&#30340;&#24037;&#31243;&#23454;&#29616; <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://www.infoq.cn/article/lCTiIpkrh-lPl9pitKhf">https://www.infoq.cn/article/lCTiIpkrh-lPl9pitKhf</a> 
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x76ee;&#x7684;&#x4e0e;&#x65b9;&#x6cd5;" ID="ID_1233634963" CREATED="1590288703203" MODIFIED="1590296797495"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="rgb(49, 49, 49)" face="Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif">AB&#27979;&#35797;&#23601;&#26159;&#25351;&#36719;&#20214;&#20135;&#21697;&#24320;&#21457;&#20102;&#20960;&#20010;&#29256;&#26412;&#65292;&#20026;&#20102;&#27979;&#35797;&#21738;&#20010;&#29256;&#26412;&#29992;&#25143;&#26356;&#21916;&#27426;&#65292;&#25226;&#37096;&#20998;&#29992;&#25143;&#20998;&#25104;&#20960;&#20010;&#32452;&#65292;&#20998;&#21035;&#20307;&#39564;&#19968;&#20010;&#29256;&#26412;&#65292;&#35760;&#24405;&#28165;&#26970;&#30456;&#20851;&#30340;&#25152;&#26377;&#29992;&#25143;&#25805;&#20316;&#25968;&#25454;&#20197;&#21518;&#20877;&#36827;&#34892;&#31934;&#30830;&#30340;&#27604;&#23545;&#65292;&#26368;&#21518;&#20998;&#26512;&#24471;&#20986;&#21738;&#19968;&#20010;&#29256;&#26412;&#26159;&#29992;&#25143;&#26368;&#21916;&#29233;&#30340;&#12290;</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      A/B testing (sometimes called split testing) is comparing two versions of a web page to see which one performs better.
+    </p>
+    <p>
+      You compare two web pages by showing the two variants (let&#8217;s call them A and B) to similar visitors at the same time.
+    </p>
+    <p>
+      The one that gives a better conversion rate, wins!
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22810;&#20010;&#36719;&#20214;&#29256;&#26412;&#24120;&#24120;&#20276;&#38543;&#30528;&#28784;&#24230;&#21457;&#24067;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x5b9e;&#x73b0;&#x65b9;&#x6848;" ID="ID_132115499" CREATED="1590296799624" MODIFIED="1590296807201">
+<node TEXT="&#x5ba2;&#x6237;&#x7aef;&#x6574;&#x5408;AB&#x6d4b;&#x8bd5;(&#x524d;&#x7aef;&#x5b9e;&#x73b0;)" ID="ID_187435342" CREATED="1590297791438" MODIFIED="1590298312431"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <img http-equiv="content-type" content="text/html; charset=utf-8" src="https://static001.infoq.cn/resource/image/60/b8/60d7ba7f9b6853948398a84de79a5eb8.jpg" alt="&#xe6;&#x89;&#x93;&#xe9;&#x80;&#xa0;&#xe5;&#xb7;&#xa5;&#xe4;&#xb8;&#x9a;&#xe7;&#xba;&#xa7;&#xe6;&#x8e;&#xa8;&#xe8;&#x8d;&#x90;&#xe7;&#xb3;&#xbb;&#xe7;&#xbb;&#x9f;&#xef;&#xbc;&#x88;&#xe5;&#x85;&#xab;&#xef;&#xbc;&#x89;&#xef;&#xbc;&#x9a;AB&#xe6;&#xb5;&#x8b;&#xe8;&#xaf;&#x95;&#xe5;&#xb9;&#xb3;&#xe5;&#x8f;&#xb0;&#xe7;&#x9a;&#x84;&#xe5;&#xb7;&#xa5;&#xe7;&#xa8;&#x8b;&#xe5;&#xae;&#x9e;&#xe7;&#x8e;&#xb0;"/>
+       
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x8def;&#x7531;&#x548c;Web&#x63a5;&#x53e3;&#x5c42;&#x6574;&#x5408;AB&#x6d4b;&#x8bd5;" ID="ID_102991367" CREATED="1590297804775" MODIFIED="1590298361186"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <img http-equiv="content-type" content="text/html; charset=utf-8" src="https://static001.infoq.cn/resource/image/06/c9/0660a13497df74fdbaf3d96fcf6e63c9.jpg"/>
+       
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x540e;&#x7aef;&#x4e1a;&#x52a1;&#x5c42;&#x6574;&#x5408;AB&#x6d4b;&#x8bd5;" ID="ID_1255937926" CREATED="1590297869834" MODIFIED="1590298377042"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <img http-equiv="content-type" content="text/html; charset=utf-8" src="https://static001.infoq.cn/resource/image/37/54/37ee34a7e54acbd53f44dd3e2eb33354.jpg" alt="&#xe6;&#x89;&#x93;&#xe9;&#x80;&#xa0;&#xe5;&#xb7;&#xa5;&#xe4;&#xb8;&#x9a;&#xe7;&#xba;&#xa7;&#xe6;&#x8e;&#xa8;&#xe8;&#x8d;&#x90;&#xe7;&#xb3;&#xbb;&#xe7;&#xbb;&#x9f;&#xef;&#xbc;&#x88;&#xe5;&#x85;&#xab;&#xef;&#xbc;&#x89;&#xef;&#xbc;&#x9a;AB&#xe6;&#xb5;&#x8b;&#xe8;&#xaf;&#x95;&#xe5;&#xb9;&#xb3;&#xe5;&#x8f;&#xb0;&#xe7;&#x9a;&#x84;&#xe5;&#xb7;&#xa5;&#xe7;&#xa8;&#x8b;&#xe5;&#xae;&#x9e;&#xe7;&#x8e;&#xb0;"/>
+       
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x5173;&#x952e;&#x70b9;" ID="ID_1294373128" CREATED="1590299141018" MODIFIED="1590299149573">
+<node TEXT="&#x591a;&#x4e2a;&#x5bf9;&#x6bd4;&#x6d4b;&#x8bd5;&#x670d;&#x52a1;&#x63a5;&#x5165;" ID="ID_1090715219" CREATED="1590299181442" MODIFIED="1590299190160"/>
+<node TEXT="&#x7528;&#x6237;&#x5206;&#x6d41;" ID="ID_1023258062" CREATED="1590299150074" MODIFIED="1590299303628"/>
+<node TEXT="&#x7528;&#x6237;&#x884c;&#x4e3a;&#x8bb0;&#x5f55;&#x5206;&#x6790;" ID="ID_917781448" CREATED="1590299220687" MODIFIED="1590299292622"/>
+</node>
+<node TEXT="&#x6f5c;&#x5728;&#x95ee;&#x9898;" ID="ID_654106734" CREATED="1590299446283" MODIFIED="1590299453299">
+<node TEXT="&#x4ee3;&#x7801;&#x8026;&#x5408;" ID="ID_953415394" CREATED="1590299454129" MODIFIED="1590299459087"/>
+<node TEXT="&#x8def;&#x7531;&#x63a5;&#x5165;&#x65b9;&#x6848;&#x5bf9;&#x8def;&#x7531;&#x670d;&#x52a1;&#x9020;&#x6210;&#x7684;&#x989d;&#x5916;&#x538b;&#x529b;" ID="ID_1383579052" CREATED="1590299460024" MODIFIED="1590299504606">
+<node TEXT="&#x9ad8;&#x53ef;&#x7528;&#x4e0e;&#x8d1f;&#x8f7d;&#x5747;&#x8861;" ID="ID_618606443" CREATED="1590299522895" MODIFIED="1590299535252"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="&#x529f;&#x80fd;&#x53d1;&#x5e03;" POSITION="right" ID="ID_1828069187" CREATED="1590289563257" MODIFIED="1590289578812" STYLE="bubble">
+<edge COLOR="#7c007c"/>
+</node>
+<node TEXT="&#x7cfb;&#x7edf;&#x76d1;&#x63a7;" POSITION="right" ID="ID_1407321595" CREATED="1590292071139" MODIFIED="1590292076618" STYLE="bubble">
 <edge COLOR="#ff0000"/>
+</node>
+<node TEXT="&#x6301;&#x7eed;&#x96c6;&#x6210;/&#x4ea4;&#x4ed8;/&#x90e8;&#x7f72;" POSITION="right" ID="ID_176434195" CREATED="1584591943580" MODIFIED="1590289530228" STYLE="bubble">
+<edge COLOR="#7c0000"/>
 <richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="rgb(26, 26, 26)" face="-apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif" size="15px">&#12300;&#25345;&#32493;&#38598;&#25104;&#65288;Continuous Integration&#65289;&#12301;&#12289;&#12300;&#25345;&#32493;&#20132;&#20184;&#65288;Continuous Delivery&#65289;&#12301;&#21644;&#12300;&#25345;&#32493;&#37096;&#32626;&#65288;Continuous Deployment&#65289;&#12301;</font> 
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b http-equiv="content-type" content="text/html; charset=utf-8" style="font-weight: 600; color: rgb(26, 26, 26); font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif; font-size: 15px; font-style: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="rgb(26, 26, 26)" face="-apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif" size="15px">&#38598;&#25104;</font></b><font color="rgb(26, 26, 26)" face="-apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif" size="15px"><span style="color: rgb(26, 26, 26); font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">&#26159;&#25351;&#36719;&#20214;&#20010;&#20154;&#30740;&#21457;&#30340;&#37096;&#20998;&#21521;&#36719;&#20214;&#25972;&#20307;&#37096;&#20998;&#20132;&#20184;&#65292;&#20197;&#20415;&#23613;&#26089;&#21457;&#29616;&#20010;&#20154;&#24320;&#21457;&#37096;&#20998;&#30340;&#38382;&#39064;&#65307;</span><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/><b style="font-weight: 600; color: rgb(26, 26, 26); font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif; font-size: 15px; font-style: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">&#37096;&#32626;</b><span style="color: rgb(26, 26, 26); font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">&#26159;&#20195;&#30721;&#23613;&#24555;&#21521;&#21487;&#36816;&#34892;&#30340;&#24320;&#21457;/&#27979;&#35797;&#33410;&#20132;&#20184;&#65292;&#20197;&#20415;&#23613;&#26089;&#27979;&#35797;&#65307;</span><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/><b style="font-weight: 600; color: rgb(26, 26, 26); font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif; font-size: 15px; font-style: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">&#20132;&#20184;</b><span style="color: rgb(26, 26, 26); font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">&#26159;&#25351;&#30740;&#21457;&#23613;&#24555;&#21521;&#23458;&#25143;&#20132;&#20184;&#65292;&#20197;&#20415;&#23613;&#26089;&#21457;&#29616;&#29983;&#20135;&#29615;&#22659;&#20013;&#23384;&#22312;&#30340;&#38382;&#39064;&#12290;</span></font> 
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Jenkins" ID="ID_972623596" CREATED="1584591958413" MODIFIED="1584591963749" STYLE="bubble">
+<node TEXT="Jenkins+k8s&#x5b9e;&#x73b0;&#x6301;&#x7eed;&#x96c6;&#x6210;" ID="ID_1625349521" CREATED="1590414718241" MODIFIED="1590416817039"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20351;&#29992;Jenkins&#23454;&#29616;&#38236;&#20687;&#33258;&#21160;&#26500;&#24314;&#12289;&#25171;tag&#12289;&#25512;&#36865;&#21040;&#26412;&#22320;&#20179;&#24211;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="&#x5bb9;&#x5668;&#x6280;&#x672f;" POSITION="right" ID="ID_1811422135" CREATED="1590288616713" MODIFIED="1590288623345" STYLE="bubble">
+<edge COLOR="#007c00"/>
+<node TEXT="Docker" ID="ID_65867827" CREATED="1583717330521" MODIFIED="1590288616744" STYLE="bubble"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -266,6 +518,7 @@
 <node TEXT="cgroup" ID="ID_1363411880" CREATED="1583733573022" MODIFIED="1583733578830"/>
 <node TEXT="namespace" ID="ID_1733762173" CREATED="1583733579222" MODIFIED="1583733585636"/>
 </node>
+<node TEXT="Dockerfile&#x8bed;&#x6cd5;" ID="ID_1573684295" CREATED="1590416856502" MODIFIED="1590416870655"/>
 <node TEXT="docker-compose" ID="ID_192775489" CREATED="1583734675543" MODIFIED="1584110099606"><richcontent TYPE="DETAILS">
 
 <html>
@@ -281,9 +534,6 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="DI/DC" POSITION="right" ID="ID_176434195" CREATED="1584591943580" MODIFIED="1584591952165" STYLE="bubble">
-<edge COLOR="#7c0000"/>
-<node TEXT="Jenkins" ID="ID_972623596" CREATED="1584591958413" MODIFIED="1584591963749" STYLE="bubble"/>
 </node>
 <node TEXT="&#x5bb9;&#x5668;&#x7ba1;&#x7406;&#x5e73;&#x53f0;" POSITION="right" ID="ID_1327674057" CREATED="1583734582507" MODIFIED="1583734591566" STYLE="bubble">
 <edge COLOR="#ff00ff"/>
@@ -331,6 +581,9 @@
   </body>
 </html>
 </richcontent>
+<node TEXT="&#x7591;&#x95ee;" ID="ID_1903448513" CREATED="1590414287349" MODIFIED="1590414295739">
+<node TEXT="K8S Master &#x548c; Node" ID="ID_1843850940" CREATED="1590414296668" MODIFIED="1590414320306"/>
+</node>
 <node TEXT="&#x5e94;&#x7528;&#x573a;&#x666f;" ID="ID_608844968" CREATED="1583719129354" MODIFIED="1583719144755">
 <node TEXT="&#x5145;&#x5206;&#x5229;&#x7528;&#x670d;&#x52a1;&#x5668;&#x8d44;&#x6e90;" ID="ID_682909028" CREATED="1583719791087" MODIFIED="1583719801107"/>
 <node TEXT="&#x8fd0;&#x7ef4;&#x81ea;&#x52a8;&#x5316;&#x5e73;&#x53f0;" ID="ID_950152523" CREATED="1583719601963" MODIFIED="1583719624038">
@@ -356,7 +609,22 @@
 </node>
 <node TEXT="&#x57fa;&#x672c;&#x67b6;&#x6784;" ID="ID_11478785" CREATED="1583719259672" MODIFIED="1583734899996" LINK="imgs/Kubernetes&#x96c6;&#x7fa4;&#x67b6;&#x6784;.png">
 <node TEXT="&#x57fa;&#x672c;&#x67b6;&#x6784;&#x56fe;" ID="ID_224795420" CREATED="1584112290995" MODIFIED="1584112482436" LINK="imgs/K8S&#x57fa;&#x672c;&#x67b6;&#x6784;&#x56fe;.png"/>
-<node TEXT="Master" ID="ID_1706008878" CREATED="1584113673547" MODIFIED="1584113679187">
+<node TEXT="Master(&#x4e3b;&#x63a7;&#x8282;&#x70b9;)" ID="ID_1706008878" CREATED="1584113673547" MODIFIED="1590414603948"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p http-equiv="content-type" content="text/html; charset=utf-8" style="margin-top: 0px; margin-right: 0px; margin-bottom: 16px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-weight: 400; font-family: Microsoft YaHei, SF Pro Display, Roboto, Noto, Arial, PingFang SC, sans-serif; font-size: 16px; color: rgb(77, 77, 77); line-height: 26px; font-style: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      Master&#32452;&#20214;&#21487;&#20197;&#22312;&#38598;&#32676;&#20013;&#20219;&#20309;&#33410;&#28857;&#19978;&#36816;&#34892;&#12290;&#20294;&#26159;&#20026;&#20102;&#31616;&#21333;&#36215;&#35265;&#65292;&#36890;&#24120;&#22312;&#19968;&#21488;&#34394;&#25311;&#26426;&#19978;&#21551;&#21160;&#25152;&#26377;Master&#32452;&#20214;&#65292;&#24182;&#19988;&#19981;&#20250;&#22312;&#27492;VM&#26426;&#22120;&#19978;&#36816;&#34892;&#29992;&#25143;&#23481;&#22120;&#12290;
+    </p>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 16px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-weight: 400; font-family: Microsoft YaHei, SF Pro Display, Roboto, Noto, Arial, PingFang SC, sans-serif; font-size: 16px; color: rgb(77, 77, 77); line-height: 26px; font-style: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      &#38598;&#32676;&#25152;&#26377;&#30340;&#25511;&#21046;&#21629;&#20196;&#37117;&#20256;&#36882;&#32473;Master&#32452;&#20214;&#65292;&#22312;Master&#33410;&#28857;&#19978;&#36816;&#34892;&#12290;kubectl&#21629;&#20196;&#22312;&#20854;&#20182;Node&#33410;&#28857;&#19978;&#26080;&#27861;&#25191;&#34892;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="API Server" ID="ID_664075908" CREATED="1584113749544" MODIFIED="1584114062357"><richcontent TYPE="NOTE">
 
 <html>
@@ -655,7 +923,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="pod" ID="ID_1705166151" CREATED="1584114299104" MODIFIED="1584158649167"><richcontent TYPE="NOTE">
+<node TEXT="pod" ID="ID_1705166151" CREATED="1584114299104" MODIFIED="1590418402462"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -670,6 +938,25 @@
     </p>
     <p>
       &#36890;&#24120;&#24773;&#20917;&#19979;pod&#29992;&#26469;&#37096;&#32626;&#19968;&#32452;&#30456;&#20851;&#30340;&#26381;&#21153;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#19968;&#20010;&#26381;&#21153;&#36890;&#24120;&#23545;&#24212;&#19968;&#20010;pod
+    </p>
+    <p>
+      &#19968;&#20010;pod&#21487;&#33021;&#26377;&#22810;&#20010;pod&#21103;&#26412;
+    </p>
+    <p>
+      &#19968;&#20010;pod&#21103;&#26412;&#21487;&#33021;&#23384;&#20648;&#22810;&#20010;&#30456;&#20851;&#30340;&#23481;&#22120;
     </p>
   </body>
 </html>
@@ -1262,7 +1549,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x53c2;&#x8003;&lt;Kubeadm&#x90e8;&#x7f72;K8S&#x96c6;&#x7fa4;.md&gt;" ID="ID_214873010" CREATED="1584546260472" MODIFIED="1584546313813"/>
 </node>
