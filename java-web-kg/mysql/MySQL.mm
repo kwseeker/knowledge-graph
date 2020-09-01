@@ -3,7 +3,7 @@
 <node TEXT="MySQL" FOLDED="false" ID="ID_993232797" CREATED="1597214936545" MODIFIED="1597227519512" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" show_note_icons="true" show_icon_for_attributes="true"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -109,7 +109,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="MySQL文件" FOLDED="true" POSITION="right" ID="ID_1614318263" CREATED="1583749782564" MODIFIED="1597227519517">
@@ -865,7 +864,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <edge STYLE="bezier"/>
 </node>
@@ -1111,7 +1109,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <font BOLD="false"/>
 <edge STYLE="bezier"/>
@@ -1206,7 +1203,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="InnoDB索引" FOLDED="true" POSITION="right" ID="ID_1623129493" CREATED="1569742233371" MODIFIED="1597227519521" ICON_SIZE="12.0 pt">
+<node TEXT="InnoDB索引" POSITION="right" ID="ID_1623129493" CREATED="1569742233371" MODIFIED="1597227519521" ICON_SIZE="12.0 pt">
 <edge STYLE="bezier" COLOR="#7c007c"/>
 <node TEXT="索引原理" FOLDED="true" ID="ID_628548458" CREATED="1569742286460" MODIFIED="1569825912056" ICON_SIZE="8.0 pt">
 <edge STYLE="sharp_bezier"/>
@@ -2184,7 +2181,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="表级锁" ID="ID_1192246790" CREATED="1569742868962" MODIFIED="1597227519523" ICON_SIZE="12.0 pt">
@@ -2297,7 +2293,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <edge STYLE="bezier"/>
 </node>
@@ -2313,7 +2308,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <edge STYLE="bezier"/>
 </node>
@@ -2346,7 +2340,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="" ID="ID_1387579789" CREATED="1571331346090" MODIFIED="1571331346097">
 <hook NAME="FirstGroupNode"/>
@@ -2397,7 +2390,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="主键索引和唯一索引等值作条件过滤更新数据表" ID="ID_407921647" CREATED="1571871180066" MODIFIED="1597227519547">
 <edge STYLE="bezier"/>
@@ -2643,7 +2635,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="select * from information_schema.innodb_trx;" ID="ID_1533365699" CREATED="1597239045118" MODIFIED="1597239052829"/>
 <node TEXT="select * from information_schema.innodb_locks;" ID="ID_539124601" CREATED="1597239041590" MODIFIED="1597239043636"/>
@@ -3042,7 +3033,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="事务由锁机制和MVCC机制实现" ID="ID_1247180610" CREATED="1597227418214" MODIFIED="1597236193624">
@@ -3184,7 +3174,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <edge STYLE="bezier"/>
 </node>
@@ -3200,7 +3189,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <edge STYLE="bezier"/>
 <node TEXT="MySQL通过MVCC和Next-Key锁可解决幻读&#xa;单纯设置RR级别是不行的" ID="ID_1514839115" CREATED="1597238558941" MODIFIED="1597238624626"/>
@@ -3217,7 +3205,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <edge STYLE="bezier"/>
 </node>
@@ -3258,7 +3245,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3285,7 +3271,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="主键＋RC" ID="ID_180736994" CREATED="1597231652847" MODIFIED="1597231955382"><richcontent TYPE="NOTE">
 
@@ -3305,7 +3290,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="直接在主键索引的对应记录上加X锁" ID="ID_803423959" CREATED="1597232097380" MODIFIED="1597234065516"/>
 </node>
@@ -3328,7 +3312,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3656,7 +3639,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="研究问题" ID="ID_1688183423" CREATED="1597218149054" MODIFIED="1597227519562">
 <edge STYLE="bezier"/>
@@ -3705,7 +3687,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="单表查询" ID="ID_1742623006" CREATED="1597216181456" MODIFIED="1597227519562">
@@ -3743,7 +3724,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="联表子查询" ID="ID_615521947" CREATED="1597216189696" MODIFIED="1597227519562">
@@ -3805,7 +3785,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
