@@ -1131,8 +1131,9 @@
 </richcontent>
 <edge STYLE="bezier"/>
 </node>
+<node TEXT="SHOW CREATE TABLE &quot;table_name&quot;;" ID="ID_1345587678" CREATED="1599100196550" MODIFIED="1599100198956"/>
 </node>
-<node TEXT="存储引擎" FOLDED="true" POSITION="right" ID="ID_607804610" CREATED="1569741481254" MODIFIED="1597227519521" ICON_SIZE="12.0 pt">
+<node TEXT="存储引擎" POSITION="right" ID="ID_607804610" CREATED="1569741481254" MODIFIED="1597227519521" ICON_SIZE="12.0 pt">
 <edge STYLE="bezier" COLOR="#007c00"/>
 <node TEXT="MyISAM" ID="ID_298410994" CREATED="1569741491054" MODIFIED="1571634351868" ICON_SIZE="12.0 pt">
 <edge STYLE="sharp_bezier"/>
@@ -1205,7 +1206,7 @@
 </node>
 <node TEXT="InnoDB索引" POSITION="right" ID="ID_1623129493" CREATED="1569742233371" MODIFIED="1597227519521" ICON_SIZE="12.0 pt">
 <edge STYLE="bezier" COLOR="#7c007c"/>
-<node TEXT="索引原理" FOLDED="true" ID="ID_628548458" CREATED="1569742286460" MODIFIED="1569825912056" ICON_SIZE="8.0 pt">
+<node TEXT="索引原理" ID="ID_628548458" CREATED="1569742286460" MODIFIED="1569825912056" ICON_SIZE="8.0 pt">
 <edge STYLE="sharp_bezier"/>
 <node TEXT="Hash索引" ID="ID_362311438" CREATED="1583760949073" MODIFIED="1589963286425" LINK="%20imgs/MySQL%20Hash索引原理.png"><richcontent TYPE="NOTE">
 
@@ -2947,7 +2948,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="5.5版本之后，InnoDb对count(*)和count(1)的优化是一样的，没有二级索引的话，会对主键索引进行扫描统计，有二级索引则使用占空间更小的二级索引扫描统计" ID="ID_924235609" CREATED="1583809015272" MODIFIED="1583809245102"><richcontent TYPE="NOTE">
+<node TEXT="5.5版本之后，InnoDb对count(*)和count(1)的优化是一样的，没有二级索引的话，会对主键索引进行扫描统计，有二级索引则使用占空间更小的二级索引扫描统计" ID="ID_924235609" CREATED="1583809015272" MODIFIED="1603792183521"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2955,10 +2956,11 @@
   </head>
   <body>
     <p>
-      &#39640;&#24615;&#33021;MySQL&#8212;&#8212;Count(1) OR Count(*)&#65311; <a charset="utf-8" href="https://zhuanlan.zhihu.com/p/28397595">https://zhuanlan.zhihu.com/p/28397595</a>
+      高性能MySQL——Count(1) OR Count(*)？ <a charset="utf-8" href="https://zhuanlan.zhihu.com/p/28397595">https://zhuanlan.zhihu.com/p/28397595</a>
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
@@ -3009,6 +3011,21 @@
   </body>
 </html>
 </richcontent>
+<node TEXT="limit 1000000, 100 优化" ID="ID_673814861" CREATED="1603792011589" MODIFIED="1603792045972"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这种查询一般都是
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="in exist 优化：这种索引帮不上忙，需要小表驱动大表尽量把数据过滤的足够少，再执行in exist" ID="ID_46178747" CREATED="1583901448833" MODIFIED="1583901676654"/>
 <node TEXT="join并对连接字段排序：选择驱动表的属性作为排序表中的条件" ID="ID_1105531355" CREATED="1583901792409" MODIFIED="1583901848961"/>
@@ -3333,7 +3350,7 @@
 <edge STYLE="bezier"/>
 </node>
 </node>
-<node TEXT="MySQL集群" FOLDED="true" POSITION="right" ID="ID_765478981" CREATED="1569743247814" MODIFIED="1597215919010" ICON_SIZE="12.0 pt">
+<node TEXT="MySQL集群" POSITION="right" ID="ID_765478981" CREATED="1569743247814" MODIFIED="1597215919010" ICON_SIZE="12.0 pt">
 <edge STYLE="bezier" COLOR="#0000ff"/>
 <node TEXT="单机MySQL的问题" ID="ID_1804580967" CREATED="1571402034080" MODIFIED="1571634351871" ICON_SIZE="12.0 pt"><richcontent TYPE="NOTE">
 
@@ -3452,7 +3469,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="TODO" FOLDED="true" POSITION="right" ID="ID_83489434" CREATED="1583760529670" MODIFIED="1597227519562">
+<node TEXT="TODO" POSITION="right" ID="ID_83489434" CREATED="1583760529670" MODIFIED="1597227519562">
 <edge STYLE="bezier" COLOR="#00ff00"/>
 <node TEXT="索引检索需要磁盘IO操作" ID="ID_1772354192" CREATED="1583760537756" MODIFIED="1583760557666"/>
 <node TEXT="对于组合索引，存储引擎会优化顺序" ID="ID_1262628618" CREATED="1583760558471" MODIFIED="1583760606819"/>

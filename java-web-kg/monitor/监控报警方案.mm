@@ -1,9 +1,9 @@
 <map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="定时任务" FOLDED="false" ID="ID_1678319278" CREATED="1598965237778" MODIFIED="1598965246931" STYLE="oval">
+<node TEXT="监控报警方案" FOLDED="false" ID="ID_1302951748" CREATED="1601261355678" MODIFIED="1601261367463" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" show_note_icons="true"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -63,44 +63,18 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="使用场景" POSITION="right" ID="ID_602869697" CREATED="1598965518049" MODIFIED="1598965529587" STYLE="bubble">
-<edge COLOR="#00ff00"/>
-<node TEXT="时间驱动" ID="ID_328772960" CREATED="1598965530658" MODIFIED="1598965550281" STYLE="bubble">
-<node TEXT="用户每日打卡提醒" ID="ID_1701616680" CREATED="1598965759712" MODIFIED="1598965788982"/>
-<node TEXT="自如定时催缴房租" ID="ID_54431964" CREATED="1598965617848" MODIFIED="1598965691199"/>
-<node TEXT="银行APP每月生成对账单" ID="ID_377490660" CREATED="1598965644945" MODIFIED="1598965728102"/>
-<node TEXT="..." ID="ID_893376761" CREATED="1598965804687" MODIFIED="1598965805900"/>
-</node>
-<node TEXT="数据驱动" ID="ID_1464473960" CREATED="1598965540275" MODIFIED="1598965549785" STYLE="bubble">
-<node TEXT="数据同步" ID="ID_60467497" CREATED="1598965817561" MODIFIED="1598965843202"/>
-<node TEXT="系统解耦" ID="ID_368388493" CREATED="1598965844211" MODIFIED="1598965993094">
-<icon BUILTIN="help"/>
-</node>
-<node TEXT="批量处理" ID="ID_589659716" CREATED="1598965856687" MODIFIED="1598965968930"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      不是每产生一个数据就处理一个数据，积累到一定量再一起处理。
-    </p>
-  </body>
-</html>
-
-</richcontent>
-</node>
-</node>
-</node>
-<node TEXT="Spring Scheduler" POSITION="right" ID="ID_415679769" CREATED="1598966177087" MODIFIED="1598966189893" STYLE="bubble">
-<edge COLOR="#ff00ff"/>
-</node>
-<node TEXT="框架" POSITION="right" ID="ID_638466971" CREATED="1598965259626" MODIFIED="1598965290612" STYLE="bubble">
+<hook NAME="AutomaticEdgeColor" COUNTER="3" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="后端监控需求指标" POSITION="right" ID="ID_1457671971" CREATED="1601261562494" MODIFIED="1601261574389" STYLE="bubble">
 <edge COLOR="#ff0000"/>
-<node TEXT="xxl-job" ID="ID_1925477631" CREATED="1598965308574" MODIFIED="1598965323541" STYLE="bubble"/>
-<node TEXT="elastic-job" ID="ID_1390174554" CREATED="1598965468224" MODIFIED="1598965505515" STYLE="bubble"/>
+<node TEXT="接口返回状态" ID="ID_1080627047" CREATED="1601261673787" MODIFIED="1601261687497"/>
+<node TEXT="接口响应时间" ID="ID_1929430933" CREATED="1601261687851" MODIFIED="1601261695019"/>
+<node TEXT="接口请求TPS" ID="ID_742701440" CREATED="1601261695443" MODIFIED="1601261730312"/>
+</node>
+<node TEXT="常见监控平台架构" POSITION="right" ID="ID_659710010" CREATED="1601261574699" MODIFIED="1601261805314" STYLE="bubble">
+<edge COLOR="#0000ff"/>
+</node>
+<node TEXT="监控方案" POSITION="right" ID="ID_295793692" CREATED="1601261805522" MODIFIED="1601261819450" STYLE="bubble">
+<edge COLOR="#00ff00"/>
 </node>
 </node>
 </map>
